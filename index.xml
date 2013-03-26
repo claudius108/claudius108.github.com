@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="utils/xsltforms/xsltforms.xsl" type="text/xsl"?>
+<html xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<head>
+		<title>Kuberam</title>
+		<style language="text/css">
+			@namespace xf
+			url("http://www.w3.org/2002/xforms");
+			html, html body {height:100%;}
+			body {width:100%;margin:0;font:14px verdana;}
+			xf|case {float:left;}
+			#divAntet {height:30px;
+			width: 100%;
+			//padding-top: 20px;
+			//margin-bottom: 20px;
+			}
+			#divSteaguri
+			{
+			margin: auto;
+			width: 448px;
+			height: 60px;
+			}
+			#divSteaguri object {width:45px;height:30px;}
+			#divContinut
+			{
+			margin: auto;
+			width: 1200px;
+			height: 500px;
+			}
+			#divMeniu
+			{
+			float: left;
+			width: 150px;
+			height: 500px;
+			}
+			#divMijloc
+			{
+			float: left;
+			border: solid 2px;
+			width: 870px;
+			height: 856px;
+			padding:
+			10px;
+			}
+			#divMenu
+			{width:860px;height:50px;}
+			#outputTitluPagina
+			{
+			margin-bottom: 25px;
+			margin-right: 490px;
+			font: bold 24px verdana;
+			}
+			#outputTitluAplicatii
+			{
+			font: bold 18px verdana;
+			margin-bottom: 15px;
+			}
+			#repeatAplicatii
+			{
+			width:
+			890px;
+			}
+			#outputTitluAplicatie
+			{
+			font: bold 18px verdana;
+			}
+			#divSigle
+			{
+			float: left;
+			width: 140px;
+			height: 500px;
+			padding-left: 10px;
+			}
+			#divSigle
+			object {margin-bottom: 5px;}
+			xf|trigger
+			{
+			float: left;
+			margin-left: 5px;
+			margin-right: 5px;
+			}
+			xf|output
+			{
+			float: left;
+			}
+			xf|repeat
+			{
+			float: left;
+			}
+			xf|switch
+			{
+			float: left;
+			width: 860px;
+			margin-top: 25px;
+			}
+		</style>
+		<xf:model id="modelIndex">
+			<xf:instance id="instanceParametriStandard">
+				<parametriStandard>
+					<limbaIU />
+					<continut lang="RO">
+						<meniu>
+							<optiune>Home</optiune>
+							<optiune>Open Source Projects</optiune>
+							<optiune>Services</optiune>
+							<optiune>Customers</optiune>
+							<optiune>Contact</optiune>
+						</meniu>
+						<titluPagina>Portal web de contabilitate</titluPagina>
+						<titluAplicatii>Aplicații</titluAplicatii>
+						<aplicatii>
+							<aplicatie>
+								<titluAplicatie>Kubera</titluAplicatie>
+								<descriereAplicatie>Evidență contabilă în partidă simplă pentru
+									persoane fizice autorizate, întreprinderi individuale și
+									întreprinderi familiale.</descriereAplicatie>
+							</aplicatie>
+						</aplicatii>
+					</continut>
+				</parametriStandard>
+			</xf:instance>
+		</xf:model>
+	</head>
+	<body>
+		<div id="divAntet">
+			<!-- <div id="divSteaguri"> <xf:trigger> <xf:label> <object data="/webApps/apps/sitKubera/index/resources/steagRO.svg" 
+				type="image/svg+xml"/> <br/>Română</xf:label> <xf:action ev:event="DOMActivate"/> 
+				</xf:trigger> <xf:trigger> <xf:label> <object data="/webApps/apps/sitKubera/index/resources/steagEN.svg" 
+				type="image/svg+xml"/> <br/>English</xf:label> <xf:action ev:event="DOMActivate"/> 
+				</xf:trigger> <xf:trigger> <xf:label> <object data="/webApps/apps/sitKubera/index/resources/steagFR.svg" 
+				type="image/svg+xml"/> <br/>Français</xf:label> <xf:action ev:event="DOMActivate"/> 
+				</xf:trigger> <xf:trigger> <xf:label> <object data="/webApps/apps/sitKubera/index/resources/steagDE.svg" 
+				type="image/svg+xml"/> <br/>Deutsch</xf:label> <xf:action ev:event="DOMActivate"/> 
+				</xf:trigger> <xf:trigger> <xf:label> <object data="/webApps/apps/sitKubera/index/resources/steagES.svg" 
+				type="image/svg+xml"/> <br/>Español</xf:label> <xf:action ev:event="DOMActivate"/> 
+				</xf:trigger> </div> -->
+		</div>
+		<div id="divContinut">
+			<div id="divMeniu" />
+			<div id="divMijloc">
+				<div id="divMenu">
+					<xf:trigger>
+						<xf:label>
+							<xf:output
+								ref="instance('instanceParametriStandard')/continut/meniu/optiune[1]" />
+						</xf:label>
+						<xf:action ev:event="DOMActivate">
+							<xf:toggle case="caseHome" />
+						</xf:action>
+					</xf:trigger>
+					<xf:trigger>
+						<xf:label>
+							<xf:output
+								ref="instance('instanceParametriStandard')/continut/meniu/optiune[2]" />
+						</xf:label>
+						<xf:action ev:event="DOMActivate">
+							<xf:toggle case="caseOpenSourceProjects" />
+						</xf:action>
+					</xf:trigger>
+					<xf:trigger>
+						<xf:label>
+							<xf:output
+								ref="instance('instanceParametriStandard')/continut/meniu/optiune[3]" />
+						</xf:label>
+						<xf:action ev:event="DOMActivate">
+							<xf:toggle case="caseServices" />
+						</xf:action>
+					</xf:trigger>
+					<xf:trigger>
+						<xf:label>
+							<xf:output
+								ref="instance('instanceParametriStandard')/continut/meniu/optiune[4]" />
+						</xf:label>
+						<xf:action ev:event="DOMActivate">
+							<xf:toggle case="caseCustomers" />
+						</xf:action>
+					</xf:trigger>
+					<xf:trigger>
+						<xf:label>
+							<xf:output
+								ref="instance('instanceParametriStandard')/continut/meniu/optiune[5]" />
+						</xf:label>
+						<xf:action ev:event="DOMActivate">
+							<xf:toggle case="caseContact" />
+						</xf:action>
+					</xf:trigger>
+					<!--<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" 
+						xmlns:xlink="http://www.w3.org/1999/xlink" width="109.99999" height="25" 
+						id="svg2" version="1.0"> <defs id="defs4"> <linearGradient id="linearGradient2393"> 
+						<stop style="stop-color:#0000ff;stop-opacity:1;" offset="0" id="stop2395" 
+						/> <stop style="stop-color:#0000ff;stop-opacity:0;" offset="1" id="stop2397" 
+						/> </linearGradient> <linearGradient xlink:href="#linearGradient2393" id="linearGradient2399" 
+						x1="225.71428" y1="78.076469" x2="226.28572" y2="184.29076" gradientUnits="userSpaceOnUse" 
+						gradientTransform="matrix(0.3282311,0,0,0.2338657,41.86401,141.16988)" /> 
+						</defs> <g id="layer1" transform="translate(-62.357144,-159.29075)"> <rect 
+						style="fill:url(#linearGradient2399);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2770595px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" 
+						id="rect2383" width="109.72293" height="24.72294" x="62.495674" y="159.42928" 
+						/> </g> </svg> -->
+				</div>
+				<xf:switch id="switchDocPrimar">
+					<xf:case id="caseHome" selected="true">
+						<!-- <xf:output id="outputTitluPagina" ref="instance('instanceParametriStandard')/continut/titluPagina"/> -->
+						<h5>
+							This site is made using
+							<a href="http://w3.org/TR/xforms11">XForms</a>
+							.
+						</h5>
+						<b>
+							<a href="http://sourceforge.net/projects/extxsltforms">eXSLTForms</a>
+						</b>
+						is an open source project comprising extension actions / elements
+						for the open source
+						<a href="http://w3.org/TR/xforms11">XForms</a>
+						processor called
+						<a href="http://sourceforge.net/projects/xsltforms">XSLTForms</a>
+						.
+						<p />
+						<b>eXSLTForms</b>
+						was developed in order to respond to the requirements of real life
+						XForms web applications, and comprises the following extension
+						XForms actions / elements and widgets:
+						<p>
+							<ol>
+								<li>
+									<b>The transform action</b>
+									performs a xsl transformation of a nodeset (part of a data
+									instance), by using an external XSL stylesheet, and inserts the
+									resulting nodeset in a data instance. See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/transform-action-01.xml">here</a>
+									.
+								</li>
+								<li>
+									<b>The replace action</b>
+									performs a replacing action of a target nodeset (part of a data
+									instance), by an origin nodeset (part of a data instance). This
+									is useful to have a simpler syntax for
+									<a
+										href="http://w3.org/TR/xforms11/#data-mutation-patterns-replace-element">this XForms data mutation pattern</a>
+									. See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/replace-action-01.xml">here</a>
+									.
+								</li>
+								<li>
+									<a href="http://sourceforge.net/projects/teian/">teian</a>
+									is an web-based annotator and limited editor for any XML vocabulary.
+									Teian was originally developed for the U.S. Department of State, Office of the Historian,
+									and released as open source for the benefit of community. Its development was further funded
+									by the University of Richmond, USA. See examples
+									<a href="http://teian.sourceforge.net/latest/tests/">here</a>
+									.
+								</li>
+								<li>
+									<a href="http://developer.yahoo.com/yui/datatable/">YUI2 DataTable control</a>
+									provides a simple yet powerful API to display screen-reader
+									accessible tabular data on a web page. Notable features include
+									sortable columns, pagination, scrolling, row selection,
+									resizeable columns, and inline cell editing. See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-datatable-01.xml">here</a>
+									.
+								</li>
+								<li>
+									<a href="http://ckeditor.com/">CKEditor</a>
+									is a text editor to be used inside web pages. It's a WYSIWYG
+									editor, which means that the text being edited on it looks as
+									similar as possible to the results users have when publishing
+									it. It brings to the web common editing features found on
+									desktop editing applications like Microsoft Word and
+									OpenOffice. See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/ckeditor-rich-text-editor-01.xml">here</a>
+									.
+								</li>
+								<li>
+									<a href="http://www.cdolivet.com/index.php?page=editArea">EditArea</a>
+									is a free javascript editor for source code. (That is no way a
+									WYSIWYG editor). This editor is designed to edit souce code
+									files in a textarea. The main goal is to allow text formatting,
+									search and replace and real-time syntax highlight (for not too
+									heavy text). See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/editarea-code-editor-01.xml">here</a>
+									.
+								</li>
+								<li>
+									<a href="http://developer.yahoo.com/yui/editor/">YUI Rich Text Editor</a>
+									is a UI control that replaces a standard HTML textarea; it
+									allows for the rich formatting of text content, including
+									common structural treatments like lists, formatting treatments
+									like bold and italic text, and drag-and-drop inclusion and
+									sizing of images. The Rich Text Editor's toolbar is extensible
+									via a plugin architecture so that advanced implementations can
+									achieve a high degree of customization. See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-rich-text-editors-01.xml">here</a>
+									for both YUI Editor and YUI SimpleEditor.
+								</li>
+								<li>
+									<a href="http://docs.dojocampus.org/dijit/Editor">Dojo Editor</a>
+									is a text box on steroids. Designed to look and work like a
+									word processor. The editor features a toolbar, HTML output, and
+									a plugin architecture that supports new commands, new buttons
+									and other new features. See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/dojo-rich-text-editor-01.xml">here</a>
+									.
+								</li>
+								<li>
+									<a href="http://trac.xinha.org/">Xinha Editor</a>
+									is a powerful WYSIWYG HTML editor component that works in all
+									current browsers. Its configurabilty and extensibility make it
+									easy to build just the right editor for multiple purposes, from
+									a restricted mini-editor for one database field to a
+									full-fledged website editor. Its liberal, BSD licence makes it
+									an ideal candidate for integration into any kind of project.
+									See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/xinha-rich-text-editor-01.xml">here</a>
+									.
+								</li>
+								<li>
+									<a href="">Just for fun (only?):</a>
+									all the above editors on a single page. See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/all-rich-text-editors.xml">here</a>
+									.
+								</li>
+							</ol>
+						</p>
+					</xf:case>
+					<xf:case id="caseOpenSourceProjects">
+						<h3>
+							A.
+							<a href="http://sourceforge.net/projects/edib">edib</a>
+						</h3>
+						<p>Allows execution of XQuery queries and XProc pipelines from
+							webpage in an eXist XMLDB installed on client. eDIB also allows
+							complex processing and storage of data before sending it back to
+							server, thus balancing load between server and client.</p>
+						<h3>
+							B.
+							<a href="http://sourceforge.net/projects/extxsltforms">exsltforms</a>
+						</h3>
+						<p>
+							is an open source project comprising extension actions / elements
+							for the open source
+							<a href="http://w3.org/TR/xforms11">XForms</a>
+							processor called
+							<a href="http://sourceforge.net/projects/xsltforms">XSLTForms</a>
+							.
+						</p>
+						<p>
+							<b>eXSLTForms</b>
+							was developed in order to respond to the requirements of real
+							life
+							XForms web applications, and comprises the following extension
+							XForms actions / elements:
+						</p>
+						<p>
+							<ol>
+								<li>
+									<b>The transform action</b>
+									performs a xsl transformation of a nodeset (part of a data
+									instance), by using an external XSL stylesheet, and inserts the
+									resulting nodeset in a data instance. See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/transform-action-01.xml">here</a>
+									.
+								</li>
+								<li>
+									<b>The replace action</b>
+									performs a replacing action of a target nodeset (part of a data
+									instance), by an origin nodeset (part of a data instance). This
+									is useful to have a simpler syntax for
+									<a href="http://w3.org/TR/xforms11/#data-mutation-patterns-replace-element">this XForms data mutation pattern</a>
+									. See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/replace-action-01.xml">here</a>
+									.
+								</li>
+								<li>
+									<a href="http://sourceforge.net/projects/teian/">teian</a>
+									is an web-based annotator and limited editor for any XML vocabulary.
+									Teian was originally developed for the U.S. Department of State, Office of the Historian,
+									and released as open source for the benefit of community. Its development was further funded
+									by the University of Richmond, USA. See examples
+									<a href="http://teian.sourceforge.net/latest/tests/">here</a>
+									.
+								</li>
+								<li>
+									<a href="http://developer.yahoo.com/yui/datatable/">YUI2 DataTable control</a>
+									provides a simple yet powerful API to display screen-reader
+									accessible tabular data on a web page. Notable features include
+									sortable columns, pagination, scrolling, row selection,
+									resizeable columns, and inline cell editing. See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-datatable-01.xml">here</a>
+									.
+								</li>
+								<li>
+									<a href="http://ckeditor.com/">CKEditor</a>
+									is a text editor to be used inside web pages. It's a WYSIWYG
+									editor, which means that the text being edited on it looks as
+									similar as possible to the results users have when publishing
+									it. It brings to the web common editing features found on
+									desktop editing applications like Microsoft Word and
+									OpenOffice. See example
+									<a
+										href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/ckeditor-rich-text-editor-01.xml">here</a>
+									.
+								</li>
+								<li>
+									<a href="http://www.cdolivet.com/index.php?page=editArea">EditArea</a>
+									is a free javascript editor for source code. (That is no way a
+									WYSIWYG editor). This editor is designed to edit souce code
+									files in a textarea. The main goal is to allow text formatting,
+									search and replace and real-time syntax highlight (for not too
+									heavy text). See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/editarea-code-editor-01.xml">here</a>
+									.
+								</li>
+								<li>
+									<a href="http://developer.yahoo.com/yui/editor/">YUI Rich Text Editor</a>
+									is a UI control that replaces a standard HTML textarea; it
+									allows for the rich formatting of text content, including
+									common structural treatments like lists, formatting treatments
+									like bold and italic text, and drag-and-drop inclusion and
+									sizing of images. The Rich Text Editor's toolbar is extensible
+									via a plugin architecture so that advanced implementations can
+									achieve a high degree of customization. See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-rich-text-editors-01.xml">here</a>
+									for both YUI Editor and YUI SimpleEditor.
+								</li>
+								<li>
+									<a href="http://docs.dojocampus.org/dijit/Editor">Dojo Editor</a>
+									is a text box on steroids. Designed to look and work like a
+									word processor. The editor features a toolbar, HTML output, and
+									a plugin architecture that supports new commands, new buttons
+									and other new features. See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/dojo-rich-text-editor-01.xml">here</a>
+									.
+								</li>
+								<li>
+									<a href="http://trac.xinha.org/">Xinha Editor</a>
+									is a powerful WYSIWYG HTML editor component that works in all
+									current browsers. Its configurabilty and extensibility make it
+									easy to build just the right editor for multiple purposes, from
+									a restricted mini-editor for one database field to a
+									full-fledged website editor. Its liberal, BSD licence makes it
+									an ideal candidate for integration into any kind of project.
+									See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/xinha-rich-text-editor-01.xml">here</a>
+									.
+								</li>
+								<li>
+									<a href="">Just for fun (only?):</a>
+									all the above editors on a single page. See example
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/all-rich-text-editors.xml">here</a>
+									.
+								</li>
+							</ol>
+						</p>
+						<!-- <b>B. <a href="http://kuberam.ro/kubera">kubera, web application 
+							for online acccounting</a></b> -->
+
+					</xf:case>
+					<xf:case id="caseServices">
+						<!-- <xf:output id="outputTitluAplicatii" ref="instance('instanceParametriStandard')/continut/titluAplicatii"/> 
+							<xf:repeat id="repeatAplicatii" nodeset="instance('instanceParametriStandard')/continut/aplicatii/aplicatie"> 
+							<a href="http://78.97.138.9:8080/exist/rest//db/aplicatii/moduleStandardAplicatie/acces/acces.xproc?bindings=%3Cbindings%3E%3Cbinding%20port=%22idAplicatie%22%3E%3CidAplicatie%3Ekubera%3C/idAplicatie%3E%3C/binding%3E%3C/bindings%3E"> 
+							<xf:output id="outputTitluAplicatie" ref="titluAplicatie"/> </a> <xf:output 
+							id="outputDescriereAplicatie" ref="descriereAplicatie"/> </xf:repeat> -->
+						Studying and using XML technologies since 2004, I can develop web
+						application based upon
+						<a
+							href="http://en.wikipedia.org/wiki/XRX_(web_application_architecture)">XRX</a>
+						(XForms in the browser - REST - XProc (XQuery) for the database).
+						<p />
+						As XML database, I am using
+						<a href="http://exist-db.org/">eXist</a>
+						.
+						<p />
+						As XForms processor, I am using
+						<a href="http://agencexml.com/">XSLTForms</a>
+						. XSLTForms works with all major browser (Internet Explorer,
+						FireFox, Opera, Safari, Chrome and more).
+					</xf:case>
+					<xf:case id="caseCustomers">
+						<p>
+							<a href="http://history.state.gov/">U. S. Department Of State, Office Of The Historian</a>
+						</p>
+						<p>
+							<a href="http://bgs.ro">BGS Divizia de securitate SRL</a>
+						</p>
+						<p>
+							<a href="http://wpc.ro">Wisconsin Precision Components SA</a>
+						</p>
+						<p>Sundari Conf SRL</p>
+						<p>Kids Collection SRL</p>
+						<p>Primex '98 SRL</p>
+						<p>Mocasinul SRL</p>
+					</xf:case>
+					<xf:case id="caseContact">
+						<b>Teodorescu Claudius Marian</b>
+						<br />
+						Tel.: 0752626515
+						<br />
+						Email: claud108 at yahoo dot com
+						<p>
+							<b>Fiscal Data: </b>
+							<br />
+							Teodorescu Claudius Marian P.F.A.
+							<br />
+							Trade Register No.: F40/4072/18.08.2009
+							<br />
+							VAT No.: 25904107
+							<br />
+							Registered Office: str. Fluviului, nr. 10. sector 1, București
+							<br />
+							Bank Account: RO75BRDE445SV32980594450
+						</p>
+						<!-- <b>Date fiscale: </b> <br/> Teodorescu Claudius Marian P.F.A.<br/> 
+							Nr. Registrul Comerţului: F40/4072/18.08.2009<br/> C.U.I.: 25904107<br/> 
+							Sediu social: str. Fluviului, nr. 10. sector 1, București<br/> Cont bancar: 
+							RO75BRDE445SV32980594450 -->
+					</xf:case>
+				</xf:switch>
+			</div>
+			<div id="divSigle">
+				<!-- <a href="http://exist-db.org/"> <object data="resources/poweredByEXist.svg" 
+					type="image/svg+xml" width="130" height="50"/> </a> -->
+				<a href="http://agencexml.com/">
+					<object data="resources/poweredbyXSLTForms.svg" type="image/svg+xml"
+						width="130" height="50" />
+				</a>
+				<!-- <a href="http://www.dnsexit.com"> <img src="http://www.dnsexit.com/images/dns.gif" 
+					border="0" width="130" height="50"/> </a> -->
+				<!-- <object data="resources/valid-xforms11-v2.svg" type="image/svg+xml" 
+					width="130" height="50"/> -->
+				<a
+					href="http://www3.clustrmaps.com/counter/maps.php?url=http://kuberam.ro"
+					id="clustrMapsLink">
+					<img
+						src="http://www3.clustrmaps.com/counter/index2.php?url=http://kuberam.ro"
+						style="border:0px;" alt="Locations of visitors to this page"
+						title="Locations of visitors to this page" id="clustrMapsImg" />
+				</a>
+				<script type="text/javascript">
+					function cantload() {
+					img =
+					document.getElementById("clustrMapsImg");
+					img.onerror = null;
+					img.src =
+					"http://www2.clustrmaps.com/images/clustrmaps-back-soon.jpg";
+					document.getElementById("clustrMapsLink").href =
+					"http://www2.clustrmaps.com";
+					}
+					img =
+					document.getElementById("clustrMapsImg");
+					img.onerror = cantload;
+				</script>
+			</div>
+		</div>
+	</body>
+</html>
