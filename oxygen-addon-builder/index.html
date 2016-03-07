@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Oxygen Addon Builder</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width" />
+</head>
+<body>
+	<h1>Oxygen Addon Builder</h1>
+	<nav role="navigation">
+		<ul id="contents">
+			<li><a href="#introduction">Introduction</a></li>
+			<li><a href="#creation-of-a-framework">Creation of a
+					framework</a></li>
+			<li><a href="#editing-of-a-framework">Editing of a framework</a></li>
+			<li><a href="#html-templates">HTML templates</a></li>
+			<li><a href="#actions">Actions</a></li>
+			<li><a href="#generation-of-a-framework">Generation of a
+					framework</a></li>
+			<li><a href="#curent-limitations">Current limitations</a></li>
+			<li><a href="#supported-xquery-update-actions">Supported
+					XQuery Update actions</a></li>
+			<li><a href="#resources">Resources</a></li>
+		</ul>
+	</nav>
+
+	<h2 id="introduction">Introduction</h2>
+	<p>This Oxygen plugin is intended to automatically generate Oxygen
+		frameworks only by using XQuery + HTML + CSS.</p>
+	<p>These frameworks offer a huge help for editing XML not in Text
+		view, but in Author view (a very nice feature Oxygen offers). The
+		users are able to edit their documents in an HTML page-like interface,
+		thus reducing the errors, and having a much more controlled way of
+		editing.</p>
+	<p>The main requirement for user is to edit a file called addon.xq,
+		which is the main descriptor for the framework.</p>
+	<a href="#contents">Up</a>
+
+	<h2 id="creation-of-a-framework">Creation of a framework</h2>
+	<p>This is to be done in the known, normal way for Oxygen. The
+		framework type is to be "external" and has to be saved in the
+		[OXYGEN_DIR]/frameworks directory, as any other normal external
+		framework.</p>
+	<p>The user should add the association rules, as needed, as well as
+		any other CSS files needed for styling the Author view of the
+		documents, or any other files.</p>
+	<img src="farmework-creation.png" width="900" height="500" />
+
+	<h2 id="editing-of-a-framework">Editing of a framework</h2>
+	<p>After creation, the user has to press button Edit on the Addon
+		Builder's toolbar, and select the framework directory from
+		[OXYGEN_DIR]/frameworks directory.</p>
+	<img src="select-framework-for-editing.png" width="900" height="500" />
+	<p>Some processes will occur, and an XQuery template file will be
+		automatically opened, in order to be edited.</p>
+	<img src="first-editing-of-an-addon.png" width="900" height="500" />
+	<p>
+		The editing should follow the guidelines stated in <a
+			href="http://claudius108.users.sourceforge.net/specs/expath/user-agent/user-agent.html">EXPath
+			User Agent Module</a>.
+	</p>
+	<p>The main idea is that the user needs to add HTML templates,
+		actions, listeners, and / or observers to addon.xq.</p>
+	<a href="#contents">Up</a>
+
+	<h2 id="html-templates">HTML templates</h2>
+	<p>The plugin currently support the HTML templates mentioned below.
+		After declaration, an HTML template has to attached to an XML element
+		in the document.</p>
+	<ul>
+		<li><p>input of type 'text'</p> <pre>
+ua:template("syll",
+    &lt;template&gt;
+        &lt;input data-ua-ref="{text()}" size="40" /&gt;
+    &lt;/template&gt;
+),
+ua:attach-template(ua-dt:css-selector("syll"), "syll")			
+			</pre></li>
+		<li id="button-template"><p>button</p> <pre>
+ua:template("entry-form-main-before",
+    &lt;template&gt;
+        &lt;button onclick="{ua:show-template('rich-textarea-dialog')}">Show dialog&lt;/button&gt;
+    &lt;/template&gt;
+),
+ua:attach-template(ua-dt:css-selector("entry > form[type = 'main'] > orth:before"), "entry-form-main-before")	
+			</pre></li>
+		<li><p>textarea</p> <pre>
+ua:template("def",
+    &lt;template&gt;
+        &lt;textarea data-ua-ref="{text()}" cols="70" rows="7" data-contentType="text/plain" /&gt;
+    &lt;/template&gt;
+),
+ua:attach-template(ua-dt:css-selector("def"), "def")		
+			</pre></li>
+	</ul>
+	<a href="#contents">Up</a>
+
+	<h2 id="actions">Actions</h2>
+	<p>The needed actions are triggered by various general, standard or
+		custom, events, or by node mutations.</p>
+	<p>
+		For instance, one can use the attribute
+		<code>onclick</code>
+		of a
+		<code>button</code>
+		(as was shown <a href="#button-template">above</a>) , or can add a
+		listener for events, as it is shown below.
+	</p>
+	<pre>
+ua:add-event-listener($ua:document, "load", oxy:execute-action-by-name('Author/No_tags')),
+ua:add-event-listener($ua:document, "load", oxy:execute-action-by-class('ro.kuberam.oxygen.addonBuilder.actions.KeepAuthorView')),
+ua:add-event-listener($ua:document, "load", "setIntialValue")
+			</pre>
+	<p>The node mutations trigger actions by using mutations observers,
+		defined as below:</p>
+	<pre>
+ua:observer("changedValueAttrForFormElementObserver", "changedValueAttrForFormElement"),
+ua:connect-observer("changedValueAttrForFormElementObserver", ua-dt:xpath-selector('//form'),
+    map {
+        "attributes" := "true",
+        "attributeFilter" := "['type']"}
+)			
+			</pre>
+	<p>Definition of an action, as is required by Oxygen, is as
+		follows:</p>
+	<pre>
+ua:action(
+    "deleteElement",
+    map { 
+        "name" := "Delete",
+        "description" := "",
+        "largeIconPath" := "",          
+        "smallIconPath" := "${framework}/resources/images/delete.png",
+        "accessKey" := "",
+        "accelerator" := ""        
+    },   
+    delete nodes (. | preceding-sibling::term[1])
+)
+</pre>
+	<a href="#contents">Up</a>
+
+	<h2 id="generation-of-a-framework">Generating of a framework</h2>
+	<p>
+		Each time user considers the editing is done, one should press the
+		button
+		<code>Generation on the </code>
+		Addon Builder's toolbar. A dialog window will let user know if the
+		generation ran well.
+	</p>
+	<p>In order to check the changes, the user have to restart Oxygen,
+		and open a sample file the framework was designed for.</p>
+	<p>The framework archive, as jar, can be found in the 'target'
+		directory located in the framework directory within
+		[OXYGEN_DIR]/frameworks, namely in ${frameworkDir}/target.</p>
+	<a href="#contents">Up</a>
+
+	<h2 id="curent-limitations">Current limitations</h2>
+	<ul>
+		<li>The plugin is using javafx, which has to be referred to
+			manually, by adding <code>&lt;library
+				name="[OXYGEN_DIR]/jre/lib/jfxrt.jar" /&gt;</code> (in Linux this is <code>/home/claudius/oxygen/16/jre/lib/jfxrt.jar</code>)
+			in the <code>runtime</code> section of the file <code>${pluginInstallDir}/plugin.xml</code>
+			(in Linux, this is <code>/home/claudius/.com.oxygenxml.author/extensions/v16.1/plugins/http___claudius108.users.sourceforge.net_repos_addon_builder_plugin_addon.xml/addon-builder-plugin/plugin.xml</code>).
+			This limitation is solved with Oxygen 17, as the variable <code>${oxygenInstallDir}</code> will be automatically expanded.
+		</li>
+		<li>The plugin currently generates only Oxygen frameworks; I am
+			investigating if it is possible to automatically generate Oxygen
+			plugins, too.</li>
+		<li>The dialog HTML element is displayed, but the form elements
+			it contains are not yet bound to a data instance. This has to be done
+			in the near future.</li>
+		<li>Importing of other modules (to increase reusability and
+			modularization) is not processed yet.</li>
+		<li>Only CSS selectors are processed for ua:attach-template()
+			function.</li>
+		<li>Only the XPath selectors of type "//element-name" are
+			processed for for ua:connect-observer().</li>
+	</ul>
+	<a href="#contents">Up</a>
+
+	<h2 id="supported-xquery-update-actions">Supported XQuery Update
+		actions</h2>
+	<p>
+		Equivalences between Oxygen java actions and actions defined in XQuery:
+		<a
+			href="https://docs.google.com/document/d/1DWKic-uH5vay0qZRcUXLfGclgYIoFDA2PEUb-LXYPXU/edit?usp=sharing">https://docs.google.com/document/d/1DWKic-uH5vay0qZRcUXLfGclgYIoFDA2PEUb-LXYPXU/edit?usp=sharing</a>.
+	</p>
+	<a href="#contents">Up</a>
+
+	<h2 id="resources">Resources</h2>
+	<p>
+		Address is <a
+			href="http://claudius108.users.sourceforge.net/repos/addon-builder-plugin/addon.xml">http://claudius108.users.sourceforge.net/repos/addon-builder-plugin/addon.xml</a>.
+	</p>
+	<p>
+		The source can be found at <a
+			href="https://github.com/claudius108/oxygen-addon-builder-plugin">https://github.com/claudius108/oxygen-addon-builder-plugin</a>.
+	</p>
+	<a href="#contents">Up</a>
+
+	<script type="text/javascript">
+					var _gaq = _gaq || [];
+					_gaq.push(['_setAccount', 'UA-43293529-1']);
+					_gaq.push(['_trackPageview']);
+					(function() {
+					var ga = document.createElement('script'); ga.type =
+					'text/javascript';
+					ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
+					+
+					'.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+					s);
+					})();
+				</script>
+</body>
+</html>

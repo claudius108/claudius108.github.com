@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+	<xsl:output method="xml" />
+	<xsl:template match="/">
+		<div id="downloads-container">
+			<h5>Downloads statistics</h5>
+			<xsl:apply-templates />
+		</div>
+	</xsl:template>
+	<xsl:template match="project-metadata">
+		<div class="download-container">
+			<span>
+				<xsl:value-of select="name" />
+			</span>
+			<span>
+				<xsl:value-of select="concat(' (ranking: ', ranking, ') ')" />
+			</span>
+			<xsl:apply-templates select="downloads" />
+		</div>
+	</xsl:template>
+	<xsl:template match="downloads">
+		<xsl:variable name="downloads" select="*/a1" />
+		<xsl:variable name="min">
+			<xsl:for-each select="$downloads">
+				<xsl:sort data-type="number" select="." />
+				<xsl:if test="position() = 1">
+					<xsl:value-of select="." />
+				</xsl:if>
+			</xsl:for-each>
+		</xsl:variable>
+		<xsl:variable name="max">
+			<xsl:for-each select="$downloads">
+				<xsl:sort data-type="number" select="." />
+				<xsl:if test="position() = last()">
+					<xsl:value-of select="." />
+				</xsl:if>
+			</xsl:for-each>
+		</xsl:variable>
+		<xsl:variable name="yRange" select="$max - $min" />
+		<xsl:variable name="linesNumber" select="count($downloads) - 1" />
+		<xsl:variable name="svgContainerWidth" select="'150'" />
+		<xsl:variable name="svgContainerHeight" select="'45'" />
+		<!-- <xsl:variable name="svgContainerHeight" select="$svgContainerHeight 
+			- 7" /> -->
+		<xsl:variable name="points">
+			<xsl:for-each select="$downloads">
+				<xsl:variable name="xIndex" select="position() - 1" />
+				<xsl:variable name="yValue" select="." />
+				<xsl:value-of
+					select="concat(($xIndex * $svgContainerWidth div $linesNumber), ',', $svgContainerHeight - ($yValue * $svgContainerHeight div $yRange), ' ')" />
+			</xsl:for-each>
+		</xsl:variable>
+		<xsl:variable name="labels">
+			<g xmlns="http://www.w3.org/2000/svg">
+				<xsl:for-each select="$downloads">
+					<xsl:variable name="xIndex" select="position() - 1" />
+					<xsl:variable name="yValue" select="." />
+					<xsl:variable name="id" select="generate-id()" />
+					<xsl:variable name="x"
+						select="$xIndex * $svgContainerWidth div $linesNumber" />
+					<xsl:variable name="y"
+						select="$svgContainerHeight - ($yValue * $svgContainerHeight div $yRange)" />
+					<circle id="{$id}" cx="{$x}" cy="{$y}" r="2.5"
+						style="stroke: #013ADF; fill: #ffffff">
+					</circle>
+					<g visibility="hidden">
+						<set attributeName="visibility" from="hidden" to="visible"
+							begin="{$id}.mouseover" end="{$id}.mouseout" />
+						<rect x="{$x + 10}" y="{$y - 30}" width="22" height="22"
+							fill="grey" fill-opacity="0.5" />
+						<text text-anchor="start" x="{$x}" y="{$y}" font-size="12"
+							fill="red">
+							<xsl:value-of select="$yValue" />
+						</text>
+					</g>
+				</xsl:for-each>
+			</g>
+		</xsl:variable>
+		<!-- <xsl:value-of select="concat('min: ', $min, ', max: ', $max, ' ')" 
+			/> -->
+		<!-- <xsl:value-of select="concat('downloads: ', $downloadsString)" /> -->
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+			width="{$svgContainerWidth}" height="{$svgContainerHeight}"
+			viewBox="0 -7 {$svgContainerWidth} {$svgContainerHeight + 22}" style="margin-right: 10px;">
+			<xsl:element name="polyline" namespace="http://www.w3.org/2000/svg">
+				<xsl:attribute name="fill">none</xsl:attribute>
+				<xsl:attribute name="stroke">#013ADF</xsl:attribute>
+				<xsl:attribute name="stroke-width">1</xsl:attribute>
+				<xsl:attribute name="points"><xsl:value-of select="$points" /></xsl:attribute>
+			</xsl:element>
+			<xsl:copy-of select="$labels" />
+			<text x="0" y="{$svgContainerHeight}" dy="1.1em" font-size="12">
+				<xsl:value-of select="concat('Period: ', @start-date, ' - ', @end-date)" />
+			</text>
+		</svg>
+	</xsl:template>
+
+</xsl:stylesheet>

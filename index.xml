@@ -22,24 +22,13 @@
 			height: 60px;
 			}
 			#divSteaguri object {width:45px;height:30px;}
-			#divContinut
-			{
-			margin: auto;
-			width: 1200px;
-			height: 500px;
-			}
-			#divMeniu
-			{
-			float: left;
-			width: 150px;
-			height: 500px;
-			}
 			#divMijloc
 			{
 			float: left;
 			border: solid 2px;
 			width: 870px;
-			height: 856px;
+			min-height: 856px;
+			margin-left: 150px;
 			padding:
 			10px;
 			}
@@ -136,8 +125,6 @@
 				type="image/svg+xml"/> <br/>Español</xf:label> <xf:action ev:event="DOMActivate"/> 
 				</xf:trigger> </div> -->
 		</div>
-		<div id="divContinut">
-			<div id="divMeniu" />
 			<div id="divMijloc">
 				<div id="divMenu">
 					<xf:trigger>
@@ -242,13 +229,23 @@
 									.
 								</li>
 								<li>
-									<a href="http://sourceforge.net/projects/teian/">teian</a>
+									<p><a href="http://sourceforge.net/projects/teian/">teian</a>
 									is an web-based annotator and limited editor for any XML vocabulary.
 									Teian was originally developed for the U.S. Department of State, Office of the Historian,
 									and released as open source for the benefit of community. Its development was further funded
-									by the University of Richmond, USA. See examples
-									<a href="http://teian.sourceforge.net/latest/tests/">here</a>
-									.
+									by the University of Richmond, USA.									
+									</p>
+									<h7>A little history</h7>
+									<p>The teian development started in May 2010, funded by U.S. Department of State, Office of the Historian.
+									The first production version was released in August, 2010. That version was built on top of CKEditor, a well-known web-based HTML editor.
+									</p>
+									<p>In 2011, the financing of the development was continued by the University of Richmond, USA. During this second period of financing,
+									teian was brought to a superior level due to a complete rebuilt, in order to be independent to CKEditor. Thus, a new concept was used,
+									allowing teian to render any XML vocabulary and much larger files.
+									</p>
+									<p>In 2012, a first version of change tracking capability was added to teian.</p>
+									<p>Since 2012, various bug fixes, and small improvements we made, along with adding of new unit tests for various XML vocabularies.</p>
+									<p>See examples <a href="http://teian.sourceforge.net/latest/tests/">here</a>.</p>
 								</li>
 								<li>
 									<a href="http://developer.yahoo.com/yui/datatable/">YUI2 DataTable control</a>
@@ -550,7 +547,21 @@
 					document.getElementById("clustrMapsImg");
 					img.onerror = cantload;
 				</script>
+				<script type="text/javascript">
+					var _gaq = _gaq || [];
+					_gaq.push(['_setAccount', 'UA-43293529-1']);
+					_gaq.push(['_trackPageview']);
+					(function() {
+					var ga = document.createElement('script'); ga.type =
+					'text/javascript';
+					ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
+					+
+					'.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+					s);
+					})();
+				</script>
 			</div>
-		</div>
 	</body>
 </html>

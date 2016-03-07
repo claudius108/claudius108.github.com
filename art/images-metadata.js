@@ -1,17 +1,17 @@
 {
  "kind": "drive#fileList",
- "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/LIsT175nn-mx9oS9mAzUia0QGXM\"",
+ "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/dvpFQ9Z-_Ui_zGKy0XD-8PVl3As\"",
  "selfLink": "https://www.googleapis.com/drive/v2/files?q='0B44EmdT9aQ2VOVZHalpva2dGb0U'+in+parents",
  "items": [
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VTkZVdkgzZGI2YzA",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjUwMjMxMQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjUwMjMxMQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VTkZVdkgzZGI2YzA",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VTkZVdkgzZGI2YzA&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VTkZVdkgzZGI2YzA/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VTkZVdkgzZGI2YzA/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/GUIMnkgJRDcfq2t2Zn9c3Kg-4FBCqLuXPSekRhDEdacbzKn48n6LdL52eSVqCsM31A=s220",
+   "thumbnailLink": "https://lh4.googleusercontent.com/Lwcb0yOWFGhNI1a1nHei-WwyGDfXEsDuoAYoFnJzR-kPmXfL15gxoLgIIWaXA7yZKQ=s220",
    "title": "femeie002.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -32,10 +32,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-04-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/qiev3e7mvt4hag7276u9lonaoq1i0e6j/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VTkZVdkgzZGI2YzA?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-04-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/iektivospmt1k1t33806m4lg6p4mdfc4/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VTkZVdkgzZGI2YzA?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/jmPT3p868-llo7hIxYpLYeJQmzs\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/jmPT3p868-llo7hIxYpLYeJQmzs\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VTkZVdkgzZGI2YzA/permissions/me",
     "role": "reader",
@@ -67,6 +67,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 600,
     "height": 800,
@@ -80,12 +81,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VYXhHSndqendZZFE",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjQ5ODk3Nw\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjQ5ODk3Nw\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VYXhHSndqendZZFE",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VYXhHSndqendZZFE&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VYXhHSndqendZZFE/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VYXhHSndqendZZFE/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/C7A8kvuh1sJetbOPU48T4pMJ16JC4tmCbH6L8ZC4EfH3Xut_ppPagSe7EnXZQOpYUQ=s220",
+   "thumbnailLink": "https://lh4.googleusercontent.com/q7SIyWrNz3YimElV51H9FZ_ZhpxPkI-i9A-9rDiVVmen3tD01GLINwTrU7PaHNMlHA=s220",
    "title": "femeie001.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -106,10 +107,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/ejgsrmsgidgbh906n2jl2qrgok9ord9e/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VYXhHSndqendZZFE?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/njp0f7litcamm5qbobrhgup1mhi18jkm/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VYXhHSndqendZZFE?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/Iq4UFU1mS7wztDoNaw-WYLR8yE0\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/Iq4UFU1mS7wztDoNaw-WYLR8yE0\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VYXhHSndqendZZFE/permissions/me",
     "role": "reader",
@@ -141,6 +142,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 800,
     "height": 600,
@@ -154,12 +156,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VOFc4eW80NEpSbTg",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjQ5NjE1Ng\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjQ5NjE1Ng\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VOFc4eW80NEpSbTg",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VOFc4eW80NEpSbTg&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VOFc4eW80NEpSbTg/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VOFc4eW80NEpSbTg/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh5.googleusercontent.com/vh5FB0sG3bqaksV4Z6kEmayuAUCScZFfMKvX182Tr6MnrTeZTqY_E4o91mNpiaRgDQ=s220",
+   "thumbnailLink": "https://lh6.googleusercontent.com/cBJNt-bXuyXqqnESpfpXjC6uHlaAxoyc44TNoDBCahxLJsQGrGu5Rni30OjXs6cQIA=s220",
    "title": "chocolate.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -180,10 +182,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/apte2oubtrfbtthoic7l62n09vemidgk/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VOFc4eW80NEpSbTg?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/26omlek52lfcjfpg2cnr8iehkb46tari/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VOFc4eW80NEpSbTg?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/tfeKd6kECQvGOx-W5g92gt8V-TM\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/tfeKd6kECQvGOx-W5g92gt8V-TM\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VOFc4eW80NEpSbTg/permissions/me",
     "role": "reader",
@@ -215,6 +217,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 600,
     "height": 800,
@@ -228,12 +231,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2Vb0d4b0xRNjJJckk",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjQ4OTk3Mw\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjQ4OTk3Mw\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2Vb0d4b0xRNjJJckk",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2Vb0d4b0xRNjJJckk&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2Vb0d4b0xRNjJJckk/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2Vb0d4b0xRNjJJckk/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/SlLSVjtgd-5TW4WP6BcjHZxGQB3s8ID7CytNn4hhvd5IQF4N914A5dnhfKIjYbPrQA=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/HlEx9fcsbpO0cRW8TBN9jz7DFuzv8S_wG870hPYku53F5MZqXmKyCyfcSjyZY5Dolg=s220",
    "title": "0045.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -254,10 +257,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-10-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/gmhn2ha5niqoc2f7hqdg3du3dh0bvkgj/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2Vb0d4b0xRNjJJckk?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-10-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/d4iiqocdmsvkiheaukc4bsjhkt64cd04/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2Vb0d4b0xRNjJJckk?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/i_GurhOdOAAtvioZpVi81rht4F4\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/i_GurhOdOAAtvioZpVi81rht4F4\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2Vb0d4b0xRNjJJckk/permissions/me",
     "role": "reader",
@@ -289,6 +292,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 2048,
     "height": 1536,
@@ -303,12 +307,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VM0RkYno0bEdLR2c",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjQ4NzEzOA\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjQ4NzEzOA\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VM0RkYno0bEdLR2c",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VM0RkYno0bEdLR2c&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VM0RkYno0bEdLR2c/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VM0RkYno0bEdLR2c/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh3.googleusercontent.com/SSYwMqM4Ummk0Vqnh05MUH6or4P1Hrg4yM_pKzbOWuM9SNb3JoyyN1fhPe8lZRs6oQ=s220",
+   "thumbnailLink": "https://lh3.googleusercontent.com/alGpMAEurqN9-6QcLkZH2uVoSfrR4rnqKDYr3MZt8YVd_ZHmS_N-XlE30ErPDfF-yg=s220",
    "title": "0044.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -329,10 +333,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0s-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/9qvd4ph612g5ad9cu0rkn35u7pl66qes/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VM0RkYno0bEdLR2c?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0s-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/63v5pccunuak7gr86plftrbrq27mkgbq/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VM0RkYno0bEdLR2c?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/Yhzn7VEBdeI8MLgsMKC79-cXtiU\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/Yhzn7VEBdeI8MLgsMKC79-cXtiU\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VM0RkYno0bEdLR2c/permissions/me",
     "role": "reader",
@@ -364,6 +368,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1536,
     "height": 2048,
@@ -378,12 +383,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VRHpVWmEyN2FQNDg",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjQ4MzM1OQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjQ4MzM1OQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VRHpVWmEyN2FQNDg",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VRHpVWmEyN2FQNDg&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VRHpVWmEyN2FQNDg/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VRHpVWmEyN2FQNDg/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh4.googleusercontent.com/_4dTsWbmwcfnNKHPT3tD5mlOlu2Dkg24KFrS8hke0zlpsFP4m9-nADlTHbtRFJROpw=s220",
+   "thumbnailLink": "https://lh4.googleusercontent.com/e31g0A0B-1YUElZIviv3pEDWBx6qy6D48x_vb9aK0BarAIGiEz1HMr0od3PhEAXftQ=s220",
    "title": "0043.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -404,10 +409,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0g-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/oanskih1buaup5scko8o8vpaeckq2krs/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VRHpVWmEyN2FQNDg?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0g-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/iu4gjpp7ki3la5m459t8hua0ar843uv4/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VRHpVWmEyN2FQNDg?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/q6kWjQzuQzhhjOcPF0tAKJx8SbM\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/q6kWjQzuQzhhjOcPF0tAKJx8SbM\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VRHpVWmEyN2FQNDg/permissions/me",
     "role": "reader",
@@ -439,6 +444,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 2048,
     "height": 1536,
@@ -453,12 +459,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VVzZwaWlyU3MzcGM",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjQ3NjkzNw\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjQ3NjkzNw\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VVzZwaWlyU3MzcGM",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VVzZwaWlyU3MzcGM&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VVzZwaWlyU3MzcGM/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VVzZwaWlyU3MzcGM/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh5.googleusercontent.com/Dsn_w1G_B3d_T8eCuStxnxCxIEFMoeYnSvIdDG5TBx81JPsPCnKY8_FO-x1sIxPShg=s220",
+   "thumbnailLink": "https://lh3.googleusercontent.com/Kg6Sni83m6YUyx4tb0pco7wnGOIvqJupNG7-z-CuDAQC330AlGt_p_7IOtixw_vwzw=s220",
    "title": "0042.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -479,10 +485,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0c-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/8jlm85mph8nskv1h7pif021rs8kgfgt6/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VVzZwaWlyU3MzcGM?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0c-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/kmlqhqrtga8a8tbk0q9r3phjr6fqohhu/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VVzZwaWlyU3MzcGM?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/sfbMJfrgMkCMiDaLd6mHoJlJuss\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/sfbMJfrgMkCMiDaLd6mHoJlJuss\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VVzZwaWlyU3MzcGM/permissions/me",
     "role": "reader",
@@ -514,6 +520,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 2048,
     "height": 1536,
@@ -528,12 +535,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VZWlBNHJ2dF9YNzQ",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjQ2MDc0OA\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjQ2MDc0OA\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VZWlBNHJ2dF9YNzQ",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VZWlBNHJ2dF9YNzQ&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VZWlBNHJ2dF9YNzQ/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VZWlBNHJ2dF9YNzQ/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh5.googleusercontent.com/ZDOWoKC4P3w6VFUeo01jZn4aubl-8Eo8l-kY-e4EYwPmsms3pUxw3bQSqJ1bKTPOWg=s220",
+   "thumbnailLink": "https://lh3.googleusercontent.com/m-ANNcpnZlqi3To247dGLfKY8QFPjjKnnCilBx3jieP8U93Zttw8EJUn0U8hqHPnsQ=s220",
    "title": "0041.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -554,10 +561,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0c-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/hn7045i6db5p6atbqb84o66i1l8n2jsm/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VZWlBNHJ2dF9YNzQ?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0c-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/e22e69hua2lcc1fs97d33rdcg2svdt07/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VZWlBNHJ2dF9YNzQ?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/1b6ArYW8_O_pReQqkNwcMbRi92w\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/1b6ArYW8_O_pReQqkNwcMbRi92w\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VZWlBNHJ2dF9YNzQ/permissions/me",
     "role": "reader",
@@ -589,6 +596,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 2048,
     "height": 1536,
@@ -603,12 +611,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VczJlYTJGejFyWmc",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjQ1NzY0Mw\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjQ1NzY0Mw\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VczJlYTJGejFyWmc",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VczJlYTJGejFyWmc&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VczJlYTJGejFyWmc/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VczJlYTJGejFyWmc/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/avq3ayDNwdniRow5a40iCOhwYbATASzdYVTQLb2qeygcQE97NuMQVjYPXu8_csNBPg=s220",
+   "thumbnailLink": "https://lh3.googleusercontent.com/4qVOoRgT1q2k-9dq5wrPl5mur49yBiOQ6iuVJlbjXgcq-4qyETACdJOVAT1D3oh5qg=s220",
    "title": "0040.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -629,10 +637,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-08-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/qdkhe0f8a11uskn7cp6sqju9dug3ou0p/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VczJlYTJGejFyWmc?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-08-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/8hm76c5rp6uq968o4f84vek4ho83jl9m/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VczJlYTJGejFyWmc?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/D8ESFejVb5ep7XGdaHJEZp6wSNU\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/D8ESFejVb5ep7XGdaHJEZp6wSNU\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VczJlYTJGejFyWmc/permissions/me",
     "role": "reader",
@@ -664,6 +672,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 2048,
     "height": 1536,
@@ -678,12 +687,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VdGpsdkhTUXNpV0k",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjQ1MDg0NA\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjQ1MDg0NA\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VdGpsdkhTUXNpV0k",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VdGpsdkhTUXNpV0k&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VdGpsdkhTUXNpV0k/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VdGpsdkhTUXNpV0k/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh3.googleusercontent.com/YKArvBGIyliKSycckofknXQDJHmJFLgeBCBNqQO31XulBG67rEUOk6HhQKcc4jQwsA=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/qzngTV0XKiqCrkC-ca2qYV2Vh4A4mQpP9frZnN6QAlKSp4CzJcHj8Xvw0tPmw3gLFg=s220",
    "title": "0039.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -704,10 +713,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0k-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/b96lhcaq1d9tf7ju7gen5l063q5jsvmm/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VdGpsdkhTUXNpV0k?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0k-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/k9qh2um74bnsksor71f61t9d5d4o1bnr/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VdGpsdkhTUXNpV0k?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/OVPzDpQQl606WkpyFVdxzJ-dkpU\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/OVPzDpQQl606WkpyFVdxzJ-dkpU\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VdGpsdkhTUXNpV0k/permissions/me",
     "role": "reader",
@@ -739,6 +748,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1536,
     "height": 2048,
@@ -750,12 +760,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VQXJsOGstTU51QTg",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjQ0MDgzMQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjQ0MDgzMQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VQXJsOGstTU51QTg",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VQXJsOGstTU51QTg&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VQXJsOGstTU51QTg/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VQXJsOGstTU51QTg/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh3.googleusercontent.com/YpS19gs1dpG6U5kbxGDuF6PK3FzI6ejWYN9eRjaM2dyU3ziZqcz4QxKr_A1K9FoI_Q=s220",
+   "thumbnailLink": "https://lh4.googleusercontent.com/TB5V7yD423wDYpZc9C79GvGUmTgv5jLf2njrbhG6NxjM6RcRFEmLdpD0ZHi_NFIh7A=s220",
    "title": "0038.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -776,10 +786,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0k-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/uk9nkegafe9sje8edoc6dnvhraqv7me5/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VQXJsOGstTU51QTg?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0k-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/9nu4gg0seiau4k9l3psnqh5hd3ptjssv/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VQXJsOGstTU51QTg?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/-QX9nFa9u2Mvq1kBDwkr0WJxUw4\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/-QX9nFa9u2Mvq1kBDwkr0WJxUw4\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VQXJsOGstTU51QTg/permissions/me",
     "role": "reader",
@@ -811,6 +821,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1536,
     "height": 2048,
@@ -822,12 +833,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VbjRNREJpaEswYUU",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjQzMTQ1Nw\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjQzMTQ1Nw\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VbjRNREJpaEswYUU",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VbjRNREJpaEswYUU&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VbjRNREJpaEswYUU/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VbjRNREJpaEswYUU/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/jwv1irWaGJMZG-62YkqCBkn9k5vPYORi1Bw7Ur_TcA8y1V6cDel_wqg1XkrXKnJIHA=s220",
+   "thumbnailLink": "https://lh3.googleusercontent.com/HuzznX2ARHHX4KvNzOUUAFiyLKxUDPsa78-ABLZzi6rKESIWvfy_pi8grq406tUXxQ=s220",
    "title": "0037.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -848,10 +859,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-10-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/gtmfl4acshu64q4b9d7n21kae1ikgg11/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VbjRNREJpaEswYUU?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-10-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/fil8cl34hpo7ut74lqip0ee16809icui/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VbjRNREJpaEswYUU?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/B85qYNzbWb1HRDsCiuT_RJNQwvQ\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/B85qYNzbWb1HRDsCiuT_RJNQwvQ\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VbjRNREJpaEswYUU/permissions/me",
     "role": "reader",
@@ -883,6 +894,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1536,
     "height": 2048,
@@ -894,12 +906,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2Vc1lHRWJOb0FIOVU",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjQyMzQ3NQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjQyMzQ3NQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2Vc1lHRWJOb0FIOVU",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2Vc1lHRWJOb0FIOVU&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2Vc1lHRWJOb0FIOVU/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2Vc1lHRWJOb0FIOVU/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh5.googleusercontent.com/-v2eKl0qE-lhBhmciSy6qmu7Gq1dVAJEoIort5amDUcnYL3RFdEHK9exsy-6Fq9JUQ=s220",
+   "thumbnailLink": "https://lh4.googleusercontent.com/DG-V9TOQ581OpffzZNIgll2g2U4tUY7GGdz2MQUIdFDYJKEBSxcupwnQSWeY7jye-g=s220",
    "title": "0036.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -920,10 +932,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0c-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/nqkceh2dt7h1cjfufa6vjvvumdcdq255/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2Vc1lHRWJOb0FIOVU?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0c-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/d7i2psdkr2ijddt0mkviprv93boh61t5/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2Vc1lHRWJOb0FIOVU?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/I23zhWfXIMyvVHy_AqOtIZ1beZ8\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/I23zhWfXIMyvVHy_AqOtIZ1beZ8\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2Vc1lHRWJOb0FIOVU/permissions/me",
     "role": "reader",
@@ -955,6 +967,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1536,
     "height": 2048,
@@ -966,12 +979,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VaEk5R0dseDItYUk",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjQyMDA4Ng\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjQyMDA4Ng\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VaEk5R0dseDItYUk",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VaEk5R0dseDItYUk&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VaEk5R0dseDItYUk/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VaEk5R0dseDItYUk/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh4.googleusercontent.com/iest757URZkpfQV3pC8gOKLChmWzhp0fk11xHeKjxZ6f4VRCXbLFmNJaKpdcrybczg=s220",
+   "thumbnailLink": "https://lh6.googleusercontent.com/PI7DTcndDvnfzFrTrxRQrzKKluTmNWdypmG1c0FKZpEP8-9SiaqajuUGSfIijwXmPg=s220",
    "title": "0035.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -992,10 +1005,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0c-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/3ahqt3u71hssaphdgcr21kn563n9rcps/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VaEk5R0dseDItYUk?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0c-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/q9pfc0so4r3v7s34ilp4hq3lhuj66000/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VaEk5R0dseDItYUk?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/YqnPgEQddA8pOmIipw0ZRr03rTU\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/YqnPgEQddA8pOmIipw0ZRr03rTU\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VaEk5R0dseDItYUk/permissions/me",
     "role": "reader",
@@ -1027,6 +1040,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1536,
     "height": 2048,
@@ -1038,12 +1052,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VVlJRUHlWQWVYeFk",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjQwNzE1MQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjQwNzE1MQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VVlJRUHlWQWVYeFk",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VVlJRUHlWQWVYeFk&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VVlJRUHlWQWVYeFk/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VVlJRUHlWQWVYeFk/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/45aLRs973bOXpYOXs2PpzqCXz6cjX29enI_GQJpUX2WaFPcbYNvSc-D6rx-_m6UkAg=s220",
+   "thumbnailLink": "https://lh3.googleusercontent.com/P_JVg-p8OHu5VF0FDOkAMUzVhWryIveXKOS-JBkbK8ZmWbEE_8gYGAaKFE47qOcECA=s220",
    "title": "0034.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -1064,10 +1078,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-00-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/6cude2pu4l7odnkognknns1os246fcgf/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VVlJRUHlWQWVYeFk?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-00-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/bhr5p0tj6g61srnp4ogvgrtupsovd14b/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VVlJRUHlWQWVYeFk?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/n7lVXo34sqFUrFtbPtq878CQwEE\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/n7lVXo34sqFUrFtbPtq878CQwEE\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VVlJRUHlWQWVYeFk/permissions/me",
     "role": "reader",
@@ -1099,6 +1113,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1536,
     "height": 2048,
@@ -1110,12 +1125,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VYlBxNEZKMGg5MTg",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjQwMDE4MQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjQwMDE4MQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VYlBxNEZKMGg5MTg",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VYlBxNEZKMGg5MTg&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VYlBxNEZKMGg5MTg/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VYlBxNEZKMGg5MTg/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/nGvHoaY6cttmh9eLclHbWOV2VMIgD0X19BMU6mSu4sSsfJr2ne2YUo_MLXyW1avHvA=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/dKQ25TNLhGxfEO5HFcG4_JGJ-KA5CLBJID0tVrVcq81skYJw-MxaVB18MDbHMNG0Pw=s220",
    "title": "0033.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -1136,10 +1151,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-04-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/qma4nvh94mp5sdd8lljj25abqp2p3ndj/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VYlBxNEZKMGg5MTg?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-04-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/ff8ngou5ccq80c0a1to9hvgc1icosjf2/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VYlBxNEZKMGg5MTg?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/jtd45pBHoSxbxk814_hmy7wlL90\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/jtd45pBHoSxbxk814_hmy7wlL90\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VYlBxNEZKMGg5MTg/permissions/me",
     "role": "reader",
@@ -1171,6 +1186,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1536,
     "height": 2048,
@@ -1182,12 +1198,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VZnQwWDJiZ0FPbTg",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjM5NjcxOQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjM5NjcxOQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VZnQwWDJiZ0FPbTg",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VZnQwWDJiZ0FPbTg&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VZnQwWDJiZ0FPbTg/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VZnQwWDJiZ0FPbTg/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/_UlPsBR9s1PfQsfR30UE-lsjvtJczciX_NYVadv7YTbVJylyDKiRL57skUtWvc0iHQ=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/CGk2hm3e5R1Zf7zMEvru1VTjUxDtQlkF0haQOvOVeUQ-anl3O7WzQEjtAABviUVLRw=s220",
    "title": "0032.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -1208,10 +1224,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-10-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/ld61qpejpocu7n504jirr30qqo93mkkn/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VZnQwWDJiZ0FPbTg?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-10-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/3if6jmutvl12u7bdtm5i3vqss60m5fm8/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VZnQwWDJiZ0FPbTg?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/0mxX99Vikg4vy0_ZBvu0jjG_R8E\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/0mxX99Vikg4vy0_ZBvu0jjG_R8E\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VZnQwWDJiZ0FPbTg/permissions/me",
     "role": "reader",
@@ -1243,6 +1259,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1536,
     "height": 2048,
@@ -1254,12 +1271,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VbDI3QVFYZktXQUk",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjM5MzY2NA\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjM5MzY2NA\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VbDI3QVFYZktXQUk",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VbDI3QVFYZktXQUk&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VbDI3QVFYZktXQUk/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VbDI3QVFYZktXQUk/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh3.googleusercontent.com/WLCkg3ZZw3fALIIsCnEkfCTB4wLeu4x_dYRHZkALKFGn6h9Cx5y2OtvnPHp_Z76d2w=s220",
+   "thumbnailLink": "https://lh6.googleusercontent.com/5mbbgmt1_8rJV_bqfUu2X2PRyU8uP1Qd5vBH0vb7O8eJkREquTUtRwMQXHDtU8_c8g=s220",
    "title": "0031.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -1280,10 +1297,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/hgg6dga2k7t4en6d5sb2sqnt3j4qa3qt/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VbDI3QVFYZktXQUk?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/l6508rdrcm1hbfpfpri9g6b8nrq3iub5/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VbDI3QVFYZktXQUk?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/JKXXRMyxu9xfeYNypmwVrY1nadU\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/JKXXRMyxu9xfeYNypmwVrY1nadU\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VbDI3QVFYZktXQUk/permissions/me",
     "role": "reader",
@@ -1315,6 +1332,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 728,
     "height": 1256,
@@ -1328,12 +1346,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VNEVURk0ydXBOOU0",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjM3ODc1Ng\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjM3ODc1Ng\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VNEVURk0ydXBOOU0",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VNEVURk0ydXBOOU0&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VNEVURk0ydXBOOU0/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VNEVURk0ydXBOOU0/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh4.googleusercontent.com/Wav4goGAo318rmsCEqTiWTArGO8DZZ-m_6sMKWmynPh-Dptt1zNyh4z9SUH8SS9Y7w=s220",
+   "thumbnailLink": "https://lh6.googleusercontent.com/QAPUoKV27ABcjujIlsdrgOMXRXkvOCZHbptJywnZo76VbOaxEAlnL9zY72bq7ddkBg=s220",
    "title": "0030.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -1354,10 +1372,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0s-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/rnss9guhatjduj0n89lifc49rsp62pnb/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VNEVURk0ydXBOOU0?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0s-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/tdugpnuo859kcn9fer2dctnae6kajnse/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VNEVURk0ydXBOOU0?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/fffzyFLtrE-j2P8nYjNxsr0I3t8\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/fffzyFLtrE-j2P8nYjNxsr0I3t8\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VNEVURk0ydXBOOU0/permissions/me",
     "role": "reader",
@@ -1389,6 +1407,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1024,
     "height": 1824,
@@ -1402,12 +1421,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VOVRMVGwySXgzX0U",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjM1Mjc2NA\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjM1Mjc2NA\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VOVRMVGwySXgzX0U",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VOVRMVGwySXgzX0U&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VOVRMVGwySXgzX0U/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VOVRMVGwySXgzX0U/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/krjSekE6Cp1aTKGkGc89L8eAwfbPoXf_vg19umyvhZSwobKLJnXpSmL2x93-PySctQ=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/BITTAVXJ5IiS6BzwTHz2VkEgag1a1NMoQ0u1ufAERDU7wXm9zZE7nmHbDav93cRjFQ=s220",
    "title": "0029.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -1428,10 +1447,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-10-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/1iq2o5e6n8ds3atdvnof6c51tq5q6vih/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VOVRMVGwySXgzX0U?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-10-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/rpn8hbs31e26661tq0og2u1tgl60060n/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VOVRMVGwySXgzX0U?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/gkp1vQ6ilzm3aUGLqXPF1EdoNhs\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/gkp1vQ6ilzm3aUGLqXPF1EdoNhs\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VOVRMVGwySXgzX0U/permissions/me",
     "role": "reader",
@@ -1463,6 +1482,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 462,
     "height": 640,
@@ -1473,12 +1493,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VRU44RVU1UHlOM28",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjM0MDM3OQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjM0MDM3OQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VRU44RVU1UHlOM28",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VRU44RVU1UHlOM28&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VRU44RVU1UHlOM28/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VRU44RVU1UHlOM28/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh4.googleusercontent.com/qrMLa2UjmikOqJsKamzo6kHMysvmG9yJH4glB63RBF0dFJVK4l0IR1KatvMHhjeJfA=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/rSAIS5NvZgpBPqzLSyApxWSGF3Gf4oljzsZD6a2AlwvPoVyMfFr7szLe3cvFwlCFVg=s220",
    "title": "0028.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -1499,10 +1519,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0g-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/1nlflr3qeiif6s8g5oiaeu7703jbsi7r/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VRU44RVU1UHlOM28?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0g-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/b7tsa0m60sm7h4lvr59ethe8shirbmc6/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VRU44RVU1UHlOM28?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MLfr7mmOI8bt-jBwC6HpZrynCkI\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MLfr7mmOI8bt-jBwC6HpZrynCkI\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VRU44RVU1UHlOM28/permissions/me",
     "role": "reader",
@@ -1534,6 +1554,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1933,
     "height": 1134,
@@ -1549,12 +1570,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VN3VfZ29PY2xsWE0",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjMyMjI0Mg\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjMyMjI0Mg\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VN3VfZ29PY2xsWE0",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VN3VfZ29PY2xsWE0&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VN3VfZ29PY2xsWE0/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VN3VfZ29PY2xsWE0/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/IwrpW1DlMJTasDrWFyiTIDjV33-gucNBZmuJNMxiui-dvTlHM-Y1VQ-yOsvUpP7cfg=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/49YTChB4tIINwZYMDb5NTbTTNy5nUPliVCJCdKRCZvYmqrbMEH2SvGMMdk6Q3uMA4g=s220",
    "title": "0027.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -1575,10 +1596,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-04-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/bi1rm01bjern2d71fmohubn5htrbcsru/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VN3VfZ29PY2xsWE0?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-04-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/qele1aish311upbp4lhbp32mgm2dc2pb/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VN3VfZ29PY2xsWE0?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/3HcD9YdYp7_5OLcvfjcLd_oQRRM\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/3HcD9YdYp7_5OLcvfjcLd_oQRRM\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VN3VfZ29PY2xsWE0/permissions/me",
     "role": "reader",
@@ -1610,6 +1631,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1308,
     "height": 1748,
@@ -1625,12 +1647,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VeUFWX2VIYWhmelk",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjMxODk5NQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjMxODk5NQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VeUFWX2VIYWhmelk",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VeUFWX2VIYWhmelk&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VeUFWX2VIYWhmelk/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VeUFWX2VIYWhmelk/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh4.googleusercontent.com/6LAlI9QoKMC145CkAhQei82Ey8R4VKTxivp1qvKZILlL0WEjfC3mSVzOMjFkShhqIw=s220",
+   "thumbnailLink": "https://lh4.googleusercontent.com/mFZe5tQuEvfKMYJ9tSwAavnYDLZE1tWZAVu1rNfJGwcxCKj8y-Nk5lkVqoVomdfgPw=s220",
    "title": "0026.jpg",
    "mimeType": "image/jpeg",
    "description": "                               ",
@@ -1652,10 +1674,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-00-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/pukp6dd89evpadcj6ll91ki0o6ucgmda/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VeUFWX2VIYWhmelk?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-00-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/kmncgf6hufhgpdh14bmu61i3me2ngl02/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VeUFWX2VIYWhmelk?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/sEhcwVlXFKGqnXjGWmsff9vSzOM\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/sEhcwVlXFKGqnXjGWmsff9vSzOM\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VeUFWX2VIYWhmelk/permissions/me",
     "role": "reader",
@@ -1687,6 +1709,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1052,
     "height": 720,
@@ -1710,12 +1733,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VVkh0SS1oNUZ1RVE",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjMxMzkxOQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjMxMzkxOQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VVkh0SS1oNUZ1RVE",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VVkh0SS1oNUZ1RVE&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VVkh0SS1oNUZ1RVE/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VVkh0SS1oNUZ1RVE/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh5.googleusercontent.com/_5Z2AfwIwOOXjhCy-sPo0jTiO76XklPJEyJRZwkFoEyFnkVVCDAkRNcac_KLAczSeQ=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/3WpsnCtFMpliTXyzEcJLbtJIpktJq9VKtdLLxnpwQS4r1ssrBKAhM4LWv_kjSWD6cQ=s220",
    "title": "0025.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -1736,10 +1759,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-00-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/is435o0nn4chh2nmo1557tu1kt5n1oqh/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VVkh0SS1oNUZ1RVE?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-00-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/haprk2rklrmslia9av6o4vm3ofia6122/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VVkh0SS1oNUZ1RVE?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/vMma3rh_S3LwS0PpBpImW0joIM0\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/vMma3rh_S3LwS0PpBpImW0joIM0\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VVkh0SS1oNUZ1RVE/permissions/me",
     "role": "reader",
@@ -1771,6 +1794,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1536,
     "height": 2048,
@@ -1786,12 +1810,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VaVUwTjJQcWZsdEE",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjMwOTEzNw\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjMwOTEzNw\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VaVUwTjJQcWZsdEE",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VaVUwTjJQcWZsdEE&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VaVUwTjJQcWZsdEE/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VaVUwTjJQcWZsdEE/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/72-ZYMZGs_WwRmzXuDuy9qBYAbjcipTspvEOmRiDn4D8uPCau3ioETCqblOXJo4cAw=s220",
+   "thumbnailLink": "https://lh6.googleusercontent.com/cXF2SrzsOV41r36c5FQwpapYUDyRpSYgORqAB26PLWWdxzOWCWnrw59cldb7sYfrDw=s220",
    "title": "0024.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -1812,10 +1836,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0g-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/ln5b2lefdsi6jpg7r49h92ot1ti9uemj/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VaVUwTjJQcWZsdEE?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0g-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/b108c7a4u74ioij4r11dm18qj0v1srpt/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VaVUwTjJQcWZsdEE?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/GlYtZuN6Fa_E7ah1DOcH_eydRVw\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/GlYtZuN6Fa_E7ah1DOcH_eydRVw\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VaVUwTjJQcWZsdEE/permissions/me",
     "role": "reader",
@@ -1847,6 +1871,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 2048,
     "height": 1536,
@@ -1862,12 +1887,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VSDVMRFYzNUQ3dGM",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjI5NjY5OA\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjI5NjY5OA\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VSDVMRFYzNUQ3dGM",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VSDVMRFYzNUQ3dGM&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VSDVMRFYzNUQ3dGM/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VSDVMRFYzNUQ3dGM/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh5.googleusercontent.com/OWFhj3hzpGaGj3UdvalxHqVd9mPlnalZKZCuXOC5SwWuFaQTNQ_NB08LXCWvFzqBgQ=s220",
+   "thumbnailLink": "https://lh6.googleusercontent.com/OoECV8ZVirENUvKEgEAaAM3uBcrObk1p1hkJA4xPHM2h0SLdXC-T4_ZcNoTPsOwJLw=s220",
    "title": "0023.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -1888,10 +1913,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-08-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/lkvh46vsjrd8o6u4v11pa9mnd5mk981o/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VSDVMRFYzNUQ3dGM?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-08-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/lm4gjoog3so2khurqlvnop9n4gf9n66l/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VSDVMRFYzNUQ3dGM?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/WZ_AAIJmsXZbQrziuS27C0rtJMk\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/WZ_AAIJmsXZbQrziuS27C0rtJMk\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VSDVMRFYzNUQ3dGM/permissions/me",
     "role": "reader",
@@ -1923,6 +1948,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1528,
     "height": 1500,
@@ -1938,12 +1964,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VLVRuTFBIRENsRzg",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjI5MTU5NQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjI5MTU5NQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VLVRuTFBIRENsRzg",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VLVRuTFBIRENsRzg&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VLVRuTFBIRENsRzg/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VLVRuTFBIRENsRzg/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh3.googleusercontent.com/FCkXLZ_zBImLS5j4J-RIwHNwPd4QRwiZa2rav2-4CsRXM8m9HSCsAU5HpGoNCcfN7w=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/WZ7H7q9PNXQvkOgLUI85oYc1K2NZXUecukz-HwavYNYHl5WdRTfB5LSOCPcYmvVDOQ=s220",
    "title": "0022.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -1964,10 +1990,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-00-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/lbk75c6cuv1d84q9m0k3h6bdqupp00lu/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VLVRuTFBIRENsRzg?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-00-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/ebv8k43b40pcfcb47ubcfk8vfh3hafii/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VLVRuTFBIRENsRzg?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/AkgMc4qxUxYWIE6DSqhPpaiwjrc\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/AkgMc4qxUxYWIE6DSqhPpaiwjrc\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VLVRuTFBIRENsRzg/permissions/me",
     "role": "reader",
@@ -1999,6 +2025,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1543,
     "height": 1467,
@@ -2014,12 +2041,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VZE1OQzFUOERIbWc",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjI4Njg3OA\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjI4Njg3OA\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VZE1OQzFUOERIbWc",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VZE1OQzFUOERIbWc&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VZE1OQzFUOERIbWc/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VZE1OQzFUOERIbWc/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh4.googleusercontent.com/wbPMWOPOn9cQ8AB3PCEi3G94HJJMdCqNzoFIEVPKEYo1vz9emQ4ObMNQLzid4UpeBQ=s220",
+   "thumbnailLink": "https://lh6.googleusercontent.com/n3x56seXiqnj-_tmEY6xLgcR-WcaOiLN0huAYk37pA0zNltRmqeHfYsR-PWTuHNahg=s220",
    "title": "0021.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -2040,10 +2067,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-08-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/fpr2c71mv2v0p9odvu26g99e322nbk4b/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VZE1OQzFUOERIbWc?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-08-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/ql0fp99p60kc77e1j67hdk3o1ddgptfn/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VZE1OQzFUOERIbWc?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/ArNUojw_bnBfAN3whzCClm38tJw\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/ArNUojw_bnBfAN3whzCClm38tJw\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VZE1OQzFUOERIbWc/permissions/me",
     "role": "reader",
@@ -2075,6 +2102,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1276,
     "height": 1740,
@@ -2088,12 +2116,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VUFZHUHVBRUlnbE0",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjI3NzU3Ng\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjI3NzU3Ng\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VUFZHUHVBRUlnbE0",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VUFZHUHVBRUlnbE0&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VUFZHUHVBRUlnbE0/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VUFZHUHVBRUlnbE0/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/P9BaSbIhgke791Oj5GnS4H2VjWeorJeGFkc-LPO9sNuXms3Cw58j4-2AyKZw1dkJ8A=s220",
+   "thumbnailLink": "https://lh4.googleusercontent.com/KErbwhUYAxeutGVFjgS386ISGwLo0W0AsC1ICHckOtJWQrXdRVjn1vcL7_ezc0ZOiw=s220",
    "title": "0019.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -2114,10 +2142,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-00-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/i7karieutc6dsk38h18jsev8sk261jh0/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VUFZHUHVBRUlnbE0?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-00-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/6bg4e46cur36q9u13ubrdalgqr9hfl5o/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VUFZHUHVBRUlnbE0?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/hmKFb6fo5hQbsM87nx29NfW0hFU\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/hmKFb6fo5hQbsM87nx29NfW0hFU\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VUFZHUHVBRUlnbE0/permissions/me",
     "role": "reader",
@@ -2149,6 +2177,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1304,
     "height": 1856,
@@ -2162,12 +2191,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VMHA5enp0WGNWajA",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjI2NTEwMw\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjI2NTEwMw\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VMHA5enp0WGNWajA",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VMHA5enp0WGNWajA&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VMHA5enp0WGNWajA/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VMHA5enp0WGNWajA/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh5.googleusercontent.com/pCaXl-wktwSP7CQ6Wh_g9Chpk_tMjhu2lqBx3frhjqdDk82CNCz3zp88UiJ7LDC2gA=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/a_FKZHMPKhDJtB_ywbicjVtvJ8DTf6iRKDoPjyt12FQSlq1OtoWFrpXOvtqtr5JjBA=s220",
    "title": "0018.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -2188,10 +2217,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0g-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/50mbqdg42unqm4e4tudnkqh0hubh5ghs/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VMHA5enp0WGNWajA?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0g-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/rlv91b9t7j39tjl5v8rafg9v6p0g42ve/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VMHA5enp0WGNWajA?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/g2o15kpynFRChy4XCAM8bDOz6pM\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/g2o15kpynFRChy4XCAM8bDOz6pM\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VMHA5enp0WGNWajA/permissions/me",
     "role": "reader",
@@ -2223,6 +2252,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1471,
     "height": 906,
@@ -2238,12 +2268,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VMXRYbDdmZlgtcHM",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjI1MTMzMA\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjI1MTMzMA\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VMXRYbDdmZlgtcHM",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VMXRYbDdmZlgtcHM&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VMXRYbDdmZlgtcHM/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VMXRYbDdmZlgtcHM/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh3.googleusercontent.com/G5ZKuB7nMfejTDoyrkEwtKw6A-pfFh6HQSOE0N7-4aWnA3Wd3rCRLPtM031WgNrOxQ=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/dGyVDfJGGy0IWV396KNfrg9t1ykTNH4cXtEX4wlYiTcePx4bNe6oIb51FnDlaXmS_Q=s220",
    "title": "0016.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -2264,10 +2294,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0g-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/bor3mo5otk61j0trn88idl9hnl7n330s/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VMXRYbDdmZlgtcHM?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0g-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/v19m2ui87cnsg8hv923vb9cdb2vq9mp7/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VMXRYbDdmZlgtcHM?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/--ZZ0A62mZV4CMZI0bg7Woyp10o\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/--ZZ0A62mZV4CMZI0bg7Woyp10o\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VMXRYbDdmZlgtcHM/permissions/me",
     "role": "reader",
@@ -2299,6 +2329,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1052,
     "height": 1984,
@@ -2312,12 +2343,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VbnRWaGF4QllTams",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjI0NzUzOQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjI0NzUzOQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VbnRWaGF4QllTams",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VbnRWaGF4QllTams&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VbnRWaGF4QllTams/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VbnRWaGF4QllTams/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh5.googleusercontent.com/wWEu_rKpBdzzaQpfH8g7iamdouecj5WfpZ4Bhlsz5sMThQf6lYCtcNUSWi2sflkBvg=s220",
+   "thumbnailLink": "https://lh3.googleusercontent.com/Pn8q6F7LTx9xG9Sh4ZhOvPS2X6tNOQZC4mspX0pAlod3fKNS1ZBePCzsmNm692_IKA=s220",
    "title": "0015.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -2338,10 +2369,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0g-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/hhu3d5798f86d07ke250s3qgqomhccqb/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VbnRWaGF4QllTams?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0g-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/pch9sb7v55jhbqr3m6uphcgsthpfjhi6/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VbnRWaGF4QllTams?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/EYuA24b9SBTgKCCS1LmVW8ALqUM\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/EYuA24b9SBTgKCCS1LmVW8ALqUM\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VbnRWaGF4QllTams/permissions/me",
     "role": "reader",
@@ -2373,6 +2404,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1008,
     "height": 1348,
@@ -2386,12 +2418,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VN0R6SWhHQVkzZm8",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjI0Mjk5MQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjI0Mjk5MQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VN0R6SWhHQVkzZm8",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VN0R6SWhHQVkzZm8&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VN0R6SWhHQVkzZm8/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VN0R6SWhHQVkzZm8/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh4.googleusercontent.com/0MyEpZCZxmui3VpvRqG4meFzTgrt_UJD5cba_xLav7dzSUl-wlkfYvzBLMvk_SP6Xg=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/38MD6vBG3BZqz4bh31h6D3-CbhgkjbijaYuckotvUeW_LC7Qk2FzqATG-EW4ynusYg=s220",
    "title": "0014.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -2412,10 +2444,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/2bud5tihffjnljje9bjg65a8g4kud3sq/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VN0R6SWhHQVkzZm8?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/cn55daudg2ggo0840g0u85v538uaf04t/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VN0R6SWhHQVkzZm8?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/Zk2ebXv9aP5BS-NhuMk6u21Upr8\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/Zk2ebXv9aP5BS-NhuMk6u21Upr8\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VN0R6SWhHQVkzZm8/permissions/me",
     "role": "reader",
@@ -2447,6 +2479,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1299,
     "height": 1608,
@@ -2460,12 +2493,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VbTE4cXZjSTA2cWc",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjIzMjA3MQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjIzMjA3MQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VbTE4cXZjSTA2cWc",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VbTE4cXZjSTA2cWc&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VbTE4cXZjSTA2cWc/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VbTE4cXZjSTA2cWc/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh4.googleusercontent.com/BH2fSqKSgrtdp1RWHF40t-tXAVkhtV2GWKF_afubhi1-oKT88FUjx6Rk9-fX7ng8bA=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/XzaZ6W0UxXwQbHjyUzEPkLtNLsW7izyA3rAIqm4G5j53fa-RATvvJCg8Nbgp_XKbWg=s220",
    "title": "0013.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -2486,10 +2519,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0o-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/0sk9jbrgrk5rhtbs4vpde53h5012cc3d/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VbTE4cXZjSTA2cWc?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0o-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/nn9j3agl1nas7bshqbf3f6qfha5e6d8f/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VbTE4cXZjSTA2cWc?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/KhpGjm9H3u1h-ISFJXz1Dv27C9s\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/KhpGjm9H3u1h-ISFJXz1Dv27C9s\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VbTE4cXZjSTA2cWc/permissions/me",
     "role": "reader",
@@ -2521,6 +2554,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1772,
     "height": 1536,
@@ -2536,12 +2570,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VeEtjakM5VnNUN2M",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjIyMzgyMQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjIyMzgyMQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VeEtjakM5VnNUN2M",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VeEtjakM5VnNUN2M&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VeEtjakM5VnNUN2M/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VeEtjakM5VnNUN2M/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh5.googleusercontent.com/uC8UIUrvl__CjaRdOWTzYDHWGv7cSLvxZG1vhb_rCpGjp5o9_zGpGpW4MwKANteVYQ=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/VgTByzRvAEsRWVY9vtLx1IEXZr7j8tmshS3Tbg2WEd8MuPMdVVozVFQZn-6eGyfLsg=s220",
    "title": "0012.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -2562,10 +2596,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/76mqlrpp3u04vdbdqici7uoe95u670g1/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VeEtjakM5VnNUN2M?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/00nlddtdjm4avaeuj0e7krvj4vdevoif/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VeEtjakM5VnNUN2M?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/f_WLpCKmL2ZGqajpCNtALFbkG8s\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/f_WLpCKmL2ZGqajpCNtALFbkG8s\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VeEtjakM5VnNUN2M/permissions/me",
     "role": "reader",
@@ -2597,6 +2631,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 480,
     "height": 540,
@@ -2607,12 +2642,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VaHcxLXEzRW5xeGs",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjIxNTY2Ng\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjIxNTY2Ng\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VaHcxLXEzRW5xeGs",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VaHcxLXEzRW5xeGs&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VaHcxLXEzRW5xeGs/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VaHcxLXEzRW5xeGs/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/-8X7pvGSMHAWtJkXCULGAEF91P8B-u9h9_IxDwO-fd5KAzGIAxGtUynMGX5B8uMJQQ=s220",
+   "thumbnailLink": "https://lh6.googleusercontent.com/3HNft0AmuTpQaGcblVbqHdIZge_Pxixio-p1wGZOTb-FCgEjSY3ByrAKVN_ngyNJgA=s220",
    "title": "0011.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -2633,10 +2668,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0g-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/agugnu28r6iq16mhtatv392l694f6jal/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VaHcxLXEzRW5xeGs?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0g-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/uh72dkphn8p22aml5ka2fre7kpcsb8en/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VaHcxLXEzRW5xeGs?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/H5s5KYRr1oYaokca-kgRPW0_FL8\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/H5s5KYRr1oYaokca-kgRPW0_FL8\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VaHcxLXEzRW5xeGs/permissions/me",
     "role": "reader",
@@ -2668,6 +2703,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 380,
     "height": 533,
@@ -2678,12 +2714,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VRWU1TEdFZ0NrUTQ",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjIxMjI3NA\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjIxMjI3NA\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VRWU1TEdFZ0NrUTQ",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VRWU1TEdFZ0NrUTQ&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VRWU1TEdFZ0NrUTQ/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VRWU1TEdFZ0NrUTQ/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh5.googleusercontent.com/DVTUghDmtTqfxuMZAiSzgDVQgFFzlOt6MjU5nU2_SAgLpssZT9mRHYtwCEPvV-yXkw=s220",
+   "thumbnailLink": "https://lh4.googleusercontent.com/4G9YzvM5I6N8C8fNgINKGQJLf9x_zMbNoV4_xS0YvgwPYRhuBv5lmcaiN9vySbLHWg=s220",
    "title": "0010.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -2704,10 +2740,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/vqd4rtpodrnhs14f2b8ka7t0th20244m/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VRWU1TEdFZ0NrUTQ?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/0s1ee4so1gpgd1enkgb6mq6knktn1ae8/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VRWU1TEdFZ0NrUTQ?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/vZCefxfGQqNerJOjx9FNFJbCoFc\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/vZCefxfGQqNerJOjx9FNFJbCoFc\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VRWU1TEdFZ0NrUTQ/permissions/me",
     "role": "reader",
@@ -2739,6 +2775,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1372,
     "height": 1359,
@@ -2752,12 +2789,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2Vc3NGbXV4ZDktQkE",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjE5OTQ0Mw\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjE5OTQ0Mw\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2Vc3NGbXV4ZDktQkE",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2Vc3NGbXV4ZDktQkE&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2Vc3NGbXV4ZDktQkE/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2Vc3NGbXV4ZDktQkE/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/kYn0BERJ5CyF25vsAlXBH98WyqHYaMpAacLMaIXVH0SfaBariXMwVCSdVwryuXHWhA=s220",
+   "thumbnailLink": "https://lh3.googleusercontent.com/AEfZtmJkAxJZEnb6pHrXPNUBjMv2lsORIu_k9WVL92HIw7onlSzjfB30YD6ZxDav-g=s220",
    "title": "0009.jpg",
    "mimeType": "image/jpeg",
    "description": "                               ",
@@ -2779,10 +2816,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-10-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/b3fjamnvlk0ms3iaqqnif6pm3jhsbkto/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2Vc3NGbXV4ZDktQkE?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-10-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/phfva85r5u6dmn8atfg79165hvp6j6pp/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2Vc3NGbXV4ZDktQkE?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/lgOeZTR99Uy0CftSlz0uVf9LJTs\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/lgOeZTR99Uy0CftSlz0uVf9LJTs\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2Vc3NGbXV4ZDktQkE/permissions/me",
     "role": "reader",
@@ -2814,6 +2851,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1254,
     "height": 2862,
@@ -2835,12 +2873,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2Vam52Q3k4cFplbVk",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjE4NzM2Nw\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjE4NzM2Nw\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2Vam52Q3k4cFplbVk",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2Vam52Q3k4cFplbVk&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2Vam52Q3k4cFplbVk/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2Vam52Q3k4cFplbVk/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh4.googleusercontent.com/XcrbVBg8I9zh3e8Sx5qJSwiZ-psJK4HyP9yx5K-IxxM6y3CZ-xBDDI9lEJddtSJ8-A=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/0fR0kD44TU4v3yq3F0MGqmgIlDQ5Nrw09TaTWZVtXp8sdGaGXhkqgOz6kdtdqsrNTQ=s220",
    "title": "0008.jpg",
    "mimeType": "image/jpeg",
    "description": "          ",
@@ -2862,10 +2900,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-08-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/r2hfdum3kuri95c867t2f3lhvv9ldbof/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2Vam52Q3k4cFplbVk?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-08-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/1kdoanehb4fs33qd1f3peuuqapm3f5tb/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2Vam52Q3k4cFplbVk?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/pQKdBmTn9iAVxpwTnha-tcswJJc\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/pQKdBmTn9iAVxpwTnha-tcswJJc\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2Vam52Q3k4cFplbVk/permissions/me",
     "role": "reader",
@@ -2897,6 +2935,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1944,
     "height": 1380,
@@ -2918,12 +2957,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VczM3RktPZG9WSk0",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjE3NjQ4Mg\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjE3NjQ4Mg\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VczM3RktPZG9WSk0",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VczM3RktPZG9WSk0&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VczM3RktPZG9WSk0/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VczM3RktPZG9WSk0/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh5.googleusercontent.com/KjJpGsAbVFTvxh7lOO0jRDOFZDAuQzZiO40MQcrf4ZjjEh7wegihunSKTWvgYVnAvA=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/h0R1DGs0aQMhYjLuaziZDlsHObJMnwoeVqXF1QeH5-JWgp5XqeXt4UpHGvMSrmxqHA=s220",
    "title": "0007.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -2944,10 +2983,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0k-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/a81kt96s2se3ukn0dhupe8boe8edt3jb/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VczM3RktPZG9WSk0?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0k-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/hc3o6q0s4lp51ul1kei7ltl455s7qjqc/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VczM3RktPZG9WSk0?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/LRe72YMfMcT8Hk7y1bT9ZOwpOmY\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/LRe72YMfMcT8Hk7y1bT9ZOwpOmY\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VczM3RktPZG9WSk0/permissions/me",
     "role": "reader",
@@ -2979,6 +3018,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 906,
     "height": 1563,
@@ -2989,12 +3029,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VS1lBNXJzQVNpYkU",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjE3MTUxOA\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjE3MTUxOA\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VS1lBNXJzQVNpYkU",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VS1lBNXJzQVNpYkU&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VS1lBNXJzQVNpYkU/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VS1lBNXJzQVNpYkU/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh5.googleusercontent.com/-dVEXH4Om1-iP2dlBcVviMrzlQ6eTwvbexMv2Jtb1uK1GNId8En2_2dHD0gR5SAlbQ=s220",
+   "thumbnailLink": "https://lh3.googleusercontent.com/aa3G_0KpbodIENSRAgeOlMXPxVix5_YuaKAtd79WtlleYwfVDBhA8HyoJL4qkXDUmA=s220",
    "title": "0006.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -3015,10 +3055,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0s-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/mkqbhe53mnj51crh4gedqn8ck4ggcuag/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VS1lBNXJzQVNpYkU?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0s-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/2u62veasvsg8ojj9gnv5h1fi1n1ijns1/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VS1lBNXJzQVNpYkU?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/dk2S92s5veQe4MgkbkTCsOBB67w\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/dk2S92s5veQe4MgkbkTCsOBB67w\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VS1lBNXJzQVNpYkU/permissions/me",
     "role": "reader",
@@ -3050,6 +3090,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1200,
     "height": 1380,
@@ -3060,12 +3101,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2Va2Z2d2c0QlJ5ZDQ",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjE2MDQwOA\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjE2MDQwOA\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2Va2Z2d2c0QlJ5ZDQ",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2Va2Z2d2c0QlJ5ZDQ&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2Va2Z2d2c0QlJ5ZDQ/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2Va2Z2d2c0QlJ5ZDQ/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh5.googleusercontent.com/imOcyWng40tPTVzpZLGLaqkPAmk8soGTTdCn1mwtxGnekTbeAtAutO3e_5tjVsNr9Q=s220",
+   "thumbnailLink": "https://lh6.googleusercontent.com/f6RyK19AL7N1UhYO_zyFfIkp66pYd-naWPc3BnAZd0IO2YFbf_XrMmpb23c5rFEDxw=s220",
    "title": "0004.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -3086,10 +3127,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-0k-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/co8qchlb12bhhts0th7a4brh4u7o8scv/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2Va2Z2d2c0QlJ5ZDQ?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-0k-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/61v6ondu2jooe5qb358g0c65ouf54m1g/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2Va2Z2d2c0QlJ5ZDQ?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/r9A2ALIStSPXPFaako5NM-qygTs\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/r9A2ALIStSPXPFaako5NM-qygTs\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2Va2Z2d2c0QlJ5ZDQ/permissions/me",
     "role": "reader",
@@ -3121,6 +3162,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1068,
     "height": 1692,
@@ -3134,12 +3176,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VNE42bG90Z3ZtTU0",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjE0OTMwOQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjE0OTMwOQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VNE42bG90Z3ZtTU0",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VNE42bG90Z3ZtTU0&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VNE42bG90Z3ZtTU0/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VNE42bG90Z3ZtTU0/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh3.googleusercontent.com/sz5te1z4JXiww-rGhqEDrLWen13d0ZkMV5SqIoln-qnWsm54sYLeXYOA8ogGHoiFYA=s220",
+   "thumbnailLink": "https://lh5.googleusercontent.com/z80NVo5qrI1INi0IgECZYpWMjv6N2t3ViU7MpXQ_xZjptPq8fo3UDM-SOM4iQs4I2w=s220",
    "title": "0003.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -3160,10 +3202,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/mbkotcjmjdk1oufock5hlpoikm2uifav/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VNE42bG90Z3ZtTU0?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/909hi9vocjt1qu5e4pfmsrkvuel1ep7p/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VNE42bG90Z3ZtTU0?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/0SRF1L0m6b0nADXZMtLSu63e21o\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/0SRF1L0m6b0nADXZMtLSu63e21o\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VNE42bG90Z3ZtTU0/permissions/me",
     "role": "reader",
@@ -3195,6 +3237,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1468,
     "height": 1446,
@@ -3210,12 +3253,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VbG94WnFiM19aN3M",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjEzNTM0OA\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjEzNTM0OA\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VbG94WnFiM19aN3M",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VbG94WnFiM19aN3M&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VbG94WnFiM19aN3M/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VbG94WnFiM19aN3M/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/vA1NSYTEgbnBWBCQnFVSW2UpuGPwydw9JZuWdyQNTVY_a3D-KKyLhJtosP3TCxbmNA=s220",
+   "thumbnailLink": "https://lh6.googleusercontent.com/VXHT0wFbx4rzit490cVa8WrecTdqlWlbW5OtGcv8OR86EYmQgS18-pr4bOysWYfYDQ=s220",
    "title": "0002.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -3236,10 +3279,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/kl5mt02rjuute427g2bfostffph8ngud/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VbG94WnFiM19aN3M?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/osslq6s1k480l6u3f1fuktcavt2t1qf6/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VbG94WnFiM19aN3M?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/kx3fSx6AxA2qiDTBSHTrFTHIDkI\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/kx3fSx6AxA2qiDTBSHTrFTHIDkI\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VbG94WnFiM19aN3M/permissions/me",
     "role": "reader",
@@ -3271,6 +3314,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 1447,
     "height": 1425,
@@ -3286,12 +3330,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VaE9hTXUwUFE4SUk",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTgxMjEyNDMyOQ\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTgxMjEyNDMyOQ\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VaE9hTXUwUFE4SUk",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VaE9hTXUwUFE4SUk&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VaE9hTXUwUFE4SUk/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VaE9hTXUwUFE4SUk/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/RC8OBhT2qzJvwWGD6fx-_RpBLXRzJK34NDRoJGC-wQlel1dYnf4uB7LDmeRf4mFi3A=s220",
+   "thumbnailLink": "https://lh3.googleusercontent.com/J2eAbKWETyrgMDrsw7zk2VvlRyqru5zWmndHXKS2N1EC_2Qf-vVkqdXX4lTzCysh4Q=s220",
    "title": "0001.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -3312,10 +3356,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-08-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/1ge8m28pfvjcd624ss8j9v9acbgt8263/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VaE9hTXUwUFE4SUk?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-08-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/7h1gtirfgl6gh7mv088lath7ihd5vnie/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VaE9hTXUwUFE4SUk?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/BfpdA2fOqxBlncLJ0L9wFj24Ux4\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/BfpdA2fOqxBlncLJ0L9wFj24Ux4\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VaE9hTXUwUFE4SUk/permissions/me",
     "role": "reader",
@@ -3347,6 +3391,7 @@
    "editable": false,
    "writersCanShare": true,
    "shared": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 864,
     "height": 1600,
@@ -3357,12 +3402,12 @@
   {
    "kind": "drive#file",
    "id": "0B44EmdT9aQ2VZDNYeE1kQUQxSWc",
-   "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/MTM1OTczMTMxNTA1Mw\"",
+   "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/MTM1OTczMTMxNTA1Mw\"",
    "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VZDNYeE1kQUQxSWc",
    "webContentLink": "https://docs.google.com/uc?id=0B44EmdT9aQ2VZDNYeE1kQUQxSWc&export=download",
-   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VZDNYeE1kQUQxSWc/edit",
+   "alternateLink": "https://docs.google.com/file/d/0B44EmdT9aQ2VZDNYeE1kQUQxSWc/edit?ups=drive_web",
    "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_image_list.png",
-   "thumbnailLink": "https://lh6.googleusercontent.com/phyy5x_W9z13hUhkuf_EtE8F0inxGm3olD8l9PCzs1ee6Vu3nqZ-K1FMLnFjGjcA_A=s220",
+   "thumbnailLink": "https://lh3.googleusercontent.com/jfUzjQ601v7pZt_GEPp3ckcVA2S2mZByvP1kRqTPj5cwU_OKvuU_3spWntPj5Gc9HA=s220",
    "title": "0001.jpg",
    "mimeType": "image/jpeg",
    "labels": {
@@ -3383,10 +3428,10 @@
      "isRoot": false
     }
    ],
-   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/2lv1pr21k82gg49hokt41dst5v5rp5ok/1364227200000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VZDNYeE1kQUQxSWc?h=16653014193614665626&e=download&gd=true",
+   "downloadUrl": "https://doc-14-3c-docs.googleusercontent.com/docs/securesc/o7l0aeqi0drljltr83c3565k9441n6of/ep96icmos7gl0tsq7eeobj39pf4kfrek/1365336000000/15337195675692680709/13058876669334088843/0B44EmdT9aQ2VZDNYeE1kQUQxSWc?h=16653014193614665626&e=download&gd=true",
    "userPermission": {
     "kind": "drive#permission",
-    "etag": "\"uz1087KqWeo9ym058nKmGlElRYc/eIYLii08RK6UuzP_NNsZUSnPDdg\"",
+    "etag": "\"xPfbAVktc9y7RGfnKb8yEdo_tVg/eIYLii08RK6UuzP_NNsZUSnPDdg\"",
     "id": "me",
     "selfLink": "https://www.googleapis.com/drive/v2/files/0B44EmdT9aQ2VZDNYeE1kQUQxSWc/permissions/me",
     "role": "reader",
@@ -3419,6 +3464,7 @@
    "writersCanShare": true,
    "shared": true,
    "explicitlyTrashed": true,
+   "appDataContents": false,
    "imageMediaMetadata": {
     "width": 864,
     "height": 1600,
