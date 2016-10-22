@@ -42,6 +42,18 @@
 		any other CSS files needed for styling the Author view of the
 		documents, or any other files.</p>
 	<img src="farmework-creation.png" width="900" height="500" />
+	<p id="update-addon-information">After creation of the framework, user has to add to the file ${frameworkDir}/addon.xml the information needed for deployment of the framework, namely:</p>
+	<ul id="contents">
+		<li>addon location (the URL of the addon.xml file that will be used to install the framework in Oxygen);</li>
+		<li>addon version (is needed by Oxygen to install the new versions);</li>
+		<li>oxygen version;</li>
+		<li>addon author;</li>
+		<li>addon name;</li>
+		<li>addon description;</li>
+		<li>addon license.</li>
+	</ul>
+	<p>Adding and updating of this information can be made by pressing the button <code>Manage</code> on the plugin's toolbar to open the addon management window,
+	then right click on the file name (<code>addon.xml</code>) and select <code>Edit</code>. The file will be opened in Oxygen, in Author view.</p>	
 
 	<h2 id="framework-editing">Framework editing</h2>
 	<p>After creation, the user has to press button Edit on the Addon
@@ -137,6 +149,8 @@ ua:action(
 	<a href="#contents">Up</a>
 
 	<h2 id="framework-generation">Framework generation</h2>
+	<p>Before generating the framework, if needed, update the information about addon as it was mentioned <a href="#update-addon-information">here</a>.
+	</p>
 	<p>
 		Each time user considers the editing is done, one should press the
 		button
