@@ -1,263 +1,159 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="utils/xsltforms/xsltforms.xsl" type="text/xsl"?>
-<html xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-	xmlns:xf="http://www.w3.org/2002/xforms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<head>
-		<title>Kuberam</title>
-		<style language="text/css">
-			@namespace xf
-			url("http://www.w3.org/2002/xforms");
-			html, html body {height:100%;}
-			body {width:100%;margin:0;font:14px verdana;}
-			xf|case {float:left;}
-			#divAntet {height:30px;
-			width: 100%;
-			//padding-top: 20px;
-			//margin-bottom: 20px;
-			}
-			#divSteaguri
-			{
-			margin: auto;
-			width: 448px;
-			height: 60px;
-			}
-			#divSteaguri object {width:45px;height:30px;}
-			#divMijloc
-			{
-			float: left;
-			border: solid 2px;
-			width: 870px;
-			min-height: 856px;
-			margin-left: 150px;
-			padding:
-			10px;
-			}
-			#divMenu
-			{width:860px;height:50px;}
-			#outputTitluPagina
-			{
-			margin-bottom: 25px;
-			margin-right: 490px;
-			font: bold 24px verdana;
-			}
-			#outputTitluAplicatii
-			{
-			font: bold 18px verdana;
-			margin-bottom: 15px;
-			}
-			#repeatAplicatii
-			{
-			width:
-			890px;
-			}
-			#outputTitluAplicatie
-			{
-			font: bold 18px verdana;
-			}
-			#divSigle
-			{
-			float: left;
-			width: 140px;
-			height: 500px;
-			padding-left: 10px;
-			}
-			#divSigle
-			object {margin-bottom: 5px;}
-			xf|trigger
-			{
-			float: left;
-			margin-left: 5px;
-			margin-right: 5px;
-			}
-			xf|output
-			{
-			float: left;
-			}
-			xf|repeat
-			{
-			float: left;
-			}
-			xf|switch
-			{
-			float: left;
-			width: 860px;
-			margin-top: 25px;
-			}
-		</style>
-		<xf:model id="modelIndex">
-			<xf:instance id="instanceParametriStandard">
-				<parametriStandard>
-					<limbaIU />
-					<continut lang="RO">
-						<meniu>
-							<optiune>Home</optiune>
-							<optiune>Open Source Projects</optiune>
-							<optiune>Services</optiune>
-							<optiune>Customers</optiune>
-							<optiune>Contact</optiune>
-						</meniu>
-						<titluPagina>Portal web de contabilitate</titluPagina>
-						<titluAplicatii>Aplicații</titluAplicatii>
-						<aplicatii>
-							<aplicatie>
-								<titluAplicatie>Kubera</titluAplicatie>
-								<descriereAplicatie>Evidență contabilă în partidă simplă pentru
-									persoane fizice autorizate, întreprinderi individuale și
-									întreprinderi familiale.</descriereAplicatie>
-							</aplicatie>
-						</aplicatii>
-					</continut>
-				</parametriStandard>
-			</xf:instance>
-		</xf:model>
-	</head>
-	<body>
-		<div id="divAntet">
-			<!-- <div id="divSteaguri"> <xf:trigger> <xf:label> <object data="/webApps/apps/sitKubera/index/resources/steagRO.svg" 
-				type="image/svg+xml"/> <br/>Română</xf:label> <xf:action ev:event="DOMActivate"/> 
-				</xf:trigger> <xf:trigger> <xf:label> <object data="/webApps/apps/sitKubera/index/resources/steagEN.svg" 
-				type="image/svg+xml"/> <br/>English</xf:label> <xf:action ev:event="DOMActivate"/> 
-				</xf:trigger> <xf:trigger> <xf:label> <object data="/webApps/apps/sitKubera/index/resources/steagFR.svg" 
-				type="image/svg+xml"/> <br/>Français</xf:label> <xf:action ev:event="DOMActivate"/> 
-				</xf:trigger> <xf:trigger> <xf:label> <object data="/webApps/apps/sitKubera/index/resources/steagDE.svg" 
-				type="image/svg+xml"/> <br/>Deutsch</xf:label> <xf:action ev:event="DOMActivate"/> 
-				</xf:trigger> <xf:trigger> <xf:label> <object data="/webApps/apps/sitKubera/index/resources/steagES.svg" 
-				type="image/svg+xml"/> <br/>Español</xf:label> <xf:action ev:event="DOMActivate"/> 
-				</xf:trigger> </div> -->
-		</div>
-			<div id="divMijloc">
-				<div id="divMenu">
-					<xf:trigger>
-						<xf:label>
-							<xf:output
-								ref="instance('instanceParametriStandard')/continut/meniu/optiune[1]" />
-						</xf:label>
-						<xf:action ev:event="DOMActivate">
-							<xf:toggle case="caseHome" />
-						</xf:action>
-					</xf:trigger>
-					<xf:trigger>
-						<xf:label>
-							<xf:output
-								ref="instance('instanceParametriStandard')/continut/meniu/optiune[2]" />
-						</xf:label>
-						<xf:action ev:event="DOMActivate">
-							<xf:toggle case="caseOpenSourceProjects" />
-						</xf:action>
-					</xf:trigger>
-					<xf:trigger>
-						<xf:label>
-							<xf:output
-								ref="instance('instanceParametriStandard')/continut/meniu/optiune[3]" />
-						</xf:label>
-						<xf:action ev:event="DOMActivate">
-							<xf:toggle case="caseServices" />
-						</xf:action>
-					</xf:trigger>
-					<xf:trigger>
-						<xf:label>
-							<xf:output
-								ref="instance('instanceParametriStandard')/continut/meniu/optiune[4]" />
-						</xf:label>
-						<xf:action ev:event="DOMActivate">
-							<xf:toggle case="caseCustomers" />
-						</xf:action>
-					</xf:trigger>
-					<xf:trigger>
-						<xf:label>
-							<xf:output
-								ref="instance('instanceParametriStandard')/continut/meniu/optiune[5]" />
-						</xf:label>
-						<xf:action ev:event="DOMActivate">
-							<xf:toggle case="caseContact" />
-						</xf:action>
-					</xf:trigger>
-					<!--<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" 
-						xmlns:xlink="http://www.w3.org/1999/xlink" width="109.99999" height="25" 
-						id="svg2" version="1.0"> <defs id="defs4"> <linearGradient id="linearGradient2393"> 
-						<stop style="stop-color:#0000ff;stop-opacity:1;" offset="0" id="stop2395" 
-						/> <stop style="stop-color:#0000ff;stop-opacity:0;" offset="1" id="stop2397" 
-						/> </linearGradient> <linearGradient xlink:href="#linearGradient2393" id="linearGradient2399" 
-						x1="225.71428" y1="78.076469" x2="226.28572" y2="184.29076" gradientUnits="userSpaceOnUse" 
-						gradientTransform="matrix(0.3282311,0,0,0.2338657,41.86401,141.16988)" /> 
-						</defs> <g id="layer1" transform="translate(-62.357144,-159.29075)"> <rect 
-						style="fill:url(#linearGradient2399);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2770595px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" 
-						id="rect2383" width="109.72293" height="24.72294" x="62.495674" y="159.42928" 
-						/> </g> </svg> -->
-				</div>
-				<xf:switch id="switchDocPrimar">
-					<xf:case id="caseHome" selected="true">
-						<!-- <xf:output id="outputTitluPagina" ref="instance('instanceParametriStandard')/continut/titluPagina"/> -->
-						<h5>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:xalan="http://xml.apache.org/xalan" xmlns:ajx="http://www.ajaxforms.net/2006/ajx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:txs="http://www.agencexml.com/txs" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcterms="http://purl.org/dc/terms/"><!--HTML elements and Javascript instructions generated by XSLTForms r571 - Copyright (C) 2008-2013 <agenceXML> - Alain COUTHURES - http://www.agencexml.com--><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta><script id="xsltforms-initialdate" type="text/javascript">var xsltforms_d0 = new Date();
+</script><link type="text/css" href="xsltforms.css" rel="stylesheet"></link><title>Kuberam</title><style type="text/css" language="text/css">@namespace xf url("http://www.w3.org/2002/xforms"); html,   html  body {height:100%;}
+ body {width:100%;margin:0;font:14px verdana;}
+ .xforms-case {float:left;}
+ #divAntet {height:30px; width: 100%; //padding-top: 20px; //margin-bottom: 20px; }
+ #divSteaguri { margin: auto; width: 448px; height: 60px; }
+ #divSteaguri  object {width:45px;height:30px;}
+ #divMijloc { float: left; border: solid 2px; width: 870px; min-height: 856px; margin-left: 150px; padding: 10px; }
+ #divMenu {width:860px;height:50px;}
+ #outputTitluPagina { margin-bottom: 25px; margin-right: 490px; font: bold 24px verdana; }
+ #outputTitluAplicatii { font: bold 18px verdana; margin-bottom: 15px; }
+ #repeatAplicatii { width: 890px; }
+ #outputTitluAplicatie { font: bold 18px verdana; }
+ #divSigle { float: left; width: 140px; height: 500px; padding-left: 10px; }
+ #divSigle  object {margin-bottom: 5px;}
+ .xforms-trigger { float: left; margin-left: 5px; margin-right: 5px; }
+ .xforms-output { float: left; }
+ .xforms-repeat { float: left; }
+ .xforms-switch { float: left; width: 860px; margin-top: 25px; }
+</style><script id="xsltforms-src" src="xsltforms.js" type="text/javascript">/* */</script><script id="xsltforms-generatedscript" type="text/javascript">/* XsltForms_MagicSeparator */
+function xsltforms_initImpl() {
+XsltForms_globals.language = "navigator";
+XsltForms_globals.loadingMsg = "... Loading ...";
+XsltForms_globals.valuesSeparator = " ";
+XsltForms_globals.debugMode = false;
+XsltForms_globals.xsltEngine = "Saxonica http://www.saxonica.com/ ";
+XsltForms_browser.jsFileName='xsltforms.js';
+XsltForms_browser.isXhtml = false;
+XsltForms_globals.ltchar = "&lt;"; XsltForms_browser.isEscaped = XsltForms_globals.ltchar.length != 1;
+XsltForms_browser.config = null;
+var xsltforms_subform_eltid = null;
+var xsltforms_parentform = null;
+/* XsltForms_MagicSeparator */ try {
+XsltForms_browser.dialog.show('statusPanel');
+var xsltforms_subform = new XsltForms_subform(xsltforms_parentform, "xsltforms-mainform", xsltforms_subform_eltid);
+if (xsltforms_subform.id === "xsltforms-mainform") {
+var d1 = new Date();
+XsltForms_globals.htmltime = d1 - xsltforms_d0;
+}
+XsltForms_xpath.create(xsltforms_subform,"instance('instanceParametriStandard')/continut/meniu/optiune[1]",false,new XsltForms_pathExpr(new XsltForms_functionCallExpr('http://www.w3.org/2002/xforms instance',new XsltForms_cteExpr('instanceParametriStandard')),new XsltForms_locationExpr(false,new XsltForms_stepExpr('child',new XsltForms_nodeTestName('','continut')),new XsltForms_stepExpr('child',new XsltForms_nodeTestName('','meniu')),new XsltForms_stepExpr('child',new XsltForms_nodeTestName('','optiune'),new XsltForms_predicateExpr(new XsltForms_cteExpr(1))))));
+XsltForms_xpath.create(xsltforms_subform,"instance('instanceParametriStandard')/continut/meniu/optiune[2]",false,new XsltForms_pathExpr(new XsltForms_functionCallExpr('http://www.w3.org/2002/xforms instance',new XsltForms_cteExpr('instanceParametriStandard')),new XsltForms_locationExpr(false,new XsltForms_stepExpr('child',new XsltForms_nodeTestName('','continut')),new XsltForms_stepExpr('child',new XsltForms_nodeTestName('','meniu')),new XsltForms_stepExpr('child',new XsltForms_nodeTestName('','optiune'),new XsltForms_predicateExpr(new XsltForms_cteExpr(2))))));
+XsltForms_xpath.create(xsltforms_subform,"instance('instanceParametriStandard')/continut/meniu/optiune[3]",false,new XsltForms_pathExpr(new XsltForms_functionCallExpr('http://www.w3.org/2002/xforms instance',new XsltForms_cteExpr('instanceParametriStandard')),new XsltForms_locationExpr(false,new XsltForms_stepExpr('child',new XsltForms_nodeTestName('','continut')),new XsltForms_stepExpr('child',new XsltForms_nodeTestName('','meniu')),new XsltForms_stepExpr('child',new XsltForms_nodeTestName('','optiune'),new XsltForms_predicateExpr(new XsltForms_cteExpr(3))))));
+XsltForms_xpath.create(xsltforms_subform,"instance('instanceParametriStandard')/continut/meniu/optiune[4]",false,new XsltForms_pathExpr(new XsltForms_functionCallExpr('http://www.w3.org/2002/xforms instance',new XsltForms_cteExpr('instanceParametriStandard')),new XsltForms_locationExpr(false,new XsltForms_stepExpr('child',new XsltForms_nodeTestName('','continut')),new XsltForms_stepExpr('child',new XsltForms_nodeTestName('','meniu')),new XsltForms_stepExpr('child',new XsltForms_nodeTestName('','optiune'),new XsltForms_predicateExpr(new XsltForms_cteExpr(4))))));
+XsltForms_xpath.create(xsltforms_subform,"instance('instanceParametriStandard')/continut/meniu/optiune[5]",false,new XsltForms_pathExpr(new XsltForms_functionCallExpr('http://www.w3.org/2002/xforms instance',new XsltForms_cteExpr('instanceParametriStandard')),new XsltForms_locationExpr(false,new XsltForms_stepExpr('child',new XsltForms_nodeTestName('','continut')),new XsltForms_stepExpr('child',new XsltForms_nodeTestName('','meniu')),new XsltForms_stepExpr('child',new XsltForms_nodeTestName('','optiune'),new XsltForms_predicateExpr(new XsltForms_cteExpr(5))))));
+var xsltforms_model_6_2_1_ = XsltForms_model.create(xsltforms_subform,"modelIndex",null,null,null);
+
+XsltForms_instance.create(xsltforms_subform,"instanceParametriStandard",xsltforms_model_6_2_1_,false,"application/xml",null,'&lt;parametriStandard&gt;&lt;limbaIU/&gt;&lt;continut lang="RO"&gt;&lt;meniu&gt;&lt;optiune&gt;Home&lt;/optiune&gt;&lt;optiune&gt;Open Source Projects&lt;/optiune&gt;&lt;optiune&gt;Services&lt;/optiune&gt;&lt;optiune&gt;Customers&lt;/optiune&gt;&lt;optiune&gt;Contact&lt;/optiune&gt;&lt;/meniu&gt;&lt;titluPagina&gt;Portal web de contabilitate&lt;/titluPagina&gt;&lt;titluAplicatii&gt;Aplicații&lt;/titluAplicatii&gt;&lt;aplicatii&gt;&lt;aplicatie&gt;&lt;titluAplicatie&gt;Kubera&lt;/titluAplicatie&gt;&lt;descriereAplicatie&gt;Evidență contabilă în partidă simplă pentru&amp;#xA;									persoane fizice autorizate, întreprinderi individuale și&amp;#xA;									întreprinderi familiale.&lt;/descriereAplicatie&gt;&lt;/aplicatie&gt;&lt;/aplicatii&gt;&lt;/continut&gt;&lt;/parametriStandard&gt;');
+var xsltforms_trigger_2_2_4_4_1_ = new XsltForms_trigger(xsltforms_subform,xsltforms_subform.id + "-trigger-2_2_4_4_1_",null);
+new XsltForms_output(xsltforms_subform,xsltforms_subform.id + "-output-2_2_2_2_4_4_1_",0,new XsltForms_binding(null, "instance('instanceParametriStandard')/continut/meniu/optiune[1]"),null);
+var xsltforms_toggle_2_4_2_2_4_4_1_ = new XsltForms_toggle(xsltforms_subform,"caseHome",null,null,null);
+var xsltforms_action_4_2_2_4_4_1_ = new XsltForms_action(xsltforms_subform,null,null,null).add(xsltforms_toggle_2_4_2_2_4_4_1_);
+new XsltForms_listener(xsltforms_subform,document.getElementById(xsltforms_subform.id + "-trigger-2_2_4_4_1_"),null,"DOMActivate",null,function(evt) {XsltForms_browser.run(xsltforms_action_4_2_2_4_4_1_,XsltForms_browser.getId(evt.currentTarget ? evt.currentTarget : evt.target),evt,false,true);});
+var xsltforms_trigger_4_2_4_4_1_ = new XsltForms_trigger(xsltforms_subform,xsltforms_subform.id + "-trigger-4_2_4_4_1_",null);
+new XsltForms_output(xsltforms_subform,xsltforms_subform.id + "-output-2_2_4_2_4_4_1_",0,new XsltForms_binding(null, "instance('instanceParametriStandard')/continut/meniu/optiune[2]"),null);
+var xsltforms_toggle_2_4_4_2_4_4_1_ = new XsltForms_toggle(xsltforms_subform,"caseOpenSourceProjects",null,null,null);
+var xsltforms_action_4_4_2_4_4_1_ = new XsltForms_action(xsltforms_subform,null,null,null).add(xsltforms_toggle_2_4_4_2_4_4_1_);
+new XsltForms_listener(xsltforms_subform,document.getElementById(xsltforms_subform.id + "-trigger-4_2_4_4_1_"),null,"DOMActivate",null,function(evt) {XsltForms_browser.run(xsltforms_action_4_4_2_4_4_1_,XsltForms_browser.getId(evt.currentTarget ? evt.currentTarget : evt.target),evt,false,true);});
+var xsltforms_trigger_6_2_4_4_1_ = new XsltForms_trigger(xsltforms_subform,xsltforms_subform.id + "-trigger-6_2_4_4_1_",null);
+new XsltForms_output(xsltforms_subform,xsltforms_subform.id + "-output-2_2_6_2_4_4_1_",0,new XsltForms_binding(null, "instance('instanceParametriStandard')/continut/meniu/optiune[3]"),null);
+var xsltforms_toggle_2_4_6_2_4_4_1_ = new XsltForms_toggle(xsltforms_subform,"caseServices",null,null,null);
+var xsltforms_action_4_6_2_4_4_1_ = new XsltForms_action(xsltforms_subform,null,null,null).add(xsltforms_toggle_2_4_6_2_4_4_1_);
+new XsltForms_listener(xsltforms_subform,document.getElementById(xsltforms_subform.id + "-trigger-6_2_4_4_1_"),null,"DOMActivate",null,function(evt) {XsltForms_browser.run(xsltforms_action_4_6_2_4_4_1_,XsltForms_browser.getId(evt.currentTarget ? evt.currentTarget : evt.target),evt,false,true);});
+var xsltforms_trigger_8_2_4_4_1_ = new XsltForms_trigger(xsltforms_subform,xsltforms_subform.id + "-trigger-8_2_4_4_1_",null);
+new XsltForms_output(xsltforms_subform,xsltforms_subform.id + "-output-2_2_8_2_4_4_1_",0,new XsltForms_binding(null, "instance('instanceParametriStandard')/continut/meniu/optiune[4]"),null);
+var xsltforms_toggle_2_4_8_2_4_4_1_ = new XsltForms_toggle(xsltforms_subform,"caseCustomers",null,null,null);
+var xsltforms_action_4_8_2_4_4_1_ = new XsltForms_action(xsltforms_subform,null,null,null).add(xsltforms_toggle_2_4_8_2_4_4_1_);
+new XsltForms_listener(xsltforms_subform,document.getElementById(xsltforms_subform.id + "-trigger-8_2_4_4_1_"),null,"DOMActivate",null,function(evt) {XsltForms_browser.run(xsltforms_action_4_8_2_4_4_1_,XsltForms_browser.getId(evt.currentTarget ? evt.currentTarget : evt.target),evt,false,true);});
+var xsltforms_trigger_10_2_4_4_1_ = new XsltForms_trigger(xsltforms_subform,xsltforms_subform.id + "-trigger-10_2_4_4_1_",null);
+new XsltForms_output(xsltforms_subform,xsltforms_subform.id + "-output-2_2_10_2_4_4_1_",0,new XsltForms_binding(null, "instance('instanceParametriStandard')/continut/meniu/optiune[5]"),null);
+var xsltforms_toggle_2_4_10_2_4_4_1_ = new XsltForms_toggle(xsltforms_subform,"caseContact",null,null,null);
+var xsltforms_action_4_10_2_4_4_1_ = new XsltForms_action(xsltforms_subform,null,null,null).add(xsltforms_toggle_2_4_10_2_4_4_1_);
+new XsltForms_listener(xsltforms_subform,document.getElementById(xsltforms_subform.id + "-trigger-10_2_4_4_1_"),null,"DOMActivate",null,function(evt) {XsltForms_browser.run(xsltforms_action_4_10_2_4_4_1_,XsltForms_browser.getId(evt.currentTarget ? evt.currentTarget : evt.target),evt,false,true);});
+var xsltforms_switch_4_4_4_1_ = new XsltForms_group(xsltforms_subform,"switchDocPrimar",null,null);
+XsltForms_browser.dialog.show('statusPanel');
+if (xsltforms_subform.id === "xsltforms-mainform") {
+XsltForms_browser.idPf = xsltforms_subform.id + "-";
+var xsltforms_model_config = new XsltForms_model(xsltforms_subform,xsltforms_subform.id + "-model-config",null);
+var xsltforms_instance_config = new XsltForms_instance(xsltforms_subform,xsltforms_subform.id + "-instance-config",xsltforms_model_config,true,'application/xml',null,'&lt;properties&gt;&lt;language&gt;navigator&lt;/language&gt;&lt;calendar.day0&gt;Mon&lt;/calendar.day0&gt;&lt;calendar.day1&gt;Tue&lt;/calendar.day1&gt;&lt;calendar.day2&gt;Wed&lt;/calendar.day2&gt;&lt;calendar.day3&gt;Thu&lt;/calendar.day3&gt;&lt;calendar.day4&gt;Fri&lt;/calendar.day4&gt;&lt;calendar.day5&gt;Sat&lt;/calendar.day5&gt;&lt;calendar.day6&gt;Sun&lt;/calendar.day6&gt;&lt;calendar.initDay&gt;6&lt;/calendar.initDay&gt;&lt;calendar.month0&gt;January&lt;/calendar.month0&gt;&lt;calendar.month1&gt;February&lt;/calendar.month1&gt;&lt;calendar.month2&gt;March&lt;/calendar.month2&gt;&lt;calendar.month3&gt;April&lt;/calendar.month3&gt;&lt;calendar.month4&gt;May&lt;/calendar.month4&gt;&lt;calendar.month5&gt;June&lt;/calendar.month5&gt;&lt;calendar.month6&gt;July&lt;/calendar.month6&gt;&lt;calendar.month7&gt;August&lt;/calendar.month7&gt;&lt;calendar.month8&gt;September&lt;/calendar.month8&gt;&lt;calendar.month9&gt;October&lt;/calendar.month9&gt;&lt;calendar.month10&gt;November&lt;/calendar.month10&gt;&lt;calendar.month11&gt;December&lt;/calendar.month11&gt;&lt;format.date&gt;MM/dd/yyyy&lt;/format.date&gt;&lt;format.datetime&gt;MM/dd/yyyy hh:mm:ss&lt;/format.datetime&gt;&lt;format.decimal&gt;.&lt;/format.decimal&gt;&lt;status&gt;... Loading ...&lt;/status&gt;&lt;/properties&gt;');
+XsltForms_browser.config = xsltforms_instance_config.doc.documentElement;
+var d2 = new Date();
+XsltForms_globals.creatingtime = d2 - d1;
+XsltForms_globals.init();
+var d3 = new Date();
+XsltForms_globals.inittime = d3 - d2;
+} else {
+xsltforms_subform.construct();
+XsltForms_globals.openAction();
+XsltForms_globals.refresh();
+XsltForms_globals.closeAction();
+XsltForms_browser.dialog.hide('statusPanel');
+}
+XsltForms_xmlevents.dispatch(document.getElementById("caseHome"), "xforms-select");
+} catch (e) {
+XsltForms_browser.dialog.hide('statusPanel');
+if (!XsltForms_globals.debugMode) {
+XsltForms_globals.debugMode = true;
+XsltForms_globals.debugging();
+}
+alert("XSLTForms Exception\n--------------------------\n\nError initializing :\n\n"+(typeof(e.stack)=="undefined"?"":e.stack)+"\n\n"+(e.name?e.name+(e.message?"\n\n"+e.message:""):e));
+} /* XsltForms_MagicSeparator */ };
+</script><script id="xsltforms-launcher" type="text/javascript">function xsltforms_init() {
+try {
+xsltforms_initImpl();
+} catch(e) {
+alert("XSLTForms Exception\n--------------------------\n\nIncorrect Javascript code generation:\n\n"+(typeof(e.stack)=="undefined"?"":e.stack)+"\n\n"+(e.name?e.name+(e.message?"\n\n"+e.message:""):e));
+}
+}
+</script></head><body onload="xsltforms_init();if (window.xf_user_init) xf_user_init();"><!--XsltForms_MagicSeparator--><div xmlns="" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xf="http://www.w3.org/2002/xforms" id="divAntet"></div><div xmlns="" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xf="http://www.w3.org/2002/xforms" id="divMijloc"><div id="divMenu"><span xmlns="http://www.w3.org/1999/xhtml" id="xsltforms-mainform-trigger-2_2_4_4_1_" class="xforms-disabled xforms-control xforms-trigger xforms-appearance-minimal"><span class="value"><button type="button"><span id="xsltforms-mainform-label-2_2_2_4_4_1_" class="xforms-label"><span id="xsltforms-mainform-output-2_2_2_2_4_4_1_" class="xforms-disabled xforms-control xforms-output xforms-appearance-minimal"><span class="value"><span class="xforms-value">&nbsp;</span></span></span></span></button></span><span class="xforms-required-icon">*</span><span class="xforms-alert"><span class="xforms-alert-icon">&nbsp;</span></span></span><span xmlns="http://www.w3.org/1999/xhtml" id="xsltforms-mainform-trigger-4_2_4_4_1_" class="xforms-disabled xforms-control xforms-trigger xforms-appearance-minimal"><span class="value"><button type="button"><span id="xsltforms-mainform-label-2_4_2_4_4_1_" class="xforms-label"><span id="xsltforms-mainform-output-2_2_4_2_4_4_1_" class="xforms-disabled xforms-control xforms-output xforms-appearance-minimal"><span class="value"><span class="xforms-value">&nbsp;</span></span></span></span></button></span><span class="xforms-required-icon">*</span><span class="xforms-alert"><span class="xforms-alert-icon">&nbsp;</span></span></span><span xmlns="http://www.w3.org/1999/xhtml" id="xsltforms-mainform-trigger-6_2_4_4_1_" class="xforms-disabled xforms-control xforms-trigger xforms-appearance-minimal"><span class="value"><button type="button"><span id="xsltforms-mainform-label-2_6_2_4_4_1_" class="xforms-label"><span id="xsltforms-mainform-output-2_2_6_2_4_4_1_" class="xforms-disabled xforms-control xforms-output xforms-appearance-minimal"><span class="value"><span class="xforms-value">&nbsp;</span></span></span></span></button></span><span class="xforms-required-icon">*</span><span class="xforms-alert"><span class="xforms-alert-icon">&nbsp;</span></span></span><span xmlns="http://www.w3.org/1999/xhtml" id="xsltforms-mainform-trigger-8_2_4_4_1_" class="xforms-disabled xforms-control xforms-trigger xforms-appearance-minimal"><span class="value"><button type="button"><span id="xsltforms-mainform-label-2_8_2_4_4_1_" class="xforms-label"><span id="xsltforms-mainform-output-2_2_8_2_4_4_1_" class="xforms-disabled xforms-control xforms-output xforms-appearance-minimal"><span class="value"><span class="xforms-value">&nbsp;</span></span></span></span></button></span><span class="xforms-required-icon">*</span><span class="xforms-alert"><span class="xforms-alert-icon">&nbsp;</span></span></span><span xmlns="http://www.w3.org/1999/xhtml" id="xsltforms-mainform-trigger-10_2_4_4_1_" class="xforms-disabled xforms-control xforms-trigger xforms-appearance-minimal"><span class="value"><button type="button"><span id="xsltforms-mainform-label-2_10_2_4_4_1_" class="xforms-label"><span id="xsltforms-mainform-output-2_2_10_2_4_4_1_" class="xforms-disabled xforms-control xforms-output xforms-appearance-minimal"><span class="value"><span class="xforms-value">&nbsp;</span></span></span></span></button></span><span class="xforms-required-icon">*</span><span class="xforms-alert"><span class="xforms-alert-icon">&nbsp;</span></span></span></div><div id="switchDocPrimar" class="xforms-disabled xforms-switch"><div id="caseHome" class="xforms-case"><h5>
 							This site is made using
 							<a href="http://w3.org/TR/xforms11">XForms</a>
 							.
-						</h5>
-						<b>
-							<a href="http://sourceforge.net/projects/extxsltforms">eXSLTForms</a>
-						</b>
+						</h5><b><a href="http://sourceforge.net/projects/extxsltforms">eXSLTForms</a></b>
 						is an open source project comprising extension actions / elements
 						for the open source
 						<a href="http://w3.org/TR/xforms11">XForms</a>
 						processor called
 						<a href="http://sourceforge.net/projects/xsltforms">XSLTForms</a>
 						.
-						<p />
-						<b>eXSLTForms</b>
+						<p></p><b>eXSLTForms</b>
 						was developed in order to respond to the requirements of real life
 						XForms web applications, and comprises the following extension
 						XForms actions / elements and widgets:
-						<p>
-							<ol>
-								<li>
-									<b>The transform action</b>
+						<p><ol><li><b>The transform action</b>
 									performs a xsl transformation of a nodeset (part of a data
 									instance), by using an external XSL stylesheet, and inserts the
 									resulting nodeset in a data instance. See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/transform-action-01.xml">here</a>
 									.
-								</li>
-								<li>
-									<b>The replace action</b>
+								</li><li><b>The replace action</b>
 									performs a replacing action of a target nodeset (part of a data
 									instance), by an origin nodeset (part of a data instance). This
 									is useful to have a simpler syntax for
-									<a
-										href="http://w3.org/TR/xforms11/#data-mutation-patterns-replace-element">this XForms data mutation pattern</a>
+									<a href="http://w3.org/TR/xforms11/#data-mutation-patterns-replace-element">this XForms data mutation pattern</a>
 									. See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/replace-action-01.xml">here</a>
 									.
-								</li>
-								<li>
-									<p><a href="http://sourceforge.net/projects/teian/">teian</a>
+								</li><li><p><a href="http://sourceforge.net/projects/teian/">teian</a>
 									is an web-based annotator and limited editor for any XML vocabulary.
 									Teian was originally developed for the U.S. Department of State, Office of the Historian,
 									and released as open source for the benefit of community. Its development was further funded
 									by the University of Richmond, USA.									
-									</p>
-									<h7>A little history</h7>
-									<p>The teian development started in May 2010, funded by U.S. Department of State, Office of the Historian.
+									</p><h7>A little history</h7><p>The teian development started in May 2010, funded by U.S. Department of State, Office of the Historian.
 									The first production version was released in August, 2010. That version was built on top of CKEditor, a well-known web-based HTML editor.
-									</p>
-									<p>In 2011, the financing of the development was continued by the University of Richmond, USA. During this second period of financing,
+									</p><p>In 2011, the financing of the development was continued by the University of Richmond, USA. During this second period of financing,
 									teian was brought to a superior level due to a complete rebuilt, in order to be independent to CKEditor. Thus, a new concept was used,
 									allowing teian to render any XML vocabulary and much larger files.
-									</p>
-									<p>In 2012, a first version of change tracking capability was added to teian.</p>
-									<p>Since 2012, various bug fixes, and small improvements we made, along with adding of new unit tests for various XML vocabularies.</p>
-									<p>See examples <a href="http://teian.sourceforge.net/latest/tests/">here</a>.</p>
-								</li>
-								<li>
-									<a href="http://developer.yahoo.com/yui/datatable/">YUI2 DataTable control</a>
+									</p><p>In 2012, a first version of change tracking capability was added to teian.</p><p>Since 2012, various bug fixes, and small improvements we made, along with adding of new unit tests for various XML vocabularies.</p><p>See examples <a href="http://teian.sourceforge.net/latest/tests/">here</a>.</p></li><li><a href="http://developer.yahoo.com/yui/datatable/">YUI2 DataTable control</a>
 									provides a simple yet powerful API to display screen-reader
 									accessible tabular data on a web page. Notable features include
 									sortable columns, pagination, scrolling, row selection,
 									resizeable columns, and inline cell editing. See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-datatable-01.xml">here</a>
 									.
-								</li>
-								<li>
-									<a href="http://ckeditor.com/">CKEditor</a>
+								</li><li><a href="http://ckeditor.com/">CKEditor</a>
 									is a text editor to be used inside web pages. It's a WYSIWYG
 									editor, which means that the text being edited on it looks as
 									similar as possible to the results users have when publishing
@@ -266,9 +162,7 @@
 									OpenOffice. See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/ckeditor-rich-text-editor-01.xml">here</a>
 									.
-								</li>
-								<li>
-									<a href="http://www.cdolivet.com/index.php?page=editArea">EditArea</a>
+								</li><li><a href="http://www.cdolivet.com/index.php?page=editArea">EditArea</a>
 									is a free javascript editor for source code. (That is no way a
 									WYSIWYG editor). This editor is designed to edit souce code
 									files in a textarea. The main goal is to allow text formatting,
@@ -276,9 +170,7 @@
 									heavy text). See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/editarea-code-editor-01.xml">here</a>
 									.
-								</li>
-								<li>
-									<a href="http://developer.yahoo.com/yui/editor/">YUI Rich Text Editor</a>
+								</li><li><a href="http://developer.yahoo.com/yui/editor/">YUI Rich Text Editor</a>
 									is a UI control that replaces a standard HTML textarea; it
 									allows for the rich formatting of text content, including
 									common structural treatments like lists, formatting treatments
@@ -288,18 +180,14 @@
 									achieve a high degree of customization. See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-rich-text-editors-01.xml">here</a>
 									for both YUI Editor and YUI SimpleEditor.
-								</li>
-								<li>
-									<a href="http://docs.dojocampus.org/dijit/Editor">Dojo Editor</a>
+								</li><li><a href="http://docs.dojocampus.org/dijit/Editor">Dojo Editor</a>
 									is a text box on steroids. Designed to look and work like a
 									word processor. The editor features a toolbar, HTML output, and
 									a plugin architecture that supports new commands, new buttons
 									and other new features. See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/dojo-rich-text-editor-01.xml">here</a>
 									.
-								</li>
-								<li>
-									<a href="http://trac.xinha.org/">Xinha Editor</a>
+								</li><li><a href="http://trac.xinha.org/">Xinha Editor</a>
 									is a powerful WYSIWYG HTML editor component that works in all
 									current browsers. Its configurabilty and extensibility make it
 									easy to build just the right editor for multiple purposes, from
@@ -309,56 +197,36 @@
 									See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/xinha-rich-text-editor-01.xml">here</a>
 									.
-								</li>
-								<li>
-									<a href="">Just for fun (only?):</a>
+								</li><li><a href="">Just for fun (only?):</a>
 									all the above editors on a single page. See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/all-rich-text-editors.xml">here</a>
 									.
-								</li>
-							</ol>
-						</p>
-					</xf:case>
-					<xf:case id="caseOpenSourceProjects">
-						<h3>
+								</li></ol></p></div><div id="caseOpenSourceProjects" class="xforms-case" style="display:none;"><h3>
 							A.
-							<a href="http://sourceforge.net/projects/edib">edib</a>
-						</h3>
-						<p>Allows execution of XQuery queries and XProc pipelines from
+							<a href="http://sourceforge.net/projects/edib">edib</a></h3><p>Allows execution of XQuery queries and XProc pipelines from
 							webpage in an eXist XMLDB installed on client. eDIB also allows
 							complex processing and storage of data before sending it back to
-							server, thus balancing load between server and client.</p>
-						<h3>
+							server, thus balancing load between server and client.</p><h3>
 							B.
-							<a href="http://sourceforge.net/projects/extxsltforms">exsltforms</a>
-						</h3>
-						<p>
+							<a href="http://sourceforge.net/projects/extxsltforms">exsltforms</a></h3><p>
 							is an open source project comprising extension actions / elements
 							for the open source
 							<a href="http://w3.org/TR/xforms11">XForms</a>
 							processor called
 							<a href="http://sourceforge.net/projects/xsltforms">XSLTForms</a>
 							.
-						</p>
-						<p>
-							<b>eXSLTForms</b>
+						</p><p><b>eXSLTForms</b>
 							was developed in order to respond to the requirements of real
 							life
 							XForms web applications, and comprises the following extension
 							XForms actions / elements:
-						</p>
-						<p>
-							<ol>
-								<li>
-									<b>The transform action</b>
+						</p><p><ol><li><b>The transform action</b>
 									performs a xsl transformation of a nodeset (part of a data
 									instance), by using an external XSL stylesheet, and inserts the
 									resulting nodeset in a data instance. See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/transform-action-01.xml">here</a>
 									.
-								</li>
-								<li>
-									<b>The replace action</b>
+								</li><li><b>The replace action</b>
 									performs a replacing action of a target nodeset (part of a data
 									instance), by an origin nodeset (part of a data instance). This
 									is useful to have a simpler syntax for
@@ -366,39 +234,30 @@
 									. See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/replace-action-01.xml">here</a>
 									.
-								</li>
-								<li>
-									<a href="http://sourceforge.net/projects/teian/">teian</a>
+								</li><li><a href="http://sourceforge.net/projects/teian/">teian</a>
 									is an web-based annotator and limited editor for any XML vocabulary.
 									Teian was originally developed for the U.S. Department of State, Office of the Historian,
 									and released as open source for the benefit of community. Its development was further funded
 									by the University of Richmond, USA. See examples
 									<a href="http://teian.sourceforge.net/latest/tests/">here</a>
 									.
-								</li>
-								<li>
-									<a href="http://developer.yahoo.com/yui/datatable/">YUI2 DataTable control</a>
+								</li><li><a href="http://developer.yahoo.com/yui/datatable/">YUI2 DataTable control</a>
 									provides a simple yet powerful API to display screen-reader
 									accessible tabular data on a web page. Notable features include
 									sortable columns, pagination, scrolling, row selection,
 									resizeable columns, and inline cell editing. See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-datatable-01.xml">here</a>
 									.
-								</li>
-								<li>
-									<a href="http://ckeditor.com/">CKEditor</a>
+								</li><li><a href="http://ckeditor.com/">CKEditor</a>
 									is a text editor to be used inside web pages. It's a WYSIWYG
 									editor, which means that the text being edited on it looks as
 									similar as possible to the results users have when publishing
 									it. It brings to the web common editing features found on
 									desktop editing applications like Microsoft Word and
 									OpenOffice. See example
-									<a
-										href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/ckeditor-rich-text-editor-01.xml">here</a>
+									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/ckeditor-rich-text-editor-01.xml">here</a>
 									.
-								</li>
-								<li>
-									<a href="http://www.cdolivet.com/index.php?page=editArea">EditArea</a>
+								</li><li><a href="http://www.cdolivet.com/index.php?page=editArea">EditArea</a>
 									is a free javascript editor for source code. (That is no way a
 									WYSIWYG editor). This editor is designed to edit souce code
 									files in a textarea. The main goal is to allow text formatting,
@@ -406,9 +265,7 @@
 									heavy text). See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/editarea-code-editor-01.xml">here</a>
 									.
-								</li>
-								<li>
-									<a href="http://developer.yahoo.com/yui/editor/">YUI Rich Text Editor</a>
+								</li><li><a href="http://developer.yahoo.com/yui/editor/">YUI Rich Text Editor</a>
 									is a UI control that replaces a standard HTML textarea; it
 									allows for the rich formatting of text content, including
 									common structural treatments like lists, formatting treatments
@@ -418,18 +275,14 @@
 									achieve a high degree of customization. See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-rich-text-editors-01.xml">here</a>
 									for both YUI Editor and YUI SimpleEditor.
-								</li>
-								<li>
-									<a href="http://docs.dojocampus.org/dijit/Editor">Dojo Editor</a>
+								</li><li><a href="http://docs.dojocampus.org/dijit/Editor">Dojo Editor</a>
 									is a text box on steroids. Designed to look and work like a
 									word processor. The editor features a toolbar, HTML output, and
 									a plugin architecture that supports new commands, new buttons
 									and other new features. See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/dojo-rich-text-editor-01.xml">here</a>
 									.
-								</li>
-								<li>
-									<a href="http://trac.xinha.org/">Xinha Editor</a>
+								</li><li><a href="http://trac.xinha.org/">Xinha Editor</a>
 									is a powerful WYSIWYG HTML editor component that works in all
 									current browsers. Its configurabilty and extensibility make it
 									easy to build just the right editor for multiple purposes, from
@@ -439,101 +292,39 @@
 									See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/xinha-rich-text-editor-01.xml">here</a>
 									.
-								</li>
-								<li>
-									<a href="">Just for fun (only?):</a>
+								</li><li><a href="">Just for fun (only?):</a>
 									all the above editors on a single page. See example
 									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/all-rich-text-editors.xml">here</a>
 									.
-								</li>
-							</ol>
-						</p>
-						<!-- <b>B. <a href="http://kuberam.ro/kubera">kubera, web application 
-							for online acccounting</a></b> -->
-
-					</xf:case>
-					<xf:case id="caseServices">
-						<!-- <xf:output id="outputTitluAplicatii" ref="instance('instanceParametriStandard')/continut/titluAplicatii"/> 
-							<xf:repeat id="repeatAplicatii" nodeset="instance('instanceParametriStandard')/continut/aplicatii/aplicatie"> 
-							<a href="http://78.97.138.9:8080/exist/rest//db/aplicatii/moduleStandardAplicatie/acces/acces.xproc?bindings=%3Cbindings%3E%3Cbinding%20port=%22idAplicatie%22%3E%3CidAplicatie%3Ekubera%3C/idAplicatie%3E%3C/binding%3E%3C/bindings%3E"> 
-							<xf:output id="outputTitluAplicatie" ref="titluAplicatie"/> </a> <xf:output 
-							id="outputDescriereAplicatie" ref="descriereAplicatie"/> </xf:repeat> -->
+								</li></ol></p></div><div id="caseServices" class="xforms-case" style="display:none;">
 						Studying and using XML technologies since 2004, I can develop web
 						application based upon
-						<a
-							href="http://en.wikipedia.org/wiki/XRX_(web_application_architecture)">XRX</a>
+						<a href="http://en.wikipedia.org/wiki/XRX_(web_application_architecture)">XRX</a>
 						(XForms in the browser - REST - XProc (XQuery) for the database).
-						<p />
+						<p></p>
 						As XML database, I am using
 						<a href="http://exist-db.org/">eXist</a>
 						.
-						<p />
+						<p></p>
 						As XForms processor, I am using
 						<a href="http://agencexml.com/">XSLTForms</a>
 						. XSLTForms works with all major browser (Internet Explorer,
 						FireFox, Opera, Safari, Chrome and more).
-					</xf:case>
-					<xf:case id="caseCustomers">
-						<p>
-							<a href="http://history.state.gov/">U. S. Department Of State, Office Of The Historian</a>
-						</p>
-						<p>
-							<a href="http://bgs.ro">BGS Divizia de securitate SRL</a>
-						</p>
-						<p>
-							<a href="http://wpc.ro">Wisconsin Precision Components SA</a>
-						</p>
-						<p>Sundari Conf SRL</p>
-						<p>Kids Collection SRL</p>
-						<p>Primex '98 SRL</p>
-						<p>Mocasinul SRL</p>
-					</xf:case>
-					<xf:case id="caseContact">
-						<b>Teodorescu Claudius Marian</b>
-						<br />
+					</div><div id="caseCustomers" class="xforms-case" style="display:none;"><p><a href="http://history.state.gov/">U. S. Department Of State, Office Of The Historian</a></p><p><a href="http://bgs.ro">BGS Divizia de securitate SRL</a></p><p><a href="http://wpc.ro">Wisconsin Precision Components SA</a></p><p>Sundari Conf SRL</p><p>Kids Collection SRL</p><p>Primex '98 SRL</p><p>Mocasinul SRL</p></div><div id="caseContact" class="xforms-case" style="display:none;"><b>Teodorescu Claudius Marian</b><br xmlns="http://www.w3.org/1999/xhtml"></br>
 						Tel.: 0752626515
-						<br />
+						<br xmlns="http://www.w3.org/1999/xhtml"></br>
 						Email: claud108 at yahoo dot com
-						<p>
-							<b>Fiscal Data: </b>
-							<br />
+						<p><b>Fiscal Data: </b><br xmlns="http://www.w3.org/1999/xhtml"></br>
 							Teodorescu Claudius Marian P.F.A.
-							<br />
+							<br xmlns="http://www.w3.org/1999/xhtml"></br>
 							Trade Register No.: F40/4072/18.08.2009
-							<br />
+							<br xmlns="http://www.w3.org/1999/xhtml"></br>
 							VAT No.: 25904107
-							<br />
+							<br xmlns="http://www.w3.org/1999/xhtml"></br>
 							Registered Office: str. Fluviului, nr. 10. sector 1, București
-							<br />
+							<br xmlns="http://www.w3.org/1999/xhtml"></br>
 							Bank Account: RO75BRDE445SV32980594450
-						</p>
-						<!-- <b>Date fiscale: </b> <br/> Teodorescu Claudius Marian P.F.A.<br/> 
-							Nr. Registrul Comerţului: F40/4072/18.08.2009<br/> C.U.I.: 25904107<br/> 
-							Sediu social: str. Fluviului, nr. 10. sector 1, București<br/> Cont bancar: 
-							RO75BRDE445SV32980594450 -->
-					</xf:case>
-				</xf:switch>
-			</div>
-			<div id="divSigle">
-				<!-- <a href="http://exist-db.org/"> <object data="resources/poweredByEXist.svg" 
-					type="image/svg+xml" width="130" height="50"/> </a> -->
-				<a href="http://agencexml.com/">
-					<object data="resources/poweredbyXSLTForms.svg" type="image/svg+xml"
-						width="130" height="50" />
-				</a>
-				<!-- <a href="http://www.dnsexit.com"> <img src="http://www.dnsexit.com/images/dns.gif" 
-					border="0" width="130" height="50"/> </a> -->
-				<!-- <object data="resources/valid-xforms11-v2.svg" type="image/svg+xml" 
-					width="130" height="50"/> -->
-				<a
-					href="http://www3.clustrmaps.com/counter/maps.php?url=http://kuberam.ro"
-					id="clustrMapsLink">
-					<img
-						src="http://www3.clustrmaps.com/counter/index2.php?url=http://kuberam.ro"
-						style="border:0px;" alt="Locations of visitors to this page"
-						title="Locations of visitors to this page" id="clustrMapsImg" />
-				</a>
-				<script type="text/javascript">
+						</p></div></div></div><div xmlns="" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xf="http://www.w3.org/2002/xforms" id="divSigle"><a href="http://agencexml.com/"><object data="resources/poweredbyXSLTForms.svg" type="image/svg+xml" width="130" height="50"></object></a><a href="http://www3.clustrmaps.com/counter/maps.php?url=http://kuberam.ro" id="clustrMapsLink"><img src="http://www3.clustrmaps.com/counter/index2.php?url=http://kuberam.ro" style="border:0px;" alt="Locations of visitors to this page" title="Locations of visitors to this page" id="clustrMapsImg"></a><script type="text/javascript">
 					function cantload() {
 					img =
 					document.getElementById("clustrMapsImg");
@@ -546,8 +337,7 @@
 					img =
 					document.getElementById("clustrMapsImg");
 					img.onerror = cantload;
-				</script>
-				<script type="text/javascript">
+				</script><script type="text/javascript">
 					var _gaq = _gaq || [];
 					_gaq.push(['_setAccount', 'UA-43293529-1']);
 					_gaq.push(['_trackPageview']);
@@ -561,7 +351,4 @@
 					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
 					s);
 					})();
-				</script>
-			</div>
-	</body>
-</html>
+				</script></div><div id="xsltforms_console">&nbsp;</div><div id="statusPanel">... Loading ...&nbsp;</div><!--XsltForms_MagicSeparator--></body></html>
