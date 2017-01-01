@@ -4,11 +4,8 @@
 	<head>
 		<title>Kuberam</title>
 		<style language="text/css">
-			@namespace xf
-			url("http://www.w3.org/2002/xforms");
 			html, html body {height:100%;}
 			body {width:100%;margin:0;font:14px verdana;}
-			xf|case {float:left;}
 			#divAntet {height:30px;
 			width: 100%;
 			//padding-top: 20px;
@@ -24,30 +21,11 @@
 			#divMijloc
 			{
 			float: left;
-			border: solid 2px;
 			width: 870px;
 			min-height: 856px;
 			margin-left: 150px;
 			padding:
 			10px;
-			}
-			#divMenu
-			{width:860px;height:50px;}
-			#outputTitluPagina
-			{
-			margin-bottom: 25px;
-			margin-right: 490px;
-			font: bold 24px verdana;
-			}
-			#outputTitluAplicatii
-			{
-			font: bold 18px verdana;
-			margin-bottom: 15px;
-			}
-			#repeatAplicatii
-			{
-			width:
-			890px;
 			}
 			#outputTitluAplicatie
 			{
@@ -62,53 +40,15 @@
 			}
 			#divSigle
 			object {margin-bottom: 5px;}
-			xf|trigger
-			{
-			float: left;
-			margin-left: 5px;
-			margin-right: 5px;
-			}
-			xf|output
-			{
-			float: left;
-			}
-			xf|repeat
-			{
-			float: left;
-			}
-			xf|switch
-			{
-			float: left;
-			width: 860px;
-			margin-top: 25px;
-			}
 		</style>
-		<xf:model id="modelIndex">
-			<xf:instance id="instanceParametriStandard">
-				<parametriStandard>
-					<limbaIU />
-					<continut lang="RO">
-						<meniu>
-							<optiune>Home</optiune>
-							<optiune>Open Source Projects</optiune>
-							<optiune>Services</optiune>
-							<optiune>Customers</optiune>
-							<optiune>Contact</optiune>
-						</meniu>
-						<titluPagina>Portal web de contabilitate</titluPagina>
-						<titluAplicatii>Aplicații</titluAplicatii>
-						<aplicatii>
-							<aplicatie>
-								<titluAplicatie>Kubera</titluAplicatie>
-								<descriereAplicatie>Evidență contabilă în partidă simplă pentru
-									persoane fizice autorizate, întreprinderi individuale și
-									întreprinderi familiale.</descriereAplicatie>
-							</aplicatie>
-						</aplicatii>
-					</continut>
-				</parametriStandard>
-			</xf:instance>
-		</xf:model>
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js">/**/</script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js">/**/</script>	
+ 		<script>
+ 			$(document).ready(function() {
+ 				$("#tabs").tabs();
+ 			});
+ 		</script>
 	</head>
 	<body>
 		<div id="divAntet">
@@ -125,73 +65,15 @@
 				</xf:trigger> </div> -->
 		</div>
 			<div id="divMijloc">
-				<div id="divMenu">
-					<xf:trigger>
-						<xf:label>
-							<xf:output
-								ref="instance('instanceParametriStandard')/continut/meniu/optiune[1]" />
-						</xf:label>
-						<xf:action ev:event="DOMActivate">
-							<xf:toggle case="caseHome" />
-						</xf:action>
-					</xf:trigger>
-					<xf:trigger>
-						<xf:label>
-							<xf:output
-								ref="instance('instanceParametriStandard')/continut/meniu/optiune[2]" />
-						</xf:label>
-						<xf:action ev:event="DOMActivate">
-							<xf:toggle case="caseOpenSourceProjects" />
-						</xf:action>
-					</xf:trigger>
-					<xf:trigger>
-						<xf:label>
-							<xf:output
-								ref="instance('instanceParametriStandard')/continut/meniu/optiune[3]" />
-						</xf:label>
-						<xf:action ev:event="DOMActivate">
-							<xf:toggle case="caseServices" />
-						</xf:action>
-					</xf:trigger>
-					<xf:trigger>
-						<xf:label>
-							<xf:output
-								ref="instance('instanceParametriStandard')/continut/meniu/optiune[4]" />
-						</xf:label>
-						<xf:action ev:event="DOMActivate">
-							<xf:toggle case="caseCustomers" />
-						</xf:action>
-					</xf:trigger>
-					<xf:trigger>
-						<xf:label>
-							<xf:output
-								ref="instance('instanceParametriStandard')/continut/meniu/optiune[5]" />
-						</xf:label>
-						<xf:action ev:event="DOMActivate">
-							<xf:toggle case="caseContact" />
-						</xf:action>
-					</xf:trigger>
-					<!--<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" 
-						xmlns:xlink="http://www.w3.org/1999/xlink" width="109.99999" height="25" 
-						id="svg2" version="1.0"> <defs id="defs4"> <linearGradient id="linearGradient2393"> 
-						<stop style="stop-color:#0000ff;stop-opacity:1;" offset="0" id="stop2395" 
-						/> <stop style="stop-color:#0000ff;stop-opacity:0;" offset="1" id="stop2397" 
-						/> </linearGradient> <linearGradient xlink:href="#linearGradient2393" id="linearGradient2399" 
-						x1="225.71428" y1="78.076469" x2="226.28572" y2="184.29076" gradientUnits="userSpaceOnUse" 
-						gradientTransform="matrix(0.3282311,0,0,0.2338657,41.86401,141.16988)" /> 
-						</defs> <g id="layer1" transform="translate(-62.357144,-159.29075)"> <rect 
-						style="fill:url(#linearGradient2399);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.2770595px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" 
-						id="rect2383" width="109.72293" height="24.72294" x="62.495674" y="159.42928" 
-						/> </g> </svg> -->
-				</div>
-				<xf:switch id="switchDocPrimar">
-					<xf:case id="caseHome" selected="true">
-						<!-- <xf:output id="outputTitluPagina" ref="instance('instanceParametriStandard')/continut/titluPagina"/> -->
-						<h5>
-							This site is made using
-							<a href="http://w3.org/TR/xforms11">XForms</a>
-							.
-						</h5>
+				<div id="tabs">
+				  <ul>
+				    <li><a href="#home-tab">Home</a></li>
+				    <li><a href="#open-source-projects-tab">Open Source Projects</a></li>
+				    <li><a href="#services-tab">Services</a></li>
+				    <li><a href="#customers-tab">Customers</a></li>
+				    <li><a href="#contact-tab">Contact</a></li>
+				  </ul>
+				  <div id="home-tab">
 						<b>
 							<a href="http://sourceforge.net/projects/extxsltforms">eXSLTForms</a>
 						</b>
@@ -317,8 +199,8 @@
 								</li>
 							</ol>
 						</p>
-					</xf:case>
-					<xf:case id="caseOpenSourceProjects">
+				  </div>
+				  <div id="open-source-projects-tab">
 						<h3>
 							A.
 							<a href="http://sourceforge.net/projects/edib">edib</a>
@@ -448,31 +330,27 @@
 							</ol>
 						</p>
 						<!-- <b>B. <a href="http://kuberam.ro/kubera">kubera, web application 
-							for online acccounting</a></b> -->
-
-					</xf:case>
-					<xf:case id="caseServices">
-						<!-- <xf:output id="outputTitluAplicatii" ref="instance('instanceParametriStandard')/continut/titluAplicatii"/> 
-							<xf:repeat id="repeatAplicatii" nodeset="instance('instanceParametriStandard')/continut/aplicatii/aplicatie"> 
-							<a href="http://78.97.138.9:8080/exist/rest//db/aplicatii/moduleStandardAplicatie/acces/acces.xproc?bindings=%3Cbindings%3E%3Cbinding%20port=%22idAplicatie%22%3E%3CidAplicatie%3Ekubera%3C/idAplicatie%3E%3C/binding%3E%3C/bindings%3E"> 
-							<xf:output id="outputTitluAplicatie" ref="titluAplicatie"/> </a> <xf:output 
-							id="outputDescriereAplicatie" ref="descriereAplicatie"/> </xf:repeat> -->
-						Studying and using XML technologies since 2004, I can develop web
+							for online acccounting</a></b> 
+							Evidență contabilă în partidă simplă pentru
+									persoane fizice autorizate, întreprinderi individuale și
+									întreprinderi familiale.							
+							-->
+				  </div>
+				  <div id="services-tab">
+						<p>Studying and using XML technologies since 2004, I can develop web
 						application based upon
 						<a
 							href="http://en.wikipedia.org/wiki/XRX_(web_application_architecture)">XRX</a>
-						(XForms in the browser - REST - XProc (XQuery) for the database).
-						<p />
-						As XML database, I am using
+						(XForms in the browser - REST - XProc (XQuery) for the database).</p>
+						<p>As XML database, I am using
 						<a href="http://exist-db.org/">eXist</a>
-						.
-						<p />
-						As XForms processor, I am using
+						.</p>
+						<p>As XForms processor, I am using
 						<a href="http://agencexml.com/">XSLTForms</a>
 						. XSLTForms works with all major browser (Internet Explorer,
-						FireFox, Opera, Safari, Chrome and more).
-					</xf:case>
-					<xf:case id="caseCustomers">
+						FireFox, Opera, Safari, Chrome and more).</p>				  
+				  </div>
+				  <div id="customers-tab">
 						<p>
 							<a href="http://history.state.gov/">U. S. Department Of State, Office Of The Historian</a>
 						</p>
@@ -485,45 +363,18 @@
 						<p>Sundari Conf SRL</p>
 						<p>Kids Collection SRL</p>
 						<p>Primex '98 SRL</p>
-						<p>Mocasinul SRL</p>
-					</xf:case>
-					<xf:case id="caseContact">
+						<p>Mocasinul SRL</p>				  
+				  </div>
+				  <div id="contact-tab">
 						<b>Teodorescu Claudius Marian</b>
 						<br />
 						Tel.: 0752626515
 						<br />
 						Email: claud108 at yahoo dot com
-						<p>
-							<b>Fiscal Data: </b>
-							<br />
-							Teodorescu Claudius Marian P.F.A.
-							<br />
-							Trade Register No.: F40/4072/18.08.2009
-							<br />
-							VAT No.: 25904107
-							<br />
-							Registered Office: str. Fluviului, nr. 10. sector 1, București
-							<br />
-							Bank Account: RO75BRDE445SV32980594450
-						</p>
-						<!-- <b>Date fiscale: </b> <br/> Teodorescu Claudius Marian P.F.A.<br/> 
-							Nr. Registrul Comerţului: F40/4072/18.08.2009<br/> C.U.I.: 25904107<br/> 
-							Sediu social: str. Fluviului, nr. 10. sector 1, București<br/> Cont bancar: 
-							RO75BRDE445SV32980594450 -->
-					</xf:case>
-				</xf:switch>
+				  </div>
+				</div>				
 			</div>
 			<div id="divSigle">
-				<!-- <a href="http://exist-db.org/"> <object data="resources/poweredByEXist.svg" 
-					type="image/svg+xml" width="130" height="50"/> </a> -->
-				<a href="http://agencexml.com/">
-					<object data="resources/poweredbyXSLTForms.svg" type="image/svg+xml"
-						width="130" height="50" />
-				</a>
-				<!-- <a href="http://www.dnsexit.com"> <img src="http://www.dnsexit.com/images/dns.gif" 
-					border="0" width="130" height="50"/> </a> -->
-				<!-- <object data="resources/valid-xforms11-v2.svg" type="image/svg+xml" 
-					width="130" height="50"/> -->
 				<a
 					href="http://www3.clustrmaps.com/counter/maps.php?url=http://kuberam.ro"
 					id="clustrMapsLink">
