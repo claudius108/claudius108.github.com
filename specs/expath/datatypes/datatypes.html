@@ -434,13 +434,13 @@ div.exampleHeader { font-weight: bold;
                
                <h3><a name="d4e509" id="d4e509"></a>4.1 The <code>datatypes:set-mapping</code> function
                </h3>
-               <p>This function sets mapping between datatypes belonging to different datatype systems.
+               <p>This function sets mappings between datatypes belonging to different datatype systems.
                   One can map one or more source datatypes to one target
-                  datatype.
+                  datatype, or one source datatype to one or more target datatypes.
                </p>
                <div class="exampleInner"><pre>
 <code class="function">datatypes:set-mapping</code>($source-datatype as <code class="type">xs:string+</code>,
-		$target-datatype as <code class="type">xs:anyURI</code>) as <code class="type">empty()</code>
+		$target-datatype as <code class="type">xs:string+</code>) as <code class="type">empty()</code>
 </pre></div>
                <ul>
                   <li>
@@ -481,13 +481,12 @@ div.exampleHeader { font-weight: bold;
                <h3><a name="d4e575" id="d4e575"></a>4.3 The <code>datatypes:delete-mapping</code> function
                </h3>
                <p>This function delete the mapping between datatypes belonging to different datatype
-                  systems. If more target datatypes are as the second argument,
-                  the mappings between the source datatype and each of there target datatypes will be
-                  deleted.
+                  systems. If they are more source or target datatypes,
+                  each individual mapping between each one of them will be deleted.
                </p>
                <div class="exampleInner"><pre>
-<code class="function">datatypes:delete-mapping</code>($source-datatype as <code class="type">xs:string</code>,
-		$target-datatype as <code class="type">xs:anyURI+</code>) as <code class="type">empty()</code>
+<code class="function">datatypes:delete-mapping</code>($source-datatype as <code class="type">xs:string+</code>,
+		$target-datatype as <code class="type">xs:string+</code>) as <code class="type">empty()</code>
 </pre></div>
                <ul>
                   <li>
