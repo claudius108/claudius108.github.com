@@ -106,36 +106,39 @@ div.exampleHeader { font-weight: bold;
          <p class="toc">1 <a href="#d4e74">Introduction</a><br />
             1.1 <a href="#d4e81">Namespace conventions</a><br />
             1.2 <a href="#d4e100">Error management</a><br />
-            2 <a href="#d4e111">Conversions</a><br />
-            2.1 <a href="#d4e116">xs:base64Binary to other datatypes</a><br />
-            2.1.1 <a href="#d4e123">The datatypes:base64Binary-to-byte function</a><br />
-            2.1.2 <a href="#d4e148">The datatypes:base64Binary-to-string function</a><br />
-            2.2 <a href="#d4e191">xs:byte to other datatypes</a><br />
-            2.2.1 <a href="#d4e198">The datatypes:byte-to-base64Binary function</a><br />
-            2.2.2 <a href="#d4e223">The datatypes:byte-to-hexBinary function</a><br />
-            2.3 <a href="#d4e248">xs:hexBinary to other datatypes</a><br />
-            2.3.1 <a href="#d4e255">The datatypes:hexBinary-to-byte function</a><br />
-            2.3.2 <a href="#d4e280">The datatypes:hexBinary-to-string function</a><br />
-            2.4 <a href="#d4e323">xs:string to other datatypes</a><br />
-            2.4.1 <a href="#d4e330">The datatypes:string-to-base64Binary function</a><br />
-            2.4.2 <a href="#d4e373">The datatypes:string-to-hexBinary function</a><br />
-            2.4.3 <a href="#d4e416">The datatypes:string-to-integer function</a><br />
-            2.5 <a href="#d4e449">xs:integer to other datatypes</a><br />
-            2.5.1 <a href="#d4e456">The datatypes:integer-to-string function</a><br />
-            3 <a href="#d4e489">User defined datatypes</a><br />
-            3.1 <a href="#d4e494">The datatypes:define function</a><br />
-            4 <a href="#d4e502">Mappings</a><br />
-            4.1 <a href="#d4e509">The datatypes:set-mapping function</a><br />
-            4.2 <a href="#d4e542">The datatypes:get-mapping function</a><br />
-            4.3 <a href="#d4e575">The datatypes:delete-mapping function</a><br />
-            5 <a href="#d4e608">Operations</a><br />
+            2 <a href="#d4e111">Datatype Systems</a><br />
+            2.1 <a href="#d4e118">The datatypes:register-datatype-system function</a><br />
+            2.2 <a href="#d4e143">The datatypes:deregister-datatype-system function</a><br />
+            3 <a href="#d4e168">Conversions</a><br />
+            3.1 <a href="#d4e173">xs:base64Binary to other datatypes</a><br />
+            3.1.1 <a href="#d4e180">The datatypes:base64Binary-to-byte function</a><br />
+            3.1.2 <a href="#d4e205">The datatypes:base64Binary-to-string function</a><br />
+            3.2 <a href="#d4e248">xs:byte to other datatypes</a><br />
+            3.2.1 <a href="#d4e255">The datatypes:byte-to-base64Binary function</a><br />
+            3.2.2 <a href="#d4e280">The datatypes:byte-to-hexBinary function</a><br />
+            3.3 <a href="#d4e305">xs:hexBinary to other datatypes</a><br />
+            3.3.1 <a href="#d4e312">The datatypes:hexBinary-to-byte function</a><br />
+            3.3.2 <a href="#d4e337">The datatypes:hexBinary-to-string function</a><br />
+            3.4 <a href="#d4e380">xs:string to other datatypes</a><br />
+            3.4.1 <a href="#d4e387">The datatypes:string-to-base64Binary function</a><br />
+            3.4.2 <a href="#d4e430">The datatypes:string-to-hexBinary function</a><br />
+            3.4.3 <a href="#d4e473">The datatypes:string-to-integer function</a><br />
+            3.5 <a href="#d4e506">xs:integer to other datatypes</a><br />
+            3.5.1 <a href="#d4e513">The datatypes:integer-to-string function</a><br />
+            4 <a href="#d4e546">User defined datatypes</a><br />
+            4.1 <a href="#d4e551">The datatypes:define function</a><br />
+            5 <a href="#d4e559">Mappings</a><br />
+            5.1 <a href="#d4e564">The datatypes:set-mapping function</a><br />
+            5.2 <a href="#d4e597">The datatypes:get-mapping function</a><br />
+            5.3 <a href="#d4e630">The datatypes:delete-mapping function</a><br />
+            6 <a href="#d4e663">Operations</a><br />
             
          </p>
          
          <h3><a name="appendices" id="appendices"></a>Appendices
          </h3>
-         <p class="toc">A <a href="#d4e614">References</a><br />
-            B <a href="#d4e658">Summary of Error Conditions</a><br />
+         <p class="toc">A <a href="#d4e669">References</a><br />
+            B <a href="#d4e713">Summary of Error Conditions</a><br />
             
          </p>
       </div>
@@ -175,17 +178,56 @@ div.exampleHeader { font-weight: bold;
          </div>
          <div class="div1">
             
-            <h2><a name="d4e111" id="d4e111"></a>2 Conversions
+            <h2><a name="d4e111" id="d4e111"></a>2 Datatype Systems
+            </h2>
+            <p>These are functions allowing operations on datatype systems. The implementations should
+               register by default the XML datatype system
+               (<a href="#xmlschema11-1">[W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures]</a>). Other datatype systems are implementation dependent.
+            </p>
+            <div class="div2">
+               
+               <h3><a name="d4e118" id="d4e118"></a>2.1 The <code>datatypes:register-datatype-system</code> function
+               </h3>
+               <p>This function registers a datatype system.</p>
+               <div class="exampleInner"><pre>
+<code class="function">datatypes:register-datatype-system</code>($uri as <code class="type">xs:anyURI</code>) as <code class="type">empty()</code>
+</pre></div>
+               <ul>
+                  <li>
+                     <p><code>$uri</code> is the uri of the datatype system to be registered.
+                     </p>
+                  </li>
+               </ul>
+            </div>
+            <div class="div2">
+               
+               <h3><a name="d4e143" id="d4e143"></a>2.2 The <code>datatypes:deregister-datatype-system</code> function
+               </h3>
+               <p>This function deregisters a datatype system.</p>
+               <div class="exampleInner"><pre>
+<code class="function">datatypes:deregister-datatype-system</code>($uri as <code class="type">xs:anyURI</code>) as <code class="type">empty()</code>
+</pre></div>
+               <ul>
+                  <li>
+                     <p><code>$uri</code> is the uri of the datatype system to be deregistered.
+                     </p>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="div1">
+            
+            <h2><a name="d4e168" id="d4e168"></a>3 Conversions
             </h2>
             <p>These functions are for conversions between various datatypes.</p>
             <div class="div2">
                
-               <h3><a name="d4e116" id="d4e116"></a>2.1 <code>xs:base64Binary</code> to other datatypes
+               <h3><a name="d4e173" id="d4e173"></a>3.1 <code>xs:base64Binary</code> to other datatypes
                </h3>
                <p>These functions provide conversion from xs:base64Binary datatype to other datatypes.</p>
                <div class="div3">
                   
-                  <h4><a name="d4e123" id="d4e123"></a>2.1.1 The <code>datatypes:base64Binary-to-byte</code> function
+                  <h4><a name="d4e180" id="d4e180"></a>3.1.1 The <code>datatypes:base64Binary-to-byte</code> function
                   </h4>
                   <p>This function converts from xs:base64Binary to xs:byte.</p>
                   <div class="exampleInner"><pre>
@@ -200,7 +242,7 @@ div.exampleHeader { font-weight: bold;
                </div>
                <div class="div3">
                   
-                  <h4><a name="d4e148" id="d4e148"></a>2.1.2 The <code>datatypes:base64Binary-to-string</code> function
+                  <h4><a name="d4e205" id="d4e205"></a>3.1.2 The <code>datatypes:base64Binary-to-string</code> function
                   </h4>
                   <p>This function converts from xs:base64Binary to xs:string.</p>
                   <div class="exampleInner"><pre>
@@ -226,12 +268,12 @@ div.exampleHeader { font-weight: bold;
             </div>
             <div class="div2">
                
-               <h3><a name="d4e191" id="d4e191"></a>2.2 <code>xs:byte</code> to other datatypes
+               <h3><a name="d4e248" id="d4e248"></a>3.2 <code>xs:byte</code> to other datatypes
                </h3>
                <p>These functions provide conversion from xs:byte datatype to other datatypes.</p>
                <div class="div3">
                   
-                  <h4><a name="d4e198" id="d4e198"></a>2.2.1 The <code>datatypes:byte-to-base64Binary</code> function
+                  <h4><a name="d4e255" id="d4e255"></a>3.2.1 The <code>datatypes:byte-to-base64Binary</code> function
                   </h4>
                   <p>This function converts from xs:byte to xs:base64Binary.</p>
                   <div class="exampleInner"><pre>
@@ -246,7 +288,7 @@ div.exampleHeader { font-weight: bold;
                </div>
                <div class="div3">
                   
-                  <h4><a name="d4e223" id="d4e223"></a>2.2.2 The <code>datatypes:byte-to-hexBinary</code> function
+                  <h4><a name="d4e280" id="d4e280"></a>3.2.2 The <code>datatypes:byte-to-hexBinary</code> function
                   </h4>
                   <p>This function converts from xs:byte to xs:hexBinary.</p>
                   <div class="exampleInner"><pre>
@@ -262,12 +304,12 @@ div.exampleHeader { font-weight: bold;
             </div>
             <div class="div2">
                
-               <h3><a name="d4e248" id="d4e248"></a>2.3 <code>xs:hexBinary</code> to other datatypes
+               <h3><a name="d4e305" id="d4e305"></a>3.3 <code>xs:hexBinary</code> to other datatypes
                </h3>
                <p>These functions provide conversion from xs:hexBinary datatype to other datatypes.</p>
                <div class="div3">
                   
-                  <h4><a name="d4e255" id="d4e255"></a>2.3.1 The <code>datatypes:hexBinary-to-byte</code> function
+                  <h4><a name="d4e312" id="d4e312"></a>3.3.1 The <code>datatypes:hexBinary-to-byte</code> function
                   </h4>
                   <p>This function converts from xs:hexBinary to xs:byte.</p>
                   <div class="exampleInner"><pre>
@@ -282,7 +324,7 @@ div.exampleHeader { font-weight: bold;
                </div>
                <div class="div3">
                   
-                  <h4><a name="d4e280" id="d4e280"></a>2.3.2 The <code>datatypes:hexBinary-to-string</code> function
+                  <h4><a name="d4e337" id="d4e337"></a>3.3.2 The <code>datatypes:hexBinary-to-string</code> function
                   </h4>
                   <p>This function converts from xs:hexBinary to xs:string.</p>
                   <div class="exampleInner"><pre>
@@ -308,12 +350,12 @@ div.exampleHeader { font-weight: bold;
             </div>
             <div class="div2">
                
-               <h3><a name="d4e323" id="d4e323"></a>2.4 <code>xs:string</code> to other datatypes
+               <h3><a name="d4e380" id="d4e380"></a>3.4 <code>xs:string</code> to other datatypes
                </h3>
                <p>These functions provide conversion from xs:string datatype to other datatypes.</p>
                <div class="div3">
                   
-                  <h4><a name="d4e330" id="d4e330"></a>2.4.1 The <code>datatypes:string-to-base64Binary</code> function
+                  <h4><a name="d4e387" id="d4e387"></a>3.4.1 The <code>datatypes:string-to-base64Binary</code> function
                   </h4>
                   <p>This function converts from xs:string to xs:base64Binary.</p>
                   <div class="exampleInner"><pre>
@@ -338,7 +380,7 @@ div.exampleHeader { font-weight: bold;
                </div>
                <div class="div3">
                   
-                  <h4><a name="d4e373" id="d4e373"></a>2.4.2 The <code>datatypes:string-to-hexBinary</code> function
+                  <h4><a name="d4e430" id="d4e430"></a>3.4.2 The <code>datatypes:string-to-hexBinary</code> function
                   </h4>
                   <p>This function converts from xs:string to xs:hexBinary.</p>
                   <div class="exampleInner"><pre>
@@ -363,7 +405,7 @@ div.exampleHeader { font-weight: bold;
                </div>
                <div class="div3">
                   
-                  <h4><a name="d4e416" id="d4e416"></a>2.4.3 The <code>datatypes:string-to-integer</code> function
+                  <h4><a name="d4e473" id="d4e473"></a>3.4.3 The <code>datatypes:string-to-integer</code> function
                   </h4>
                   <p>This function converts from xs:string to xs:integer.</p>
                   <div class="exampleInner"><pre>
@@ -385,12 +427,12 @@ div.exampleHeader { font-weight: bold;
             </div>
             <div class="div2">
                
-               <h3><a name="d4e449" id="d4e449"></a>2.5 <code>xs:integer</code> to other datatypes
+               <h3><a name="d4e506" id="d4e506"></a>3.5 <code>xs:integer</code> to other datatypes
                </h3>
                <p>These functions provide conversion from xs:integer datatype to other datatypes.</p>
                <div class="div3">
                   
-                  <h4><a name="d4e456" id="d4e456"></a>2.5.1 The <code>datatypes:integer-to-string</code> function
+                  <h4><a name="d4e513" id="d4e513"></a>3.5.1 The <code>datatypes:integer-to-string</code> function
                   </h4>
                   <p>This function converts from xs:integer to xs:string.</p>
                   <div class="exampleInner"><pre>
@@ -412,27 +454,24 @@ div.exampleHeader { font-weight: bold;
          </div>
          <div class="div1">
             
-            <h2><a name="d4e489" id="d4e489"></a>3 User defined datatypes
+            <h2><a name="d4e546" id="d4e546"></a>4 User defined datatypes
             </h2>
             <p>These are functions related to the user defined datatypes.</p>
             <div class="div2">
                
-               <h3><a name="d4e494" id="d4e494"></a>3.1 The <code>datatypes:define</code> function
+               <h3><a name="d4e551" id="d4e551"></a>4.1 The <code>datatypes:define</code> function
                </h3>
                <p>This function defines a user defined datatype.</p>
             </div>
          </div>
          <div class="div1">
             
-            <h2><a name="d4e502" id="d4e502"></a>4 Mappings
+            <h2><a name="d4e559" id="d4e559"></a>5 Mappings
             </h2>
-            <p>These are functions related to mappings between various datatype systems. The implementations
-               should register by default the XML datatype system
-               (<a href="#xmlschema11-1">[W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures]</a>). Other datatype systems are implementation dependent.
-            </p>
+            <p>These are functions related to mappings between various datatype systems.</p>
             <div class="div2">
                
-               <h3><a name="d4e509" id="d4e509"></a>4.1 The <code>datatypes:set-mapping</code> function
+               <h3><a name="d4e564" id="d4e564"></a>5.1 The <code>datatypes:set-mapping</code> function
                </h3>
                <p>This function sets mappings between datatypes belonging to different datatype systems.
                   One can map one or more source datatypes to one target
@@ -455,7 +494,7 @@ div.exampleHeader { font-weight: bold;
             </div>
             <div class="div2">
                
-               <h3><a name="d4e542" id="d4e542"></a>4.2 The <code>datatypes:get-mapping</code> function
+               <h3><a name="d4e597" id="d4e597"></a>5.2 The <code>datatypes:get-mapping</code> function
                </h3>
                <p>This function returns the mapping(s) between datatypes belonging to different datatype
                   systems. If there are more target datatypes mapped, they are
@@ -478,7 +517,7 @@ div.exampleHeader { font-weight: bold;
             </div>
             <div class="div2">
                
-               <h3><a name="d4e575" id="d4e575"></a>4.3 The <code>datatypes:delete-mapping</code> function
+               <h3><a name="d4e630" id="d4e630"></a>5.3 The <code>datatypes:delete-mapping</code> function
                </h3>
                <p>This function delete the mapping between datatypes belonging to different datatype
                   systems. If they are more source or target datatypes,
@@ -502,7 +541,7 @@ div.exampleHeader { font-weight: bold;
          </div>
          <div class="div1">
             
-            <h2><a name="d4e608" id="d4e608"></a>5 Operations
+            <h2><a name="d4e663" id="d4e663"></a>6 Operations
             </h2>
             <p>These are functions allowing operations on the registered datatypes.</p>
          </div>
@@ -510,7 +549,7 @@ div.exampleHeader { font-weight: bold;
       <div class="back">
          <div class="div1">
             
-            <h2><a name="d4e614" id="d4e614"></a>A References
+            <h2><a name="d4e669" id="d4e669"></a>A References
             </h2>
             <dl>
                <dt class="label"><a name="xpath-30" id="xpath-30"></a>XPath 3.0
@@ -572,7 +611,7 @@ div.exampleHeader { font-weight: bold;
          </div>
          <div class="div1">
             
-            <h2><a name="d4e658" id="d4e658"></a>B Summary of Error Conditions
+            <h2><a name="d4e713" id="d4e713"></a>B Summary of Error Conditions
             </h2>
             <dl>
                <dt class="label"><a name="errDT01" id="errDT01"></a>err:DT01
