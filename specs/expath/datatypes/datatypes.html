@@ -125,15 +125,17 @@ div.exampleHeader { font-weight: bold;
             3 <a href="#d4e489">User defined datatypes</a><br />
             3.1 <a href="#d4e494">The datatypes:define function</a><br />
             4 <a href="#d4e502">Mappings</a><br />
-            4.1 <a href="#d4e509">The datatypes:get-mapping function</a><br />
-            5 <a href="#d4e542">Operations</a><br />
+            4.1 <a href="#d4e509">The datatypes:set-mapping function</a><br />
+            4.2 <a href="#d4e542">The datatypes:get-mapping function</a><br />
+            4.3 <a href="#d4e575">The datatypes:delete-mapping function</a><br />
+            5 <a href="#d4e608">Operations</a><br />
             
          </p>
          
          <h3><a name="appendices" id="appendices"></a>Appendices
          </h3>
-         <p class="toc">A <a href="#d4e548">References</a><br />
-            B <a href="#d4e592">Summary of Error Conditions</a><br />
+         <p class="toc">A <a href="#d4e614">References</a><br />
+            B <a href="#d4e658">Summary of Error Conditions</a><br />
             
          </p>
       </div>
@@ -430,22 +432,70 @@ div.exampleHeader { font-weight: bold;
             </p>
             <div class="div2">
                
-               <h3><a name="d4e509" id="d4e509"></a>4.1 The <code>datatypes:get-mapping</code> function
+               <h3><a name="d4e509" id="d4e509"></a>4.1 The <code>datatypes:set-mapping</code> function
                </h3>
-               <p>This function returns the mapping between datatype belonging to different datatype
-                  systems.
+               <p>This function sets mapping between datatypes belonging to different datatype systems.
+                  One can map one or more source datatypes to one target
+                  datatype.
                </p>
                <div class="exampleInner"><pre>
-<code class="function">datatypes:get-mapping</code>($source-datatype as <code class="type">xs:string</code>,
-		$target-datatype-system as <code class="type">xs:anyURI</code>) as <code class="type">xs:string</code>
+<code class="function">datatypes:set-mapping</code>($source-datatype as <code class="type">xs:string+</code>,
+		$target-datatype as <code class="type">xs:anyURI</code>) as <code class="type">empty()</code>
 </pre></div>
                <ul>
                   <li>
-                     <p><code>$source-datatype</code> is the datatype to get the mapping of.
+                     <p><code>$source-datatype</code> is the source datatype to set the mapping for.
                      </p>
                   </li>
                   <li>
-                     <p><code>$target-datatype-system</code> is the datatype system to get the mapping from.
+                     <p><code>$target-datatype</code> is the target datatype to set the mapping for.
+                     </p>
+                  </li>
+               </ul>
+            </div>
+            <div class="div2">
+               
+               <h3><a name="d4e542" id="d4e542"></a>4.2 The <code>datatypes:get-mapping</code> function
+               </h3>
+               <p>This function returns the mapping(s) between datatypes belonging to different datatype
+                  systems. If there are more target datatypes mapped, they are
+                  all returned.
+               </p>
+               <div class="exampleInner"><pre>
+<code class="function">datatypes:get-mapping</code>($source-datatype as <code class="type">xs:string</code>,
+		$target-datatype-system as <code class="type">xs:anyURI</code>) as <code class="type">xs:string*</code>
+</pre></div>
+               <ul>
+                  <li>
+                     <p><code>$source-datatype</code> is the datatype to get the mapping(s) of.
+                     </p>
+                  </li>
+                  <li>
+                     <p><code>$target-datatype-system</code> is the datatype system to get the mapping(s) from.
+                     </p>
+                  </li>
+               </ul>
+            </div>
+            <div class="div2">
+               
+               <h3><a name="d4e575" id="d4e575"></a>4.3 The <code>datatypes:delete-mapping</code> function
+               </h3>
+               <p>This function delete the mapping between datatypes belonging to different datatype
+                  systems. If more target datatypes are as the second argument,
+                  the mappings between the source datatype and each of there target datatypes will be
+                  deleted.
+               </p>
+               <div class="exampleInner"><pre>
+<code class="function">datatypes:delete-mapping</code>($source-datatype as <code class="type">xs:string</code>,
+		$target-datatype as <code class="type">xs:anyURI+</code>) as <code class="type">empty()</code>
+</pre></div>
+               <ul>
+                  <li>
+                     <p><code>$source-datatype</code> is the source datatype to delete the mapping for.
+                     </p>
+                  </li>
+                  <li>
+                     <p><code>$target-datatype</code> is the target datatype to delete the mapping for.
                      </p>
                   </li>
                </ul>
@@ -453,7 +503,7 @@ div.exampleHeader { font-weight: bold;
          </div>
          <div class="div1">
             
-            <h2><a name="d4e542" id="d4e542"></a>5 Operations
+            <h2><a name="d4e608" id="d4e608"></a>5 Operations
             </h2>
             <p>These are functions allowing operations on the registered datatypes.</p>
          </div>
@@ -461,7 +511,7 @@ div.exampleHeader { font-weight: bold;
       <div class="back">
          <div class="div1">
             
-            <h2><a name="d4e548" id="d4e548"></a>A References
+            <h2><a name="d4e614" id="d4e614"></a>A References
             </h2>
             <dl>
                <dt class="label"><a name="xpath-30" id="xpath-30"></a>XPath 3.0
@@ -523,7 +573,7 @@ div.exampleHeader { font-weight: bold;
          </div>
          <div class="div1">
             
-            <h2><a name="d4e592" id="d4e592"></a>B Summary of Error Conditions
+            <h2><a name="d4e658" id="d4e658"></a>B Summary of Error Conditions
             </h2>
             <dl>
                <dt class="label"><a name="errDT01" id="errDT01"></a>err:DT01
