@@ -123,15 +123,17 @@ div.exampleHeader { font-weight: bold;
             2.5 <a href="#d4e449">xs:integer to other datatypes</a><br />
             2.5.1 <a href="#d4e456">The datatypes:integer-to-string function</a><br />
             3 <a href="#d4e489">User defined datatypes</a><br />
-            4 <a href="#d4e492">Mappings</a><br />
-            5 <a href="#d4e499">Operations</a><br />
+            3.1 <a href="#d4e494">The datatypes:define function</a><br />
+            4 <a href="#d4e502">Mappings</a><br />
+            4.1 <a href="#d4e509">The datatypes:get-mapping function</a><br />
+            5 <a href="#d4e542">Operations</a><br />
             
          </p>
          
          <h3><a name="appendices" id="appendices"></a>Appendices
          </h3>
-         <p class="toc">A <a href="#d4e505">References</a><br />
-            B <a href="#d4e549">Summary of Error Conditions</a><br />
+         <p class="toc">A <a href="#d4e548">References</a><br />
+            B <a href="#d4e592">Summary of Error Conditions</a><br />
             
          </p>
       </div>
@@ -214,7 +216,7 @@ div.exampleHeader { font-weight: bold;
                      <li>
                         <p><code>$encoding</code> is the encoding used for conversion. The default value is UTF-8. If it is specified
                            an unsupported encoding, this
-                           	                  is an error <a href="#errDTC01">[err:DTC01]</a>.
+                           	                  is an error <a href="#errDT01">[err:DT01]</a>.
                         </p>
                      </li>
                   </ul>
@@ -296,7 +298,7 @@ div.exampleHeader { font-weight: bold;
                      <li>
                         <p><code>$encoding</code> is the encoding used for conversion. The default value is UTF-8. If it is specified
                            an unsupported encoding, this
-                           	                  is an error <a href="#errDTC01">[err:DTC01]</a>.
+                           	                  is an error <a href="#errDT01">[err:DT01]</a>.
                         </p>
                      </li>
                   </ul>
@@ -327,7 +329,7 @@ div.exampleHeader { font-weight: bold;
                      <li>
                         <p><code>$encoding</code> is the encoding used for conversion. The default value is UTF-8. If it is specified
                            an unsupported encoding, this
-                           	                  is an error <a href="#errDTC01">[err:DTC01]</a>.
+                           	                  is an error <a href="#errDT01">[err:DT01]</a>.
                         </p>
                      </li>
                   </ul>
@@ -352,7 +354,7 @@ div.exampleHeader { font-weight: bold;
                      <li>
                         <p><code>$encoding</code> is the encoding used for conversion. The default value is UTF-8. If it is specified
                            an unsupported encoding, this
-                           	                  is an error <a href="#errDTC01">[err:DTC01]</a>.
+                           	                  is an error <a href="#errDT01">[err:DT01]</a>.
                         </p>
                      </li>
                   </ul>
@@ -410,19 +412,48 @@ div.exampleHeader { font-weight: bold;
             
             <h2><a name="d4e489" id="d4e489"></a>3 User defined datatypes
             </h2>
+            <p>These are functions related to the user defined datatypes.</p>
+            <div class="div2">
+               
+               <h3><a name="d4e494" id="d4e494"></a>3.1 The <code>datatypes:define</code> function
+               </h3>
+               <p>This function defines a user defined datatype.</p>
+            </div>
          </div>
          <div class="div1">
             
-            <h2><a name="d4e492" id="d4e492"></a>4 Mappings
+            <h2><a name="d4e502" id="d4e502"></a>4 Mappings
             </h2>
             <p>These are functions related to mappings between various datatype systems. The implementations
                should register by default the XML datatype system
                (<a href="#xmlschema11-1">[W3C XML Schema Definition Language (XSD) 1.1 Part 1: Structures]</a>). Other datatype systems are implementation dependent.
             </p>
+            <div class="div2">
+               
+               <h3><a name="d4e509" id="d4e509"></a>4.1 The <code>datatypes:get-mapping</code> function
+               </h3>
+               <p>This function returns the mapping between datatype belonging to different datatype
+                  systems.
+               </p>
+               <div class="exampleInner"><pre>
+<code class="function">datatypes:get-mapping</code>($source-datatype as <code class="type">xs:string</code>,
+		$target-datatype-system as <code class="type">xs:anyURI</code>) as <code class="type">xs:string</code>
+</pre></div>
+               <ul>
+                  <li>
+                     <p><code>$source-datatype</code> is the datatype to get the mapping of.
+                     </p>
+                  </li>
+                  <li>
+                     <p><code>$target-datatype-system</code> is the datatype system to get the mapping from.
+                     </p>
+                  </li>
+               </ul>
+            </div>
          </div>
          <div class="div1">
             
-            <h2><a name="d4e499" id="d4e499"></a>5 Operations
+            <h2><a name="d4e542" id="d4e542"></a>5 Operations
             </h2>
             <p>These are functions allowing operations on the registered datatypes.</p>
          </div>
@@ -430,7 +461,7 @@ div.exampleHeader { font-weight: bold;
       <div class="back">
          <div class="div1">
             
-            <h2><a name="d4e505" id="d4e505"></a>A References
+            <h2><a name="d4e548" id="d4e548"></a>A References
             </h2>
             <dl>
                <dt class="label"><a name="xpath-30" id="xpath-30"></a>XPath 3.0
@@ -492,10 +523,10 @@ div.exampleHeader { font-weight: bold;
          </div>
          <div class="div1">
             
-            <h2><a name="d4e549" id="d4e549"></a>B Summary of Error Conditions
+            <h2><a name="d4e592" id="d4e592"></a>B Summary of Error Conditions
             </h2>
             <dl>
-               <dt class="label"><a name="errDTC01" id="errDTC01"></a>err:DTC01
+               <dt class="label"><a name="errDT01" id="errDT01"></a>err:DT01
                </dt>
                <dd>The encoding is not supported.</dd>
             </dl>
