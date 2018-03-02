@@ -79,11 +79,56 @@
 			<div id="github-calendar-container">
 				<h2>Github Calendar</h2>
 				<div id="github-calendar"></div>
-			</div>			
+			</div>
+			<div id="visitors-map-container">
+				<a
+					href="http://www3.clustrmaps.com/counter/maps.php?url=http://kuberam.ro"
+					id="clustrMapsLink">
+					<img
+						src="http://www3.clustrmaps.com/counter/index2.php?url=http://kuberam.ro"
+						style="border:0px;" alt="Locations of visitors to this page"
+						title="Locations of visitors to this page" id="clustrMapsImg" />
+				</a>
+			</div>
 		</div>
 		<script
 			src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">/**/</script>
 		<script src="resources/js/main.js">/**/</script>
+		<script type="text/javascript">
+			function cantload() {
+			img =
+			document.getElementById("clustrMapsImg");
+			img.onerror = null;
+			img.src =
+			"http://www2.clustrmaps.com/images/clustrmaps-back-soon.jpg";
+			document.getElementById("clustrMapsLink").href =
+			"http://www2.clustrmaps.com";
+			}
+			img =
+			document.getElementById("clustrMapsImg");
+			img.onerror = cantload;
+		</script>
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount',
+			'UA-43293529-1']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+			var ga =
+			document.createElement('script'); ga.type =
+			'text/javascript';
+			ga.async = true;
+			ga.src = ('https:' == document.location.protocol ?
+			'https://ssl' :
+			'http://www')
+			+
+			'.google-analytics.com/ga.js';
+			var s =
+			document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(ga,
+			s);
+			})();
+		</script>
 	</body>
 </html> 
 
