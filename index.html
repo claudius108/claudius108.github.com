@@ -5,7 +5,8 @@
 		<title>Kuberam</title>
 		<style language="text/css">
 			html, html body {height:100%;}
-			body {width:100%;margin:0;font:14px verdana;}
+			body
+			{width:100%;margin:0;font:14px verdana;}
 			#divAntet {height:30px;
 			width: 100%;
 			//padding-top: 20px;
@@ -17,7 +18,8 @@
 			width: 448px;
 			height: 60px;
 			}
-			#divSteaguri object {width:45px;height:30px;}
+			#divSteaguri object
+			{width:45px;height:30px;}
 			#divMijloc
 			{
 			float: left;
@@ -39,379 +41,425 @@
 			padding-left: 10px;
 			}
 			#divSigle
-			object {margin-bottom: 5px;}
+			object
+			{margin-bottom: 5px;}
 		</style>
-		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+		<link rel="stylesheet"
+			href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
 		<script src="https://code.jquery.com/jquery-1.12.4.min.js">/**/</script>
-		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js">/**/</script>	
- 		<script>
- 			$(document).ready(function() {
- 				$("#tabs").tabs();
- 			});
- 		</script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js">/**/</script>
+		<script>
+			$(document).ready(function() {
+			$("#tabs").tabs();
+			});
+		</script>
 	</head>
 	<body>
-		<div id="divAntet">
-			<!-- <div id="divSteaguri"> <xf:trigger> <xf:label> <object data="/webApps/apps/sitKubera/index/resources/steagRO.svg" 
-				type="image/svg+xml"/> <br/>Română</xf:label> <xf:action ev:event="DOMActivate"/> 
-				</xf:trigger> <xf:trigger> <xf:label> <object data="/webApps/apps/sitKubera/index/resources/steagEN.svg" 
-				type="image/svg+xml"/> <br/>English</xf:label> <xf:action ev:event="DOMActivate"/> 
-				</xf:trigger> <xf:trigger> <xf:label> <object data="/webApps/apps/sitKubera/index/resources/steagFR.svg" 
-				type="image/svg+xml"/> <br/>Français</xf:label> <xf:action ev:event="DOMActivate"/> 
-				</xf:trigger> <xf:trigger> <xf:label> <object data="/webApps/apps/sitKubera/index/resources/steagDE.svg" 
-				type="image/svg+xml"/> <br/>Deutsch</xf:label> <xf:action ev:event="DOMActivate"/> 
-				</xf:trigger> <xf:trigger> <xf:label> <object data="/webApps/apps/sitKubera/index/resources/steagES.svg" 
-				type="image/svg+xml"/> <br/>Español</xf:label> <xf:action ev:event="DOMActivate"/> 
-				</xf:trigger> </div> -->
-		</div>
-			<div id="divMijloc">
-				<div id="tabs">
-				  <ul>
-				    <li><a href="#home-tab">Home</a></li>
-				    <li><a href="#open-source-projects-tab">Open Source Projects</a></li>
-				    <li><a href="#services-tab">Services</a></li>
-				    <li><a href="#customers-tab">Customers</a></li>
-				    <li><a href="#contact-tab">Contact</a></li>
-				  </ul>
-				  <div id="home-tab">
-						<b>
-							<a href="http://sourceforge.net/projects/extxsltforms">eXSLTForms</a>
-						</b>
+		<div id="divMijloc">
+			<div id="tabs">
+				<ul>
+					<li>
+						<a href="#home-tab">Home</a>
+					</li>
+					<li>
+						<a href="#open-source-projects-tab">Open Source Projects</a>
+					</li>
+					<li>
+						<a href="#services-tab">Services</a>
+					</li>
+					<li>
+						<a href="#customers-tab">Customers</a>
+					</li>
+					<li>
+						<a href="#contact-tab">Contact</a>
+					</li>
+				</ul>
+				<div id="home-tab">
+					<b>
+						<a href="http://sourceforge.net/projects/extxsltforms">eXSLTForms</a>
+					</b>
+					is an open source project comprising extension actions / elements
+					for the open source
+					<a href="http://w3.org/TR/xforms11">XForms</a>
+					processor called
+					<a href="http://sourceforge.net/projects/xsltforms">XSLTForms</a>
+					.
+					<p />
+					<b>eXSLTForms</b>
+					was developed in order to respond to the requirements of real life
+					XForms web applications, and comprises the following extension
+					XForms actions / elements and widgets:
+					<p>
+						<ol>
+							<li>
+								<b>The transform action</b>
+								performs a xsl transformation of a nodeset (part of a data
+								instance), by using an external XSL stylesheet, and inserts the
+								resulting nodeset in a data instance. See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/transform-action-01.xml">here</a>
+								.
+							</li>
+							<li>
+								<b>The replace action</b>
+								performs a replacing action of a target nodeset (part of a data
+								instance), by an origin nodeset (part of a data instance). This
+								is useful to have a simpler syntax for
+								<a
+									href="http://w3.org/TR/xforms11/#data-mutation-patterns-replace-element">this XForms data mutation pattern</a>
+								. See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/replace-action-01.xml">here</a>
+								.
+							</li>
+							<li>
+								<p>
+									<a href="http://sourceforge.net/projects/teian/">teian</a>
+									is an web-based annotator and limited editor for any XML
+									vocabulary.
+									Teian was originally developed for the U.S.
+									Department of State, Office of the Historian,
+									and released as
+									open source for the benefit of community. Its development was
+									further funded
+									by the University of Richmond, USA.
+								</p>
+								<h7>A little history</h7>
+								<p>The teian development started in May 2010, funded by U.S.
+									Department of State, Office of the Historian.
+									The first
+									production version was released in August, 2010. That version
+									was built on top of CKEditor, a well-known web-based HTML
+									editor.
+								</p>
+								<p>In 2011, the financing of the development was continued by
+									the University of Richmond, USA. During this second period of
+									financing,
+									teian was brought to a superior level due to a
+									complete rebuilt, in order to be independent to CKEditor. Thus,
+									a new concept was used,
+									allowing teian to render any XML
+									vocabulary and much larger files.
+								</p>
+								<p>In 2012, a first version of change tracking capability was
+									added to teian.</p>
+								<p>Since 2012, various bug fixes, and small improvements we
+									made, along with adding of new unit tests for various XML
+									vocabularies.</p>
+								<p>
+									See examples
+									<a href="http://teian.sourceforge.net/latest/tests/">here</a>
+									.
+								</p>
+							</li>
+							<li>
+								<a href="http://developer.yahoo.com/yui/datatable/">YUI2 DataTable control</a>
+								provides a simple yet powerful API to display screen-reader
+								accessible tabular data on a web page. Notable features include
+								sortable columns, pagination, scrolling, row selection,
+								resizeable columns, and inline cell editing. See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-datatable-01.xml">here</a>
+								.
+							</li>
+							<li>
+								<a href="http://ckeditor.com/">CKEditor</a>
+								is a text editor to be used inside web pages. It's a WYSIWYG
+								editor, which means that the text being edited on it looks as
+								similar as possible to the results users have when publishing
+								it. It brings to the web common editing features found on
+								desktop editing applications like Microsoft Word and
+								OpenOffice. See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/ckeditor-rich-text-editor-01.xml">here</a>
+								.
+							</li>
+							<li>
+								<a href="http://www.cdolivet.com/index.php?page=editArea">EditArea</a>
+								is a free javascript editor for source code. (That is no way a
+								WYSIWYG editor). This editor is designed to edit souce code
+								files in a textarea. The main goal is to allow text formatting,
+								search and replace and real-time syntax highlight (for not too
+								heavy text). See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/editarea-code-editor-01.xml">here</a>
+								.
+							</li>
+							<li>
+								<a href="http://developer.yahoo.com/yui/editor/">YUI Rich Text Editor</a>
+								is a UI control that replaces a standard HTML textarea; it
+								allows for the rich formatting of text content, including
+								common structural treatments like lists, formatting treatments
+								like bold and italic text, and drag-and-drop inclusion and
+								sizing of images. The Rich Text Editor's toolbar is extensible
+								via a plugin architecture so that advanced implementations can
+								achieve a high degree of customization. See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-rich-text-editors-01.xml">here</a>
+								for both YUI Editor and YUI SimpleEditor.
+							</li>
+							<li>
+								<a href="http://docs.dojocampus.org/dijit/Editor">Dojo Editor</a>
+								is a text box on steroids. Designed to look and work like a
+								word processor. The editor features a toolbar, HTML output, and
+								a plugin architecture that supports new commands, new buttons
+								and other new features. See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/dojo-rich-text-editor-01.xml">here</a>
+								.
+							</li>
+							<li>
+								<a href="http://trac.xinha.org/">Xinha Editor</a>
+								is a powerful WYSIWYG HTML editor component that works in all
+								current browsers. Its configurabilty and extensibility make it
+								easy to build just the right editor for multiple purposes, from
+								a restricted mini-editor for one database field to a
+								full-fledged website editor. Its liberal, BSD licence makes it
+								an ideal candidate for integration into any kind of project.
+								See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/xinha-rich-text-editor-01.xml">here</a>
+								.
+							</li>
+							<li>
+								<a href="">Just for fun (only?):</a>
+								all the above editors on a single page. See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/all-rich-text-editors.xml">here</a>
+								.
+							</li>
+						</ol>
+					</p>
+				</div>
+				<div id="open-source-projects-tab">
+					<h3>
+						A.
+						<a href="http://sourceforge.net/projects/edib">edib</a>
+					</h3>
+					<p>Allows execution of XQuery queries and XProc pipelines from
+						webpage in an eXist XMLDB installed on client. eDIB also allows
+						complex processing and storage of data before sending it back to
+						server, thus balancing load between server and client.</p>
+					<h3>
+						B.
+						<a href="http://sourceforge.net/projects/extxsltforms">exsltforms</a>
+					</h3>
+					<p>
 						is an open source project comprising extension actions / elements
 						for the open source
 						<a href="http://w3.org/TR/xforms11">XForms</a>
 						processor called
 						<a href="http://sourceforge.net/projects/xsltforms">XSLTForms</a>
 						.
-						<p />
+					</p>
+					<p>
 						<b>eXSLTForms</b>
-						was developed in order to respond to the requirements of real life
+						was developed in order to respond to the requirements of real
+						life
 						XForms web applications, and comprises the following extension
-						XForms actions / elements and widgets:
-						<p>
-							<ol>
-								<li>
-									<b>The transform action</b>
-									performs a xsl transformation of a nodeset (part of a data
-									instance), by using an external XSL stylesheet, and inserts the
-									resulting nodeset in a data instance. See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/transform-action-01.xml">here</a>
-									.
-								</li>
-								<li>
-									<b>The replace action</b>
-									performs a replacing action of a target nodeset (part of a data
-									instance), by an origin nodeset (part of a data instance). This
-									is useful to have a simpler syntax for
-									<a
-										href="http://w3.org/TR/xforms11/#data-mutation-patterns-replace-element">this XForms data mutation pattern</a>
-									. See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/replace-action-01.xml">here</a>
-									.
-								</li>
-								<li>
-									<p><a href="http://sourceforge.net/projects/teian/">teian</a>
-									is an web-based annotator and limited editor for any XML vocabulary.
-									Teian was originally developed for the U.S. Department of State, Office of the Historian,
-									and released as open source for the benefit of community. Its development was further funded
-									by the University of Richmond, USA.									
-									</p>
-									<h7>A little history</h7>
-									<p>The teian development started in May 2010, funded by U.S. Department of State, Office of the Historian.
-									The first production version was released in August, 2010. That version was built on top of CKEditor, a well-known web-based HTML editor.
-									</p>
-									<p>In 2011, the financing of the development was continued by the University of Richmond, USA. During this second period of financing,
-									teian was brought to a superior level due to a complete rebuilt, in order to be independent to CKEditor. Thus, a new concept was used,
-									allowing teian to render any XML vocabulary and much larger files.
-									</p>
-									<p>In 2012, a first version of change tracking capability was added to teian.</p>
-									<p>Since 2012, various bug fixes, and small improvements we made, along with adding of new unit tests for various XML vocabularies.</p>
-									<p>See examples <a href="http://teian.sourceforge.net/latest/tests/">here</a>.</p>
-								</li>
-								<li>
-									<a href="http://developer.yahoo.com/yui/datatable/">YUI2 DataTable control</a>
-									provides a simple yet powerful API to display screen-reader
-									accessible tabular data on a web page. Notable features include
-									sortable columns, pagination, scrolling, row selection,
-									resizeable columns, and inline cell editing. See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-datatable-01.xml">here</a>
-									.
-								</li>
-								<li>
-									<a href="http://ckeditor.com/">CKEditor</a>
-									is a text editor to be used inside web pages. It's a WYSIWYG
-									editor, which means that the text being edited on it looks as
-									similar as possible to the results users have when publishing
-									it. It brings to the web common editing features found on
-									desktop editing applications like Microsoft Word and
-									OpenOffice. See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/ckeditor-rich-text-editor-01.xml">here</a>
-									.
-								</li>
-								<li>
-									<a href="http://www.cdolivet.com/index.php?page=editArea">EditArea</a>
-									is a free javascript editor for source code. (That is no way a
-									WYSIWYG editor). This editor is designed to edit souce code
-									files in a textarea. The main goal is to allow text formatting,
-									search and replace and real-time syntax highlight (for not too
-									heavy text). See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/editarea-code-editor-01.xml">here</a>
-									.
-								</li>
-								<li>
-									<a href="http://developer.yahoo.com/yui/editor/">YUI Rich Text Editor</a>
-									is a UI control that replaces a standard HTML textarea; it
-									allows for the rich formatting of text content, including
-									common structural treatments like lists, formatting treatments
-									like bold and italic text, and drag-and-drop inclusion and
-									sizing of images. The Rich Text Editor's toolbar is extensible
-									via a plugin architecture so that advanced implementations can
-									achieve a high degree of customization. See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-rich-text-editors-01.xml">here</a>
-									for both YUI Editor and YUI SimpleEditor.
-								</li>
-								<li>
-									<a href="http://docs.dojocampus.org/dijit/Editor">Dojo Editor</a>
-									is a text box on steroids. Designed to look and work like a
-									word processor. The editor features a toolbar, HTML output, and
-									a plugin architecture that supports new commands, new buttons
-									and other new features. See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/dojo-rich-text-editor-01.xml">here</a>
-									.
-								</li>
-								<li>
-									<a href="http://trac.xinha.org/">Xinha Editor</a>
-									is a powerful WYSIWYG HTML editor component that works in all
-									current browsers. Its configurabilty and extensibility make it
-									easy to build just the right editor for multiple purposes, from
-									a restricted mini-editor for one database field to a
-									full-fledged website editor. Its liberal, BSD licence makes it
-									an ideal candidate for integration into any kind of project.
-									See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/xinha-rich-text-editor-01.xml">here</a>
-									.
-								</li>
-								<li>
-									<a href="">Just for fun (only?):</a>
-									all the above editors on a single page. See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/all-rich-text-editors.xml">here</a>
-									.
-								</li>
-							</ol>
-						</p>
-				  </div>
-				  <div id="open-source-projects-tab">
-						<h3>
-							A.
-							<a href="http://sourceforge.net/projects/edib">edib</a>
-						</h3>
-						<p>Allows execution of XQuery queries and XProc pipelines from
-							webpage in an eXist XMLDB installed on client. eDIB also allows
-							complex processing and storage of data before sending it back to
-							server, thus balancing load between server and client.</p>
-						<h3>
-							B.
-							<a href="http://sourceforge.net/projects/extxsltforms">exsltforms</a>
-						</h3>
-						<p>
-							is an open source project comprising extension actions / elements
-							for the open source
-							<a href="http://w3.org/TR/xforms11">XForms</a>
-							processor called
-							<a href="http://sourceforge.net/projects/xsltforms">XSLTForms</a>
-							.
-						</p>
-						<p>
-							<b>eXSLTForms</b>
-							was developed in order to respond to the requirements of real
-							life
-							XForms web applications, and comprises the following extension
-							XForms actions / elements:
-						</p>
-						<p>
-							<ol>
-								<li>
-									<b>The transform action</b>
-									performs a xsl transformation of a nodeset (part of a data
-									instance), by using an external XSL stylesheet, and inserts the
-									resulting nodeset in a data instance. See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/transform-action-01.xml">here</a>
-									.
-								</li>
-								<li>
-									<b>The replace action</b>
-									performs a replacing action of a target nodeset (part of a data
-									instance), by an origin nodeset (part of a data instance). This
-									is useful to have a simpler syntax for
-									<a href="http://w3.org/TR/xforms11/#data-mutation-patterns-replace-element">this XForms data mutation pattern</a>
-									. See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/replace-action-01.xml">here</a>
-									.
-								</li>
-								<li>
-									<a href="http://sourceforge.net/projects/teian/">teian</a>
-									is an web-based annotator and limited editor for any XML vocabulary.
-									Teian was originally developed for the U.S. Department of State, Office of the Historian,
-									and released as open source for the benefit of community. Its development was further funded
-									by the University of Richmond, USA. See examples
-									<a href="http://teian.sourceforge.net/latest/tests/">here</a>
-									.
-								</li>
-								<li>
-									<a href="http://developer.yahoo.com/yui/datatable/">YUI2 DataTable control</a>
-									provides a simple yet powerful API to display screen-reader
-									accessible tabular data on a web page. Notable features include
-									sortable columns, pagination, scrolling, row selection,
-									resizeable columns, and inline cell editing. See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-datatable-01.xml">here</a>
-									.
-								</li>
-								<li>
-									<a href="http://ckeditor.com/">CKEditor</a>
-									is a text editor to be used inside web pages. It's a WYSIWYG
-									editor, which means that the text being edited on it looks as
-									similar as possible to the results users have when publishing
-									it. It brings to the web common editing features found on
-									desktop editing applications like Microsoft Word and
-									OpenOffice. See example
-									<a
-										href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/ckeditor-rich-text-editor-01.xml">here</a>
-									.
-								</li>
-								<li>
-									<a href="http://www.cdolivet.com/index.php?page=editArea">EditArea</a>
-									is a free javascript editor for source code. (That is no way a
-									WYSIWYG editor). This editor is designed to edit souce code
-									files in a textarea. The main goal is to allow text formatting,
-									search and replace and real-time syntax highlight (for not too
-									heavy text). See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/editarea-code-editor-01.xml">here</a>
-									.
-								</li>
-								<li>
-									<a href="http://developer.yahoo.com/yui/editor/">YUI Rich Text Editor</a>
-									is a UI control that replaces a standard HTML textarea; it
-									allows for the rich formatting of text content, including
-									common structural treatments like lists, formatting treatments
-									like bold and italic text, and drag-and-drop inclusion and
-									sizing of images. The Rich Text Editor's toolbar is extensible
-									via a plugin architecture so that advanced implementations can
-									achieve a high degree of customization. See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-rich-text-editors-01.xml">here</a>
-									for both YUI Editor and YUI SimpleEditor.
-								</li>
-								<li>
-									<a href="http://docs.dojocampus.org/dijit/Editor">Dojo Editor</a>
-									is a text box on steroids. Designed to look and work like a
-									word processor. The editor features a toolbar, HTML output, and
-									a plugin architecture that supports new commands, new buttons
-									and other new features. See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/dojo-rich-text-editor-01.xml">here</a>
-									.
-								</li>
-								<li>
-									<a href="http://trac.xinha.org/">Xinha Editor</a>
-									is a powerful WYSIWYG HTML editor component that works in all
-									current browsers. Its configurabilty and extensibility make it
-									easy to build just the right editor for multiple purposes, from
-									a restricted mini-editor for one database field to a
-									full-fledged website editor. Its liberal, BSD licence makes it
-									an ideal candidate for integration into any kind of project.
-									See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/xinha-rich-text-editor-01.xml">here</a>
-									.
-								</li>
-								<li>
-									<a href="">Just for fun (only?):</a>
-									all the above editors on a single page. See example
-									<a href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/all-rich-text-editors.xml">here</a>
-									.
-								</li>
-							</ol>
-						</p>
-						<!-- <b>B. <a href="http://kuberam.ro/kubera">kubera, web application 
-							for online acccounting</a></b> 
-							Evidență contabilă în partidă simplă pentru
-									persoane fizice autorizate, întreprinderi individuale și
-									întreprinderi familiale.							
-							-->
-				  </div>
-				  <div id="services-tab">
-						<p>Studying and using XML technologies since 2004, I can develop web
+						XForms actions / elements:
+					</p>
+					<p>
+						<ol>
+							<li>
+								<b>The transform action</b>
+								performs a xsl transformation of a nodeset (part of a data
+								instance), by using an external XSL stylesheet, and inserts the
+								resulting nodeset in a data instance. See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/transform-action-01.xml">here</a>
+								.
+							</li>
+							<li>
+								<b>The replace action</b>
+								performs a replacing action of a target nodeset (part of a data
+								instance), by an origin nodeset (part of a data instance). This
+								is useful to have a simpler syntax for
+								<a
+									href="http://w3.org/TR/xforms11/#data-mutation-patterns-replace-element">this XForms data mutation pattern</a>
+								. See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/replace-action-01.xml">here</a>
+								.
+							</li>
+							<li>
+								<a href="http://sourceforge.net/projects/teian/">teian</a>
+								is an web-based annotator and limited editor for any XML
+								vocabulary.
+								Teian was originally developed for the U.S. Department of State,
+								Office of the Historian,
+								and released as open source for the benefit of community. Its
+								development was further funded
+								by the University of Richmond, USA. See examples
+								<a href="http://teian.sourceforge.net/latest/tests/">here</a>
+								.
+							</li>
+							<li>
+								<a href="http://developer.yahoo.com/yui/datatable/">YUI2 DataTable control</a>
+								provides a simple yet powerful API to display screen-reader
+								accessible tabular data on a web page. Notable features include
+								sortable columns, pagination, scrolling, row selection,
+								resizeable columns, and inline cell editing. See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-datatable-01.xml">here</a>
+								.
+							</li>
+							<li>
+								<a href="http://ckeditor.com/">CKEditor</a>
+								is a text editor to be used inside web pages. It's a WYSIWYG
+								editor, which means that the text being edited on it looks as
+								similar as possible to the results users have when publishing
+								it. It brings to the web common editing features found on
+								desktop editing applications like Microsoft Word and
+								OpenOffice. See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/ckeditor-rich-text-editor-01.xml">here</a>
+								.
+							</li>
+							<li>
+								<a href="http://www.cdolivet.com/index.php?page=editArea">EditArea</a>
+								is a free javascript editor for source code. (That is no way a
+								WYSIWYG editor). This editor is designed to edit souce code
+								files in a textarea. The main goal is to allow text formatting,
+								search and replace and real-time syntax highlight (for not too
+								heavy text). See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/editarea-code-editor-01.xml">here</a>
+								.
+							</li>
+							<li>
+								<a href="http://developer.yahoo.com/yui/editor/">YUI Rich Text Editor</a>
+								is a UI control that replaces a standard HTML textarea; it
+								allows for the rich formatting of text content, including
+								common structural treatments like lists, formatting treatments
+								like bold and italic text, and drag-and-drop inclusion and
+								sizing of images. The Rich Text Editor's toolbar is extensible
+								via a plugin architecture so that advanced implementations can
+								achieve a high degree of customization. See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/yui-rich-text-editors-01.xml">here</a>
+								for both YUI Editor and YUI SimpleEditor.
+							</li>
+							<li>
+								<a href="http://docs.dojocampus.org/dijit/Editor">Dojo Editor</a>
+								is a text box on steroids. Designed to look and work like a
+								word processor. The editor features a toolbar, HTML output, and
+								a plugin architecture that supports new commands, new buttons
+								and other new features. See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/dojo-rich-text-editor-01.xml">here</a>
+								.
+							</li>
+							<li>
+								<a href="http://trac.xinha.org/">Xinha Editor</a>
+								is a powerful WYSIWYG HTML editor component that works in all
+								current browsers. Its configurabilty and extensibility make it
+								easy to build just the right editor for multiple purposes, from
+								a restricted mini-editor for one database field to a
+								full-fledged website editor. Its liberal, BSD licence makes it
+								an ideal candidate for integration into any kind of project.
+								See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/xinha-rich-text-editor-01.xml">here</a>
+								.
+							</li>
+							<li>
+								<a href="">Just for fun (only?):</a>
+								all the above editors on a single page. See example
+								<a
+									href="http://extxsltforms.sourceforge.net/latest/tests/unit-tests/all-rich-text-editors.xml">here</a>
+								.
+							</li>
+						</ol>
+					</p>
+					<!-- <b>B. <a href="http://kuberam.ro/kubera">kubera, web application 
+						for online acccounting</a></b> Evidență contabilă în partidă simplă pentru 
+						persoane fizice autorizate, întreprinderi individuale și întreprinderi familiale. -->
+				</div>
+				<div id="services-tab">
+					<p>
+						Studying and using XML technologies since 2004, I can develop web
 						application based upon
 						<a
 							href="http://en.wikipedia.org/wiki/XRX_(web_application_architecture)">XRX</a>
-						(XForms in the browser - REST - XProc (XQuery) for the database).</p>
-						<p>As XML database, I am using
+						(XForms in the browser - REST - XProc (XQuery) for the database).
+					</p>
+					<p>
+						As XML database, I am using
 						<a href="http://exist-db.org/">eXist</a>
-						.</p>
-						<p>As XForms processor, I am using
+						.
+					</p>
+					<p>
+						As XForms processor, I am using
 						<a href="http://agencexml.com/">XSLTForms</a>
 						. XSLTForms works with all major browser (Internet Explorer,
-						FireFox, Opera, Safari, Chrome and more).</p>				  
-				  </div>
-				  <div id="customers-tab">
-						<p>
-							<a href="http://history.state.gov/">U. S. Department Of State, Office Of The Historian</a>
-						</p>
-						<p>
-							<a href="http://bgs.ro">BGS Divizia de securitate SRL</a>
-						</p>
-						<p>
-							<a href="http://wpc.ro">Wisconsin Precision Components SA</a>
-						</p>
-						<p>Sundari Conf SRL</p>
-						<p>Kids Collection SRL</p>
-						<p>Primex '98 SRL</p>
-						<p>Mocasinul SRL</p>				  
-				  </div>
-				  <div id="contact-tab">
-						<b>Teodorescu Claudius Marian</b>
-						<br />
-						Tel.: 0752626515
-						<br />
-						Email: claud108 at yahoo dot com
-				  </div>
-				</div>				
+						FireFox, Opera, Safari, Chrome and more).
+					</p>
+				</div>
+				<div id="customers-tab">
+					<p>
+						<a href="http://history.state.gov/">U. S. Department Of State, Office Of The Historian</a>
+					</p>
+					<p>
+						<a href="http://bgs.ro">BGS Divizia de securitate SRL</a>
+					</p>
+					<p>
+						<a href="http://wpc.ro">Wisconsin Precision Components SA</a>
+					</p>
+					<p>Sundari Conf SRL</p>
+					<p>Kids Collection SRL</p>
+					<p>Primex '98 SRL</p>
+					<p>Mocasinul SRL</p>
+				</div>
+				<div id="contact-tab">
+					<b>Teodorescu Claudius Marian</b>
+					<br />
+					Tel.: 0752626515
+					<br />
+					Email: claud108 at yahoo dot com
+				</div>
 			</div>
-			<div id="divSigle">
-				<a
-					href="http://www3.clustrmaps.com/counter/maps.php?url=http://kuberam.ro"
-					id="clustrMapsLink">
-					<img
-						src="http://www3.clustrmaps.com/counter/index2.php?url=http://kuberam.ro"
-						style="border:0px;" alt="Locations of visitors to this page"
-						title="Locations of visitors to this page" id="clustrMapsImg" />
-				</a>
-				<script type="text/javascript">
-					function cantload() {
-					img =
-					document.getElementById("clustrMapsImg");
-					img.onerror = null;
-					img.src =
-					"http://www2.clustrmaps.com/images/clustrmaps-back-soon.jpg";
-					document.getElementById("clustrMapsLink").href =
-					"http://www2.clustrmaps.com";
-					}
-					img =
-					document.getElementById("clustrMapsImg");
-					img.onerror = cantload;
-				</script>
-				<script type="text/javascript">
-					var _gaq = _gaq || [];
-					_gaq.push(['_setAccount', 'UA-43293529-1']);
-					_gaq.push(['_trackPageview']);
-					(function() {
-					var ga = document.createElement('script'); ga.type =
-					'text/javascript';
-					ga.async = true;
-					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www')
-					+
-					'.google-analytics.com/ga.js';
-					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
-					s);
-					})();
-				</script>
-			</div>
+		</div>
+		<div id="divSigle">
+			<a
+				href="http://www3.clustrmaps.com/counter/maps.php?url=http://kuberam.ro"
+				id="clustrMapsLink">
+				<img
+					src="http://www3.clustrmaps.com/counter/index2.php?url=http://kuberam.ro"
+					style="border:0px;" alt="Locations of visitors to this page" title="Locations of visitors to this page"
+					id="clustrMapsImg" />
+			</a>
+			<script type="text/javascript">
+				function cantload() {
+				img =
+				document.getElementById("clustrMapsImg");
+				img.onerror = null;
+				img.src =
+				"http://www2.clustrmaps.com/images/clustrmaps-back-soon.jpg";
+				document.getElementById("clustrMapsLink").href =
+				"http://www2.clustrmaps.com";
+				}
+				img =
+				document.getElementById("clustrMapsImg");
+				img.onerror = cantload;
+			</script>
+			<script type="text/javascript">
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-43293529-1']);
+				_gaq.push(['_trackPageview']);
+				(function() {
+				var ga = document.createElement('script'); ga.type =
+				'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+				'http://www')
+				+
+				'.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga,
+				s);
+				})();
+			</script>
+		</div>
 	</body>
 </html>
