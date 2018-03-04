@@ -3,6 +3,7 @@
 	<head>
 		<title>Kuberam</title>
 		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description"
 			content="Presentation of activity and work of Claudius Teodorescu" />
 		<meta name="author" content="Claudius Teodorescu" />
@@ -19,6 +20,7 @@
 		<meta name="msapplication-TileColor" content="#da532c" />
 		<meta name="theme-color" content="#ffffff" />
 		<!-- end favicon -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="resources/css/main.css" />
 		<link rel="stylesheet" type="text/css"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
@@ -74,39 +76,27 @@
 			</div>
 			<div id="skills-container">
 				<h2>Skills</h2>
-				<p>XML, XQuery, XPath, Java, Javascript, HTML, CSS.</p>
+				<p>XML, XQuery, XPath, Java, JavaFX, Javascript, HTML, CSS.</p>
 			</div>
 			<div id="github-calendar-container">
 				<h2>Github Calendar</h2>
 				<div id="github-calendar"></div>
 			</div>
 			<div id="visitors-map-container">
-				<a
-					href="http://www3.clustrmaps.com/counter/maps.php?url=http://kuberam.ro"
-					id="clustrMapsLink">
-					<img
-						src="http://www3.clustrmaps.com/counter/index2.php?url=http://kuberam.ro"
-						style="border:0px;" alt="Locations of visitors to this page"
-						title="Locations of visitors to this page" id="clustrMapsImg" />
-				</a>
 			</div>
 		</div>
 		<script
 			src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">/**/</script>
 		<script src="resources/js/main.js">/**/</script>
-		<script type="text/javascript">
-			function cantload() {
-			img =
-			document.getElementById("clustrMapsImg");
-			img.onerror = null;
-			img.src =
-			"http://www2.clustrmaps.com/images/clustrmaps-back-soon.jpg";
-			document.getElementById("clustrMapsLink").href =
-			"http://www2.clustrmaps.com";
-			}
-			img =
-			document.getElementById("clustrMapsImg");
-			img.onerror = cantload;
+		<script async="true"
+			src="https://googletagmanager.com/gtag/js?id=UA-43293529-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function
+			gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'UA-43293529-1');
 		</script>
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
