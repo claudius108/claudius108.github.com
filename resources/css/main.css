@@ -1,0 +1,126 @@
+body {
+	margin: 5px;
+}
+	
+#profile-image-container {
+	grid-area: profileImage;
+}
+
+#profile-summary-container {
+	grid-area: profileSummary; 
+}
+
+#contact-container {
+	grid-area: contact;
+}
+
+.separator {
+	grid-area: separator;
+	background-color: #217aef;
+	height: 7.0px;
+	border-bottom: 7.0px solid #66111f;
+}	
+
+#about-container {
+	grid-area: about;
+}
+
+#skills-container {
+	grid-area: skills;
+}
+
+#github-feed-container {
+	grid-area: githubFeed;
+}
+	
+#profile-image {
+    border-radius: 50.0%;
+    height: 150.0px;
+    width: auto;
+}
+	
+#profile-name {
+	color: #062556;
+	font-size: 40.0px;
+	margin-bottom: 5.0px;
+	margin-top: 30.0px;	
+}
+
+#profile-title-description {
+	color: #3962a3;
+	font-size: 22.0px;
+}
+	
+#social-networks ul {
+	list-style-type: none;
+}
+
+#social-networks ul li {
+	display: inline-block;
+}	
+
+/* Large desktop */
+@media (min-width:1200px) {
+	#content {
+		display: grid;
+		grid-template-columns: repeat(3.0, 1.0fr);
+		grid-template-rows: repeat(4.0, 1.0fr);
+		grid-template-areas: "profileImage profileSummary contact"
+                           "separator separator separator"
+                           "about about skills"
+                           "githubFeed githubFeed githubFeed";		
+		grid-gap:10.0px;
+	}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	#content {
+		display: grid;
+		grid-template-columns: 2;
+		grid-template-rows: repeat(3.0, 1.0fr);
+		grid-template-areas: "profileImage profileSummary"
+							"contact skills"
+                           "about about";
+		grid-gap:10.0px;
+	}	
+	#github-feed-container {
+		display: none;
+	}	
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	#content {
+		display: grid;
+		grid-template-columns: 1;
+		grid-template-rows: repeat(4.0, 1.0fr);
+		grid-template-areas: "profileSummary"
+							"contact"
+                           "about"
+                           "skills";
+		grid-gap:10.0px;
+	}	
+	#profile-image-container, #github-feed-container {
+		display: none;
+	}	
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	#content {
+		display: grid;
+		grid-template-columns: 1;
+		grid-template-rows: repeat(4.0, 1.0fr);
+		grid-template-areas: "profileSummary"
+							"contact"
+                           "about"
+                           "skills";
+		grid-gap:10.0px;
+	}	
+	#profile-image-container, #github-feed-container {
+		display: none;
+	}
+}
+
+
